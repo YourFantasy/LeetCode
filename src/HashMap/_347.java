@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 public class _347 {
+    //使用HashMap，空间换时间。
     public List<Integer> topKFrequent(int[] nums, int k) {
         List<Integer> res = new ArrayList<>();
         Map<Integer, Integer> map = new HashMap<>();
