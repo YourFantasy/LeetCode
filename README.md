@@ -1,2 +1,6 @@
 # LeetCode
-基于java语言编写的LeetCode
+* 基于java语言编写的LeetCode
+* 主要包括简单难度和中等难度的题目，少量涉及困难难度的题目。
+* 所有代码均 Accepted
+* 欢迎各位与我交流探讨
+* 本人qq: 1399113505
