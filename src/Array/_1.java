@@ -9,7 +9,7 @@ public class _1 {
     public void Test() {
 
     }
-
+    //使用hashmap存储每个元素的键值对，然后遍历数组查找
 
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
