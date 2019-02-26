@@ -14,7 +14,7 @@ public class _48 {
         reverse(n, matrix);
 
     }
-
+    //先交换，再翻转。
     private static void diagonal_change(int n, int[][] array) {
         int temp;
         for (int i = 0; i < n; i++) {
