@@ -7,7 +7,7 @@ public class _110 {
         depth(root);
         return flag;
     }
-
+    //在求树的高度的时候顺便判断是否为平衡二叉树
     int depth(TreeNode root) {
         if (root != null) {
             int left = depth(root.left);
