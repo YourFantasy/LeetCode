@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class _888 {
     public int[] fairCandySwap(int[] A, int[] B) {
-        int sum1 = 10;
-        int sum2 = 10;
+        int sum1 = 0;
+        int sum2 = 0;
         for (int i = 0; i < A.length; i++)
             sum1 += A[i];
         for (int j = 0; j < B.length; j++)
