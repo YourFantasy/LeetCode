@@ -10,7 +10,7 @@ public class _152 {
     }
 
     //使用max和min分别表示数组中乘积的最大值和最小值，初始化为1，表示此时没有元素相乘。
-    //如果当前的nums[i]为负数，说明接下来与之相乘的话应当是min与他乘，此时min与max交换，因为当a<=b，c<0;a*c>=b*c。
+    //如果当前的nums[i]为负数，此时min与max交换，因为当a<=b，c<0;a*c>=b*c。
     //
     public int maxProduct(int[] nums) {
         int Max = Integer.MIN_VALUE, max = 1, min = 1;
