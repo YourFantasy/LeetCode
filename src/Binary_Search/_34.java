@@ -18,7 +18,6 @@ public class _34 {
             if (data == target) {
                 begin = mid;
                 j = mid - 1;
-                continue;
             } else if (data < target)
                 i = mid + 1;
             else
