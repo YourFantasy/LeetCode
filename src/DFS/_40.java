@@ -27,9 +27,7 @@ public class _40 {
             return;
         if (target == 0) {
             if (!res.contains(temp)) {
-                System.out.println(temp);
                 res.add(new ArrayList<>(temp));
-                // res.add(temp);
             }
             return;
         }
