@@ -9,7 +9,7 @@ import java.util.List;
 public class _40 {
     @Test
     public void test() {
-        int[] nums = {2, 5, 2, 1, 2, 3, 4};
+        int[] nums = {2, 5, 2, 1, 2, 3, 4, 2, 3, 1, 5};
         int target = 5;
         System.out.print(combinationSum2(nums, target));
     }
@@ -26,9 +26,7 @@ public class _40 {
         if (target < 0)
             return;
         if (target == 0) {
-            if (!res.contains(temp)) {
-                res.add(new ArrayList<>(temp));
-            }
+            res.add(new ArrayList<>(temp));
             return;
         }
         for (int i = start; i < condidates.length; i++) {
