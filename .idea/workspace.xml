@@ -442,11 +442,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Math/_365.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="60">
+              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Math/_368.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -478,7 +490,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/_832.java" />
         <option value="$PROJECT_DIR$/src/Stack/_844.java" />
         <option value="$PROJECT_DIR$/src/Binary_Search/_852.java" />
         <option value="$PROJECT_DIR$/src/Array/_867.java" />
@@ -529,6 +540,7 @@
         <option value="$PROJECT_DIR$/src/DFS/_39.java" />
         <option value="$PROJECT_DIR$/src/DFS/_40.java" />
         <option value="$PROJECT_DIR$/src/Math/_365.java" />
+        <option value="$PROJECT_DIR$/src/Math/_368.java" />
       </list>
     </option>
   </component>
@@ -578,7 +590,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552049905997" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552054769360" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -598,17 +610,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._40.test">
-    <configuration name="_345.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit._368.Test">
+    <configuration name="_368.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String.*" />
+          <option name="PATTERN" value="Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="String" />
-      <option name="MAIN_CLASS_NAME" value="String._345" />
+      <option name="PACKAGE_NAME" value="Math" />
+      <option name="MAIN_CLASS_NAME" value="Math._368" />
       <option name="METHOD_NAME" value="Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -681,11 +693,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._368.Test" />
         <item itemvalue="JUnit._40.test" />
         <item itemvalue="JUnit._39.Test" />
         <item itemvalue="JUnit._949.test" />
         <item itemvalue="JUnit._457.test" />
-        <item itemvalue="JUnit._345.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -769,32 +781,11 @@
       <workItem from="1551794822638" duration="1302000" />
       <workItem from="1551835092250" duration="85000" />
       <workItem from="1552046301002" duration="645000" />
-      <workItem from="1552049682750" duration="188000" />
+      <workItem from="1552049682750" duration="870000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_40_test - 2019.03.05 at 22h 09m 28s.xml">
-      <configuration name="_40.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_40_test - 2019.03.05 at 22h 10m 29s.xml">
-      <configuration name="_40.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_40_test - 2019.03.05 at 22h 14m 17s.xml">
-      <configuration name="_40.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_40_test - 2019.03.05 at 22h 14m 22s.xml">
-      <configuration name="_40.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_40_test - 2019.03.05 at 22h 14m 40s.xml">
-      <configuration name="_40.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_40_test - 2019.03.05 at 22h 16m 05s.xml">
-      <configuration name="_40.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_40_test - 2019.03.05 at 22h 16m 12s.xml">
-      <configuration name="_40.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="_40_test - 2019.03.05 at 22h 16m 21s.xml">
       <configuration name="_40.test" configurationId="JUnit" />
     </history-entry>
@@ -804,15 +795,36 @@
     <history-entry file="_40_test - 2019.03.05 at 22h 16m 42s.xml">
       <configuration name="_40.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="_368_Test - 2019.03.08 at 22h 13m 51s.xml">
+      <configuration name="_368.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_368_Test - 2019.03.08 at 22h 14m 30s.xml">
+      <configuration name="_368.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_368_Test - 2019.03.08 at 22h 16m 57s.xml">
+      <configuration name="_368.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_368_Test - 2019.03.08 at 22h 17m 32s.xml">
+      <configuration name="_368.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_368_Test - 2019.03.08 at 22h 17m 53s.xml">
+      <configuration name="_368.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_368_Test - 2019.03.08 at 22h 18m 21s.xml">
+      <configuration name="_368.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_368_Test - 2019.03.08 at 22h 18m 39s.xml">
+      <configuration name="_368.Test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106297000" />
+    <option name="totallyTimeSpent" value="106979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="794" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.16452074" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.16452074" />
       <window_info id="Structure" order="1" sideWeight="0.5010526" side_tool="true" weight="0.22174536" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -821,7 +833,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32511738" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32478634" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906102" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -829,7 +841,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286385" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32763532" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.32624114" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32765958" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3274648" />
@@ -856,16 +868,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Binary_Search/_350.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Binary_Search/_69.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1199,8 +1201,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Math/_365.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="60">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math/_368.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
