@@ -20,7 +20,7 @@ public class _944 {
 
     boolean is_Ascend(String[] A, int column) {
         for (int i = 1; i < A.length; i++) {
-            if (A[i].charAt(column) - A[i - 1].charAt(column) < 0)
+            if (A[i].charAt(column) < A[i - 1].charAt(column))
                 return false;
         }
         return true;
