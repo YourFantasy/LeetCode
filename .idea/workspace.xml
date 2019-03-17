@@ -406,11 +406,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Greedy/_861.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="383">
+              <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Greedy/_944.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -443,7 +452,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/_48.java" />
         <option value="$PROJECT_DIR$/src/HashMap/_347.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Tree/_110.java" />
@@ -494,6 +502,7 @@
         <option value="$PROJECT_DIR$/src/Tree/_1008.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Greedy/_861.java" />
+        <option value="$PROJECT_DIR$/src/Greedy/_944.java" />
       </list>
     </option>
   </component>
@@ -543,7 +552,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552823264116" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552828702970" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -564,7 +573,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._861.test">
+  <component name="RunManager" selected="JUnit._944.test">
     <configuration name="_698" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -612,6 +621,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_944.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Greedy" />
+      <option name="MAIN_CLASS_NAME" value="Greedy._944" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_946.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -628,28 +653,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_970" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Math" />
-      <option name="MAIN_CLASS_NAME" value="Math._970" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._944.test" />
         <item itemvalue="JUnit._861.test" />
         <item itemvalue="JUnit._946.test" />
         <item itemvalue="JUnit._698" />
         <item itemvalue="JUnit._69.test" />
-        <item itemvalue="JUnit._970" />
       </list>
     </recent_temporary>
   </component>
@@ -751,32 +761,11 @@
       <workItem from="1552620272624" duration="2000" />
       <workItem from="1552743240149" duration="859000" />
       <workItem from="1552792777436" duration="1247000" />
-      <workItem from="1552820606791" duration="2582000" />
+      <workItem from="1552820606791" duration="4057000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_946_test - 2019.03.12 at 21h 47m 18s.xml">
-      <configuration name="_946.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_946_test - 2019.03.12 at 21h 47m 49s.xml">
-      <configuration name="_946.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_946_test - 2019.03.12 at 21h 49m 25s.xml">
-      <configuration name="_946.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_946_test - 2019.03.12 at 21h 50m 00s.xml">
-      <configuration name="_946.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_946_test - 2019.03.12 at 21h 50m 22s.xml">
-      <configuration name="_946.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_946_test - 2019.03.12 at 21h 50m 40s.xml">
-      <configuration name="_946.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_861_test - 2019.03.17 at 19h 22m 40s.xml">
-      <configuration name="_861.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="_861_test - 2019.03.17 at 19h 30m 42s.xml">
       <configuration name="_861.test" configurationId="JUnit" />
     </history-entry>
@@ -786,9 +775,30 @@
     <history-entry file="_861_test - 2019.03.17 at 19h 44m 35s.xml">
       <configuration name="_861.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="_861_test - 2019.03.17 at 19h 47m 47s.xml">
+      <configuration name="_861.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_944_test - 2019.03.17 at 21h 12m 35s.xml">
+      <configuration name="_944.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_944_test - 2019.03.17 at 21h 13m 41s.xml">
+      <configuration name="_944.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_944_test - 2019.03.17 at 21h 15m 48s.xml">
+      <configuration name="_944.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_944_test - 2019.03.17 at 21h 15m 58s.xml">
+      <configuration name="_944.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_944_test - 2019.03.17 at 21h 16m 34s.xml">
+      <configuration name="_944.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_944_test - 2019.03.17 at 21h 16m 51s.xml">
+      <configuration name="_944.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135341000" />
+    <option name="totallyTimeSpent" value="136816000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="794" extended-state="0" />
@@ -838,13 +848,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Tree/_111.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/_124.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -1210,8 +1213,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Greedy/_861.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="383">
+          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy/_944.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
     </entry>
