@@ -34,7 +34,6 @@ public class _40 {
                 continue;
             temp.add(condidates[i]);
             dfs(condidates, res, temp, i + 1, target - condidates[i]);
-            if (temp.size() > 0)
                 temp.remove(temp.size() - 1);
         }
     }

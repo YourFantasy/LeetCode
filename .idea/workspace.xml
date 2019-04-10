@@ -409,35 +409,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DFS/_257.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Math/_118.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="627">
+              <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Math/_868.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="38">
-                <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -470,9 +451,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Two_Pointers/_209.java" />
-        <option value="$PROJECT_DIR$/src/Two_Pointers/_713.java" />
-        <option value="$PROJECT_DIR$/src/DP/_152.java" />
         <option value="$PROJECT_DIR$/src/Array/_189.java" />
         <option value="$PROJECT_DIR$/src/DP/_888.java" />
         <option value="$PROJECT_DIR$/src/Array/_888.java" />
@@ -489,7 +467,6 @@
         <option value="$PROJECT_DIR$/src/Math/_172.java" />
         <option value="$PROJECT_DIR$/src/DP/_264.java" />
         <option value="$PROJECT_DIR$/src/DFS/_39.java" />
-        <option value="$PROJECT_DIR$/src/DFS/_40.java" />
         <option value="$PROJECT_DIR$/src/Math/_365.java" />
         <option value="$PROJECT_DIR$/src/Math/_368.java" />
         <option value="$PROJECT_DIR$/src/Math/_60.java" />
@@ -521,10 +498,14 @@
         <option value="$PROJECT_DIR$/src/Tree/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/Math/_868.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/Math/_878.java" />
+        <option value="$PROJECT_DIR$/src/String/_28.java" />
+        <option value="$PROJECT_DIR$/src/DFS/_40.java" />
+        <option value="$PROJECT_DIR$/src/Math/_118.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="793" />
@@ -538,6 +519,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -560,7 +542,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -591,7 +572,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._12">
+  <component name="RunManager" selected="JUnit._118.test">
+    <configuration name="_118.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Math" />
+      <option name="MAIN_CLASS_NAME" value="Math._118" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -603,6 +600,22 @@
       <option name="PACKAGE_NAME" value="Math" />
       <option name="MAIN_CLASS_NAME" value="Math._12" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_28.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="String" />
+      <option name="MAIN_CLASS_NAME" value="String._28" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -622,61 +635,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_861.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_878" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Greedy.*" />
+          <option name="PATTERN" value="Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Greedy" />
-      <option name="MAIN_CLASS_NAME" value="Greedy._861" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_944.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Greedy" />
-      <option name="MAIN_CLASS_NAME" value="Greedy._944" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_946.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Stack" />
-      <option name="MAIN_CLASS_NAME" value="Stack._946" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Math" />
+      <option name="MAIN_CLASS_NAME" value="Math._878" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._118.test" />
+        <item itemvalue="JUnit._28.test" />
+        <item itemvalue="JUnit._878" />
         <item itemvalue="JUnit._12" />
         <item itemvalue="JUnit._312" />
-        <item itemvalue="JUnit._944.test" />
-        <item itemvalue="JUnit._861.test" />
-        <item itemvalue="JUnit._946.test" />
       </list>
     </recent_temporary>
   </component>
@@ -792,50 +772,56 @@
       <workItem from="1554293502713" duration="5481000" />
       <workItem from="1554464389466" duration="1235000" />
       <workItem from="1554537958278" duration="1503000" />
-      <workItem from="1554599448933" duration="2378000" />
+      <workItem from="1554599448933" duration="8041000" />
+      <workItem from="1554684798749" duration="2144000" />
+      <workItem from="1554735527704" duration="594000" />
+      <workItem from="1554770929770" duration="94000" />
+      <workItem from="1554771215717" duration="594000" />
+      <workItem from="1554813781224" duration="594000" />
+      <workItem from="1554855838629" duration="4210000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_312 - 2019.04.03 at 20h 25m 07s.xml">
-      <configuration name="_312" configurationId="JUnit" />
+    <history-entry file="_28_test - 2019.04.10 at 16h 18m 14s.xml">
+      <configuration name="_28.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_312 - 2019.04.03 at 20h 25m 13s.xml">
-      <configuration name="_312" configurationId="JUnit" />
+    <history-entry file="_28_test - 2019.04.10 at 16h 18m 51s.xml">
+      <configuration name="_28.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_12 - 2019.04.03 at 21h 41m 55s.xml">
-      <configuration name="_12" configurationId="JUnit" />
+    <history-entry file="_28_test - 2019.04.10 at 16h 19m 05s.xml">
+      <configuration name="_28.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_12 - 2019.04.03 at 21h 42m 54s.xml">
-      <configuration name="_12" configurationId="JUnit" />
+    <history-entry file="_118_test - 2019.04.10 at 17h 04m 43s.xml">
+      <configuration name="_118.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_12 - 2019.04.03 at 21h 43m 58s.xml">
-      <configuration name="_12" configurationId="JUnit" />
+    <history-entry file="_118_test - 2019.04.10 at 17h 05m 08s.xml">
+      <configuration name="_118.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_12 - 2019.04.03 at 21h 45m 24s.xml">
-      <configuration name="_12" configurationId="JUnit" />
+    <history-entry file="_118_test - 2019.04.10 at 17h 09m 19s.xml">
+      <configuration name="_118.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_12 - 2019.04.03 at 21h 49m 07s.xml">
-      <configuration name="_12" configurationId="JUnit" />
+    <history-entry file="_118_test - 2019.04.10 at 17h 11m 00s.xml">
+      <configuration name="_118.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_12 - 2019.04.03 at 21h 58m 14s.xml">
-      <configuration name="_12" configurationId="JUnit" />
+    <history-entry file="_118_test - 2019.04.10 at 17h 14m 32s.xml">
+      <configuration name="_118.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_12 - 2019.04.03 at 22h 00m 54s.xml">
-      <configuration name="_12" configurationId="JUnit" />
+    <history-entry file="_118_test - 2019.04.10 at 17h 15m 38s.xml">
+      <configuration name="_118.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_12 - 2019.04.03 at 22h 01m 16s.xml">
-      <configuration name="_12" configurationId="JUnit" />
+    <history-entry file="_118_test - 2019.04.10 at 17h 16m 39s.xml">
+      <configuration name="_118.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152553000" />
+    <option name="totallyTimeSpent" value="166446000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="800" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="793" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.23390558" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.25250357" />
       <window_info id="Structure" order="1" sideWeight="0.5010526" side_tool="true" weight="0.22174536" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -844,15 +830,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.3646564" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.3281027" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39800286" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32909605" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.32624114" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32765958" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3253857" />
@@ -866,7 +852,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32967034" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32904148" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -878,45 +864,12 @@
       <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LeetCode$_28_test.ic" NAME="_28.test Coverage Results" MODIFIED="1554884011030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>String.*</FILTER>
+    </SUITE>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DFS/_52.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFS/_47.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFS/_51.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/_59.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/_1008.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DFS/_39.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1096,16 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFS/_40.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Binary_Search/_34.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1201,13 +1144,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFS/_559">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="19" lean-forward="true" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/_559" />
     <entry file="file://$PROJECT_DIR$/src/Math/_1001.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1229,10 +1166,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../litemall-master/litemall-wx-api/src/main/java/org/linlinjava/litemall/wx/annotation/LoginUser.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DFS/_257.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="361">
+          <caret line="22" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1253,6 +1193,49 @@
             <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math/_878.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/_28.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/_52.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/_40.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="35" column="70" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math/_118.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
