@@ -1,4 +1,4 @@
-package Array;
+package Greedy;
 
 import org.junit.Test;
 

@@ -409,16 +409,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DFS/_131.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DFS/_40.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="380">
+              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Greedy/_122.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DP/_123.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="36" column="80" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Greedy/_121.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -451,9 +476,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Binary_Search/_34.java" />
-        <option value="$PROJECT_DIR$/src/Binary_Search/_153.java" />
-        <option value="$PROJECT_DIR$/src/String/_345.java" />
         <option value="$PROJECT_DIR$/src/DP/_718.java" />
         <option value="$PROJECT_DIR$/src/Two_Pointers/_457.java" />
         <option value="$PROJECT_DIR$/src/Two_Pointers/_222.java" />
@@ -502,6 +524,9 @@
         <option value="$PROJECT_DIR$/src/Math/_119.java" />
         <option value="$PROJECT_DIR$/src/DFS/_90.java" />
         <option value="$PROJECT_DIR$/src/DFS/_131.java" />
+        <option value="$PROJECT_DIR$/src/Greedy/_122.java" />
+        <option value="$PROJECT_DIR$/src/Greedy/_121.java" />
+        <option value="$PROJECT_DIR$/src/DP/_123.java" />
       </list>
     </option>
   </component>
@@ -532,18 +557,6 @@
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DFS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Math" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -566,6 +579,11 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="RemoteServers" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Greedy" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -578,7 +596,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._131.test">
+  <component name="RunManager" selected="JUnit._123.test">
     <configuration name="_118.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -595,17 +613,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_123.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.*" />
+          <option name="PATTERN" value="DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Math" />
-      <option name="MAIN_CLASS_NAME" value="Math._12" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="DP" />
+      <option name="MAIN_CLASS_NAME" value="DP._123" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -659,11 +678,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._123.test" />
         <item itemvalue="JUnit._131.test" />
         <item itemvalue="JUnit._118.test" />
         <item itemvalue="JUnit._28.test" />
         <item itemvalue="JUnit._878" />
-        <item itemvalue="JUnit._12" />
       </list>
     </recent_temporary>
   </component>
@@ -785,44 +804,44 @@
       <workItem from="1554770929770" duration="94000" />
       <workItem from="1554771215717" duration="594000" />
       <workItem from="1554813781224" duration="594000" />
-      <workItem from="1554855838629" duration="8210000" />
+      <workItem from="1554855838629" duration="11459000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_131_test - 2019.04.10 at 18h 40m 21s.xml">
-      <configuration name="_131.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_131_test - 2019.04.10 at 18h 41m 20s.xml">
-      <configuration name="_131.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_131_test - 2019.04.10 at 18h 42m 56s.xml">
-      <configuration name="_131.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_131_test - 2019.04.10 at 18h 44m 23s.xml">
-      <configuration name="_131.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_131_test - 2019.04.10 at 18h 44m 36s.xml">
-      <configuration name="_131.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_131_test - 2019.04.10 at 18h 46m 14s.xml">
-      <configuration name="_131.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_131_test - 2019.04.10 at 18h 49m 10s.xml">
-      <configuration name="_131.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_131_test - 2019.04.10 at 18h 49m 25s.xml">
-      <configuration name="_131.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="_131_test - 2019.04.10 at 18h 50m 04s.xml">
       <configuration name="_131.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="_131_test - 2019.04.10 at 18h 50m 22s.xml">
       <configuration name="_131.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="_123_test - 2019.04.10 at 20h 40m 29s.xml">
+      <configuration name="_123.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_123_test - 2019.04.10 at 20h 46m 10s.xml">
+      <configuration name="_123.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_123_test - 2019.04.10 at 20h 59m 06s.xml">
+      <configuration name="_123.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_123_test - 2019.04.10 at 20h 59m 29s.xml">
+      <configuration name="_123.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_123_test - 2019.04.10 at 20h 59m 39s.xml">
+      <configuration name="_123.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_123_test - 2019.04.10 at 21h 00m 41s.xml">
+      <configuration name="_123.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_123_test - 2019.04.10 at 21h 03m 38s.xml">
+      <configuration name="_123.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_123_test - 2019.04.10 at 21h 03m 46s.xml">
+      <configuration name="_123.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170446000" />
+    <option name="totallyTimeSpent" value="173695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="793" extended-state="0" />
@@ -837,7 +856,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.3281027" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.5278174" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39800286" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -877,34 +896,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Tree/_102.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/_104.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/_105.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="8" selection-start-line="3" selection-start-column="3" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/_43.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/_551.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1195,13 +1186,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFS/_39.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Math/_118.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-180">
@@ -1221,16 +1205,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFS/_40.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DFS/_90.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1243,13 +1217,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DFS/_131.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="-10">
           <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#143#144#0" expanded="true" />
             <element signature="e#179#180#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/_39.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-325">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/_40.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/_122.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy/_121.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy/_122.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DP/_123.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="36" column="80" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
         </state>
       </provider>
     </entry>
