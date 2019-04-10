@@ -448,9 +448,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DFS/_46.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-61">
+              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DFS/_47.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-49">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/String/_58.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -490,7 +512,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Two_Pointers/_222.java" />
         <option value="$PROJECT_DIR$/src/Tree/_222.java" />
         <option value="$PROJECT_DIR$/src/Math/_976.java" />
         <option value="$PROJECT_DIR$/src/Math/_949.java" />
@@ -541,6 +562,7 @@
         <option value="$PROJECT_DIR$/src/DP/_123.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/_143.java" />
         <option value="$PROJECT_DIR$/src/DFS/_46.java" />
+        <option value="$PROJECT_DIR$/src/String/_58.java" />
       </list>
     </option>
   </component>
@@ -575,7 +597,7 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Math" type="462c0819:PsiDirectoryNode" />
+              <item name="String" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -617,7 +639,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._123.test">
+  <component name="RunManager" selected="JUnit._58.test">
     <configuration name="_118.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -682,28 +704,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_878" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_58.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.*" />
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Math" />
-      <option name="MAIN_CLASS_NAME" value="Math._878" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="String" />
+      <option name="MAIN_CLASS_NAME" value="String._58" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._58.test" />
         <item itemvalue="JUnit._123.test" />
         <item itemvalue="JUnit._131.test" />
         <item itemvalue="JUnit._118.test" />
         <item itemvalue="JUnit._28.test" />
-        <item itemvalue="JUnit._878" />
       </list>
     </recent_temporary>
   </component>
@@ -825,26 +848,11 @@
       <workItem from="1554770929770" duration="94000" />
       <workItem from="1554771215717" duration="594000" />
       <workItem from="1554813781224" duration="594000" />
-      <workItem from="1554855838629" duration="13064000" />
+      <workItem from="1554855838629" duration="14032000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_131_test - 2019.04.10 at 18h 50m 04s.xml">
-      <configuration name="_131.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_131_test - 2019.04.10 at 18h 50m 22s.xml">
-      <configuration name="_131.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_123_test - 2019.04.10 at 20h 40m 29s.xml">
-      <configuration name="_123.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_123_test - 2019.04.10 at 20h 46m 10s.xml">
-      <configuration name="_123.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_123_test - 2019.04.10 at 20h 59m 06s.xml">
-      <configuration name="_123.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="_123_test - 2019.04.10 at 20h 59m 29s.xml">
       <configuration name="_123.test" configurationId="JUnit" />
     </history-entry>
@@ -860,14 +868,30 @@
     <history-entry file="_123_test - 2019.04.10 at 21h 03m 46s.xml">
       <configuration name="_123.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="_58_test - 2019.04.10 at 22h 02m 40s.xml">
+      <configuration name="_58.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_58_test - 2019.04.10 at 22h 06m 28s.xml">
+      <configuration name="_58.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_58_test - 2019.04.10 at 22h 08m 56s.xml">
+      <configuration name="_58.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_58_test - 2019.04.10 at 22h 09m 13s.xml">
+      <configuration name="_58.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_58_test - 2019.04.10 at 22h 09m 56s.xml">
+      <configuration name="_58.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175300000" />
+    <option name="totallyTimeSpent" value="176268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="793" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.25250357" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.25250357" />
       <window_info id="Structure" order="1" sideWeight="0.5010526" side_tool="true" weight="0.22174536" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -884,10 +908,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3281027" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3281027" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.32624114" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32765958" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3253857" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32524964" />
       <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -916,13 +940,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DP/_5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DP/_70.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1147,13 +1164,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFS/_47.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DFS/_257.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1278,6 +1288,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/_46.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/_143.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -1285,8 +1302,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFS/_46.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/DFS/_47.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/_58.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
