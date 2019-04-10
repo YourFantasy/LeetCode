@@ -475,11 +475,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Math/_69.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
               <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HashMap/_205.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -521,7 +534,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Tree/_222.java" />
         <option value="$PROJECT_DIR$/src/Math/_976.java" />
         <option value="$PROJECT_DIR$/src/Math/_949.java" />
         <option value="$PROJECT_DIR$/src/Math/_453.java" />
@@ -572,6 +584,7 @@
         <option value="$PROJECT_DIR$/src/DFS/_46.java" />
         <option value="$PROJECT_DIR$/src/String/_58.java" />
         <option value="$PROJECT_DIR$/src/Math/_69.java" />
+        <option value="$PROJECT_DIR$/src/HashMap/_205.java" />
       </list>
     </option>
   </component>
@@ -601,6 +614,12 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HashMap" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -642,7 +661,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Math in LeetCode">
+  <component name="RunManager" selected="JUnit._205.test">
     <configuration name="Math in LeetCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -653,22 +672,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="Math" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_118.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Math" />
-      <option name="MAIN_CLASS_NAME" value="Math._118" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -705,6 +708,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_205.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HashMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HashMap" />
+      <option name="MAIN_CLASS_NAME" value="HashMap._205" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_58.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -723,11 +742,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._205.test" />
         <item itemvalue="JUnit.Math in LeetCode" />
         <item itemvalue="JUnit._58.test" />
         <item itemvalue="JUnit._123.test" />
         <item itemvalue="JUnit._131.test" />
-        <item itemvalue="JUnit._118.test" />
       </list>
     </recent_temporary>
   </component>
@@ -849,32 +868,11 @@
       <workItem from="1554770929770" duration="94000" />
       <workItem from="1554771215717" duration="594000" />
       <workItem from="1554813781224" duration="594000" />
-      <workItem from="1554855838629" duration="14721000" />
+      <workItem from="1554855838629" duration="16592000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_123_test - 2019.04.10 at 20h 59m 39s.xml">
-      <configuration name="_123.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_123_test - 2019.04.10 at 21h 00m 41s.xml">
-      <configuration name="_123.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_123_test - 2019.04.10 at 21h 03m 38s.xml">
-      <configuration name="_123.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_123_test - 2019.04.10 at 21h 03m 46s.xml">
-      <configuration name="_123.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_58_test - 2019.04.10 at 22h 02m 40s.xml">
-      <configuration name="_58.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_58_test - 2019.04.10 at 22h 06m 28s.xml">
-      <configuration name="_58.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_58_test - 2019.04.10 at 22h 08m 56s.xml">
-      <configuration name="_58.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="_58_test - 2019.04.10 at 22h 09m 13s.xml">
       <configuration name="_58.test" configurationId="JUnit" />
     </history-entry>
@@ -884,15 +882,36 @@
     <history-entry file="Math_in_LeetCode - 2019.04.10 at 22h 27m 38s.xml">
       <configuration name="Math in LeetCode" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="_205_test - 2019.04.10 at 22h 43m 12s.xml">
+      <configuration name="_205.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_205_test - 2019.04.10 at 22h 46m 21s.xml">
+      <configuration name="_205.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_205_test - 2019.04.10 at 22h 48m 26s.xml">
+      <configuration name="_205.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_205_test - 2019.04.10 at 22h 50m 38s.xml">
+      <configuration name="_205.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_205_test - 2019.04.10 at 22h 51m 41s.xml">
+      <configuration name="_205.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_205_test - 2019.04.10 at 22h 53m 36s.xml">
+      <configuration name="_205.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_205_test - 2019.04.10 at 22h 54m 34s.xml">
+      <configuration name="_205.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176957000" />
+    <option name="totallyTimeSpent" value="178828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="793" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.25250357" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.087267525" />
       <window_info id="Structure" order="1" sideWeight="0.5010526" side_tool="true" weight="0.22174536" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -912,7 +931,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3281027" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.32624114" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32765958" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32524964" />
+      <window_info active="true" anchor="bottom" id="Messages" order="13" visible="true" weight="0.32524964" />
       <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -941,13 +960,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DP/_152.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DP/_198.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1314,6 +1326,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashMap/_205.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
