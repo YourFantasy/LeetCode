@@ -19,7 +19,6 @@
 *.tar.gz
 *.rar
 # 无用的隐藏文件
-.idea:
 /out
 .DS_Store
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml

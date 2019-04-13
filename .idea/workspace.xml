@@ -1,0 +1,1387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fdb12e5a-eda0-47f9-9d3c-cc523d46c846" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__com_github_binarywang_qrcode_utils_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__com_github_binarywang_weixin_java_common_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__com_github_binarywang_weixin_java_miniapp_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__com_github_binarywang_weixin_java_pay_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__com_google_zxing_core_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_shiro_shiro_spring_boot_starter_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_shiro_shiro_spring_boot_web_starter_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_7_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_javassist_javassist_3_23_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_jodd_jodd_core_3_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_jodd_jodd_http_3_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_jodd_jodd_upload_3_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_spring_aop_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_spring_beans_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_spring_context_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_spring_core_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_spring_expression_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_spring_orm_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_spring_test_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_spring_tx_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_spring_web_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/deploy/quwen/application-core.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/deploy/quwen/application-db.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/deploy/quwen/application-web.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/deploy/quwen/application-wx.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-all/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-all/quwenall.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-all/src/main/java/quwen/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-all/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-core/quwen-core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-core/quwencore.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-core/src/main/java/quwen/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-core/src/main/java/quwen/core/config/WxConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-core/src/main/java/quwen/core/config/WxProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-core/src/main/java/quwen/core/util/CharUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-core/src/main/java/quwen/core/util/JacksonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-core/src/main/java/quwen/core/util/ResponseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-core/src/main/java/quwen/core/util/bcrypt/BCrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-core/src/main/java/quwen/core/util/bcrypt/BCryptPasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-core/src/main/resources/application-core.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-core/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/quwen-db.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/quwendb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/sql/admin.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/domain/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/domain/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/domain/Collect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/domain/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/domain/News.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/domain/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/repository/AdminRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/repository/CollectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/repository/NewsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/repository/PermissionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/service/CollectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/service/NewsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/serviceImpl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/serviceImpl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/serviceImpl/CollectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/serviceImpl/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/serviceImpl/NewsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/serviceImpl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/serviceImpl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/java/quwen/db/serviceImpl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/resources/application-db.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-db/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/quwen-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/java/quwen/QuwenApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/java/quwen/web/api/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/java/quwen/web/api/config/ShiroExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/java/quwen/web/api/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/java/quwen/web/api/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/java/quwen/web/api/controller/CollectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/java/quwen/web/api/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/java/quwen/web/api/controller/NewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/java/quwen/web/api/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/java/quwen/web/api/shiro/AdminAuthorizingRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/java/quwen/web/api/shiro/AdminWebSessionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/java/quwen/web/api/util/AdminResponseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/application-web.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/css/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/css/xadmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/fonts/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/fonts/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/fonts/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/images/aiwrap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/js/api/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/js/jquery-1.8.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/js/service/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/js/store/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/js/utils/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/js/xadmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/js/xcity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/static/lib/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/admin-cate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/admin-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/admin-role.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/admin-rule.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/cate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/cate_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/cate_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/collect-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/collect-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/comment_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/comment_edit_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/comment_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/comment_list_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/member-del.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/member-password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/news-collect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/news-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/news-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/order-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/role-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/unicode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/user-collect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/user-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/user-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-web/src/main/resources/templates/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-wx-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-wx-api/quwen-wx-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-wx-api/quwenweb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-wx-api/src/main/java/quwen/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-wx-api/src/main/java/quwen/wx/api/controller/WxAuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-wx-api/src/main/java/quwen/wx/api/controller/WxHomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-wx-api/src/main/java/quwen/wx/api/controller/WxNewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-wx-api/src/main/java/quwen/wx/api/dao/CategoryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-wx-api/src/main/java/quwen/wx/api/dao/NewsVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-wx-api/src/main/java/quwen/wx/api/dao/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-wx-api/src/main/java/quwen/wx/api/dao/UserToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-wx-api/src/main/java/quwen/wx/api/dao/WxLoginInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-wx-api/src/main/java/quwen/wx/api/service/HomeCacheManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-wx-api/src/main/java/quwen/wx/api/service/UserTokenManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-wx-api/src/main/java/quwen/wx/api/util/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-wx-api/src/main/java/quwen/wx/api/util/IpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-wx-api/src/main/java/quwen/wx/api/util/ListUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-wx-api/src/main/java/quwen/wx/api/util/NewsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-wx-api/src/main/resources/application-wx.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen-wx-api/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quwenDev-master/quwen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/_48.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/_48.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMap/_347.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/_347.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/_110.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/_110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TCP协议中的三次握手.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../TCP协议中的三次握手.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../密码.pages" beforeDir="false" afterPath="$PROJECT_DIR$/../../密码.pages" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LeetCode$Sort_in_LeetCode.ic" NAME="Sort in LeetCode Coverage Results" MODIFIED="1551002980719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Sort.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LeetCode$_345_Test.ic" NAME="_345.Test Coverage Results" MODIFIED="1551690896592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>String.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tree/_98.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Stack/_84.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DP/_5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>e</find>
+      <find>next</find>
+      <find>ranynart</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/Array</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/DFS/_47.java" />
+        <option value="$PROJECT_DIR$/src/Stack/_946.java" />
+        <option value="$PROJECT_DIR$/src/Tree/_654.java" />
+        <option value="$PROJECT_DIR$/src/Tree/_105.java" />
+        <option value="$PROJECT_DIR$/src/Tree/_106.java" />
+        <option value="$PROJECT_DIR$/src/DFS/_52.java" />
+        <option value="$PROJECT_DIR$/src/DFS/_51.java" />
+        <option value="$PROJECT_DIR$/src/Tree/_129.java" />
+        <option value="$PROJECT_DIR$/src/Array/_59.java" />
+        <option value="$PROJECT_DIR$/src/Tree/_1008.java" />
+        <option value="$PROJECT_DIR$/src/Greedy/_861.java" />
+        <option value="$PROJECT_DIR$/src/Greedy/_944.java" />
+        <option value="$PROJECT_DIR$/src/String/_43.java" />
+        <option value="$PROJECT_DIR$/src/Binary_Search/_35.java" />
+        <option value="$PROJECT_DIR$/src/DP/_312.java" />
+        <option value="$PROJECT_DIR$/src/DP/_120.java" />
+        <option value="$PROJECT_DIR$/src/Math/_12.java" />
+        <option value="$PROJECT_DIR$/src/Math/_1001.java" />
+        <option value="$PROJECT_DIR$/src/DFS/_559.java" />
+        <option value="$PROJECT_DIR$/src/DFS/_257.java" />
+        <option value="$PROJECT_DIR$/src/Tree/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/Math/_868.java" />
+        <option value="$PROJECT_DIR$/src/Math/_878.java" />
+        <option value="$PROJECT_DIR$/src/String/_28.java" />
+        <option value="$PROJECT_DIR$/src/DFS/_40.java" />
+        <option value="$PROJECT_DIR$/src/Math/_118.java" />
+        <option value="$PROJECT_DIR$/src/Math/_119.java" />
+        <option value="$PROJECT_DIR$/src/DFS/_90.java" />
+        <option value="$PROJECT_DIR$/src/DFS/_131.java" />
+        <option value="$PROJECT_DIR$/src/Greedy/_122.java" />
+        <option value="$PROJECT_DIR$/src/Greedy/_121.java" />
+        <option value="$PROJECT_DIR$/src/DP/_123.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/_143.java" />
+        <option value="$PROJECT_DIR$/src/DFS/_46.java" />
+        <option value="$PROJECT_DIR$/src/String/_58.java" />
+        <option value="$PROJECT_DIR$/src/Math/_69.java" />
+        <option value="$PROJECT_DIR$/src/HashMap/_205.java" />
+        <option value="$PROJECT_DIR$/src/Greedy/_55.java" />
+        <option value="$PROJECT_DIR$/src/Greedy/_45.java" />
+        <option value="$PROJECT_DIR$/src/Binary_Search/_454.java" />
+        <option value="$PROJECT_DIR$/src/Greedy/_135.java" />
+        <option value="$PROJECT_DIR$/src/Greedy/_134.java" />
+        <option value="$PROJECT_DIR$/src/Greedy/_763.java" />
+        <option value="$PROJECT_DIR$/src/Greedy/_921.java" />
+        <option value="$PROJECT_DIR$/src/DP/_300.java" />
+        <option value="$PROJECT_DIR$/src/Binary_Search/_1011.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/Tree/_98.java" />
+        <option value="$PROJECT_DIR$/src/DP/_5.java" />
+        <option value="$PROJECT_DIR$/src/Stack/_84.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="793" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552919675644" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="RemoteServers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DFS" />
+      <recent name="Greedy" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit._5">
+    <configuration name="_134.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Greedy" />
+      <option name="MAIN_CLASS_NAME" value="Greedy._134" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_135.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Greedy" />
+      <option name="MAIN_CLASS_NAME" value="Greedy._135" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DP" />
+      <option name="MAIN_CLASS_NAME" value="DP._5" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_763.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Greedy" />
+      <option name="MAIN_CLASS_NAME" value="Greedy._763" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_84.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Stack" />
+      <option name="MAIN_CLASS_NAME" value="Stack._84" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit._5" />
+        <item itemvalue="JUnit._84.test" />
+        <item itemvalue="JUnit._763.test" />
+        <item itemvalue="JUnit._134.test" />
+        <item itemvalue="JUnit._135.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdb12e5a-eda0-47f9-9d3c-cc523d46c846" name="Default Changelist" comment="" />
+      <created>1542946208145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542946208145</updated>
+      <workItem from="1542946211140" duration="126000" />
+      <workItem from="1542954015992" duration="520000" />
+      <workItem from="1543045084394" duration="688000" />
+      <workItem from="1543114693499" duration="319000" />
+      <workItem from="1543201185644" duration="3656000" />
+      <workItem from="1543239283725" duration="347000" />
+      <workItem from="1543283152748" duration="1863000" />
+      <workItem from="1543488509584" duration="26000" />
+      <workItem from="1545182266625" duration="74000" />
+      <workItem from="1545182510525" duration="49000" />
+      <workItem from="1545733343915" duration="1647000" />
+      <workItem from="1545785041043" duration="3802000" />
+      <workItem from="1546444239432" duration="597000" />
+      <workItem from="1546561506157" duration="628000" />
+      <workItem from="1546610665228" duration="281000" />
+      <workItem from="1546611047283" duration="407000" />
+      <workItem from="1546655003033" duration="644000" />
+      <workItem from="1546672328376" duration="5014000" />
+      <workItem from="1546690044000" duration="1785000" />
+      <workItem from="1547002777382" duration="1124000" />
+      <workItem from="1547174112560" duration="287000" />
+      <workItem from="1547174436924" duration="1525000" />
+      <workItem from="1547271793197" duration="706000" />
+      <workItem from="1547360889587" duration="2886000" />
+      <workItem from="1547435014551" duration="1200000" />
+      <workItem from="1547442101576" duration="671000" />
+      <workItem from="1547474561196" duration="143000" />
+      <workItem from="1547512888644" duration="189000" />
+      <workItem from="1547515560172" duration="1773000" />
+      <workItem from="1547522846772" duration="374000" />
+      <workItem from="1547527090163" duration="722000" />
+      <workItem from="1547601240086" duration="151000" />
+      <workItem from="1547602425770" duration="1333000" />
+      <workItem from="1547689981881" duration="1819000" />
+      <workItem from="1547951055631" duration="201000" />
+      <workItem from="1547984413830" duration="972000" />
+      <workItem from="1548037622028" duration="1270000" />
+      <workItem from="1549770817973" duration="20000" />
+      <workItem from="1549771346234" duration="16000" />
+      <workItem from="1549772405108" duration="191000" />
+      <workItem from="1549941863582" duration="17000" />
+      <workItem from="1549941941553" duration="119000" />
+      <workItem from="1550371702960" duration="1969000" />
+      <workItem from="1550459224697" duration="4686000" />
+      <workItem from="1550562638546" duration="1212000" />
+      <workItem from="1550588500905" duration="331000" />
+      <workItem from="1550715147208" duration="436000" />
+      <workItem from="1550748834664" duration="369000" />
+      <workItem from="1550799734067" duration="6315000" />
+      <workItem from="1550846233311" duration="134000" />
+      <workItem from="1550891035537" duration="1274000" />
+      <workItem from="1550923871387" duration="1630000" />
+      <workItem from="1550970540773" duration="12375000" />
+      <workItem from="1551021106845" duration="6000" />
+      <workItem from="1551058224774" duration="96000" />
+      <workItem from="1551181422126" duration="7000" />
+      <workItem from="1551181444651" duration="3086000" />
+      <workItem from="1551229052870" duration="1140000" />
+      <workItem from="1551260942617" duration="979000" />
+      <workItem from="1551314679702" duration="6074000" />
+      <workItem from="1551411899287" duration="1259000" />
+      <workItem from="1551437874989" duration="212000" />
+      <workItem from="1551490653409" duration="6229000" />
+      <workItem from="1551578163760" duration="725000" />
+      <workItem from="1551658012673" duration="623000" />
+      <workItem from="1551688699175" duration="7263000" />
+      <workItem from="1551744831030" duration="5465000" />
+      <workItem from="1551794822638" duration="1302000" />
+      <workItem from="1551835092250" duration="85000" />
+      <workItem from="1552046301002" duration="645000" />
+      <workItem from="1552049682750" duration="1885000" />
+      <workItem from="1552092083076" duration="1465000" />
+      <workItem from="1552134812820" duration="10000" />
+      <workItem from="1552139401738" duration="1717000" />
+      <workItem from="1552193872842" duration="3442000" />
+      <workItem from="1552261739168" duration="1128000" />
+      <workItem from="1552351449478" duration="8443000" />
+      <workItem from="1552400795128" duration="597000" />
+      <workItem from="1552436761726" duration="32000" />
+      <workItem from="1552472396894" duration="944000" />
+      <workItem from="1552483584675" duration="2259000" />
+      <workItem from="1552524389770" duration="1358000" />
+      <workItem from="1552563586609" duration="1161000" />
+      <workItem from="1552615722913" duration="62000" />
+      <workItem from="1552615853376" duration="39000" />
+      <workItem from="1552620272624" duration="2000" />
+      <workItem from="1552743240149" duration="859000" />
+      <workItem from="1552792777436" duration="1247000" />
+      <workItem from="1552820606791" duration="5179000" />
+      <workItem from="1552867770922" duration="357000" />
+      <workItem from="1552876128810" duration="28000" />
+      <workItem from="1552888226179" duration="416000" />
+      <workItem from="1552902844989" duration="862000" />
+      <workItem from="1552953439674" duration="1334000" />
+      <workItem from="1553666703000" duration="39000" />
+      <workItem from="1553949222050" duration="110000" />
+      <workItem from="1554211565972" duration="125000" />
+      <workItem from="1554212292176" duration="726000" />
+      <workItem from="1554253735156" duration="21000" />
+      <workItem from="1554293502713" duration="5481000" />
+      <workItem from="1554464389466" duration="1235000" />
+      <workItem from="1554537958278" duration="1503000" />
+      <workItem from="1554599448933" duration="8041000" />
+      <workItem from="1554684798749" duration="2144000" />
+      <workItem from="1554735527704" duration="594000" />
+      <workItem from="1554770929770" duration="94000" />
+      <workItem from="1554771215717" duration="594000" />
+      <workItem from="1554813781224" duration="594000" />
+      <workItem from="1554855838629" duration="16745000" />
+      <workItem from="1554943179097" duration="598000" />
+      <workItem from="1554958983818" duration="1000" />
+      <workItem from="1554960488594" duration="10513000" />
+      <workItem from="1555031113019" duration="817000" />
+      <workItem from="1555063554014" duration="1000" />
+      <workItem from="1555063790177" duration="7633000" />
+      <workItem from="1555118244021" duration="568000" />
+      <workItem from="1555125284493" duration="599000" />
+      <workItem from="1555128758253" duration="10016000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="_5 - 2019.04.13 at 20h 06m 00s.xml">
+      <configuration name="_5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_5 - 2019.04.13 at 20h 06m 14s.xml">
+      <configuration name="_5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_5 - 2019.04.13 at 20h 07m 11s.xml">
+      <configuration name="_5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_5 - 2019.04.13 at 20h 07m 23s.xml">
+      <configuration name="_5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_5 - 2019.04.13 at 20h 16m 13s.xml">
+      <configuration name="_5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_5 - 2019.04.13 at 20h 17m 00s.xml">
+      <configuration name="_5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_5 - 2019.04.13 at 20h 17m 52s.xml">
+      <configuration name="_5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_5 - 2019.04.13 at 20h 22m 48s.xml">
+      <configuration name="_5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_5 - 2019.04.13 at 20h 23m 06s.xml">
+      <configuration name="_5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_5 - 2019.04.13 at 20h 37m 56s.xml">
+      <configuration name="_5" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="209727000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="793" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.17453505" />
+      <window_info id="Structure" order="1" sideWeight="0.5010526" side_tool="true" weight="0.22174536" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.31241083" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39800286" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3281027" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.32624114" />
+      <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32765958" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32524964" />
+      <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.32907802" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32904148" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LeetCode$_28_test.ic" NAME="_28.test Coverage Results" MODIFIED="1554884011030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>String.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Binary_Search/_374.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Binary_Search/_704.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Binary_Search/_852.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/_18.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DP/_312.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DP/_120.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math/_12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/_559" />
+    <entry file="file://$PROJECT_DIR$/src/Math/_1001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../litemall-master/litemall-wx-api/src/main/java/org/linlinjava/litemall/wx/annotation/LoginUser.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math/_868.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/_28.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math/_119.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/_559.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/_51.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/_257.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/_216.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/_78.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/_77.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/_52.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math/_118.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math/_878.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/_90.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/_131.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/_39.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-325">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/_40.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/_122.java" />
+    <entry file="file://$PROJECT_DIR$/src/DP/_123.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="80" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/_143.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/_46.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/_47.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/_58.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math/_69.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashMap/_205.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="25" column="20" selection-start-line="14" selection-start-column="8" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy/_121.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy/_122.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy/_55.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy/_45.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Binary_Search/_454.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy/_135.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy/_134.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy/_763.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy/_921.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Binary_Search/_1011.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DP/_300.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="133">
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/_98.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DP/_5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack/_84.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LeetCode</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
