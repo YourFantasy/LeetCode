@@ -11,7 +11,7 @@ public class _5 {
 
     /**
      * dp[i][j],判断i---j之间的字符串是否是回文串
-     * 如果s.charAt(i) == s.charAt(i + l) 则i---i+l 和 i+1---i+l-1同为回文串或者同不为回文串
+     * 如果s.charAt(i) == s.charAt(i + l) 则i---i+l 和 i+1---i+l-1同为或者同不为回文串
      * 如果i---i+l为回文串且l+1>maxlen，则maxlen=l+1,因为i---i+l之间长度为l+1
      * @param
      * @return
