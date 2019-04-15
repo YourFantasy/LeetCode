@@ -8,10 +8,11 @@ public class _49 {
     @Test
     public void test() {
         String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
-        System.out.println(groupAnagrams(strs));
+        System.out.println(groupAnagrams1(strs));
+        System.out.println(groupAnagrams2(strs));
     }
 
-    public List<List<String>> groupAnagrams(String[] strs) {
+    public List<List<String>> groupAnagrams1(String[] strs) {
         List<List<String>> res = new ArrayList<>();
         Map<String, List<Integer>> map = new HashMap<>();
         String[] s = new String[strs.length];
@@ -39,5 +40,18 @@ public class _49 {
             res.add(temp);
         }
         return res;
+    }
+
+    public List<List<String>> groupAnagrams2(String[] strs) {
+        Map<String, List<String>> map = new HashMap<>();
+        for (int i = 0; i < strs.length; i++) {
+            char[] ch = strs[i].toCharArray();
+            Arrays.sort(ch);
+            String str = String.valueOf(ch);
+            if (!map.containsKey(str))
+                map.put(str, new ArrayList<>());
+            map.get(str).add(strs[i]);
+        }
+        return new ArrayList<>(map.values());
     }
 }
