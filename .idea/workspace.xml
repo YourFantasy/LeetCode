@@ -418,11 +418,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DP/_309.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state relative-caret-position="494">
+              <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DFS/_79.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -501,7 +510,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/_59.java" />
         <option value="$PROJECT_DIR$/src/Tree/_1008.java" />
         <option value="$PROJECT_DIR$/src/Greedy/_861.java" />
         <option value="$PROJECT_DIR$/src/Greedy/_944.java" />
@@ -552,6 +560,7 @@
         <option value="$PROJECT_DIR$/src/HashMap/_49.java" />
         <option value="$PROJECT_DIR$/src/Array/_41.java" />
         <option value="$PROJECT_DIR$/src/DP/_309.java" />
+        <option value="$PROJECT_DIR$/src/DFS/_79.java" />
       </list>
     </option>
   </component>
@@ -586,7 +595,7 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DP" type="462c0819:PsiDirectoryNode" />
+              <item name="DFS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -847,7 +856,7 @@
       <workItem from="1555213453097" duration="9941000" />
       <workItem from="1555291058503" duration="8605000" />
       <workItem from="1555340858261" duration="213000" />
-      <workItem from="1555374907515" duration="6473000" />
+      <workItem from="1555374907515" duration="7331000" />
     </task>
     <servers />
   </component>
@@ -884,7 +893,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235365000" />
+    <option name="totallyTimeSpent" value="236223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="793" extended-state="0" />
@@ -939,7 +948,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array/_122.java" />
     <entry file="file://$PROJECT_DIR$/src/DP/_123.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
@@ -1324,8 +1332,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DP/_309.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state relative-caret-position="494">
+          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFS/_79.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>
