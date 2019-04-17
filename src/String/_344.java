@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class _344 {
     @Test
     public void Test() {
-        String s="Hello";
+        String s = "Hello";
         System.out.println(reverseString(s));
 
     }
