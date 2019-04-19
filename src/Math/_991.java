@@ -2,7 +2,7 @@ package Math;
 
 import org.junit.Test;
 
-public class _991 {
+public class _991{
     @Test
     public void test() {
         int x = 1, y = 1000;

@@ -1,6 +1,6 @@
 package Tree;
 
-public class _437 {
+public class _437{
     private int cnt = 0;
 
     public int pathSum(TreeNode root, int sum) {
