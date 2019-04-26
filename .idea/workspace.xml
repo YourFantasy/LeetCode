@@ -410,40 +410,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Stack/_150.java">
+        <entry file="file://$PROJECT_DIR$/src/Array/_220.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/_160.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/_999.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/String/_1002.java">
+        <entry file="file://$PROJECT_DIR$/src/Stack/_445.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="298">
+              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -452,10 +431,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DFS/_980.java">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state relative-caret-position="133">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -489,11 +468,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DP/_123.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/_143.java" />
-        <option value="$PROJECT_DIR$/src/DFS/_46.java" />
-        <option value="$PROJECT_DIR$/src/String/_58.java" />
-        <option value="$PROJECT_DIR$/src/Math/_69.java" />
         <option value="$PROJECT_DIR$/src/HashMap/_205.java" />
         <option value="$PROJECT_DIR$/src/Greedy/_55.java" />
         <option value="$PROJECT_DIR$/src/Greedy/_45.java" />
@@ -540,6 +514,11 @@
         <option value="$PROJECT_DIR$/src/LinkedList/_160.java" />
         <option value="$PROJECT_DIR$/src/Array/_999.java" />
         <option value="$PROJECT_DIR$/src/String/_1002.java" />
+        <option value="$PROJECT_DIR$/src/Math/_397.java" />
+        <option value="$PROJECT_DIR$/src/String/_395.java" />
+        <option value="$PROJECT_DIR$/src/Array/_220.java" />
+        <option value="$PROJECT_DIR$/src/Stack/_445.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/ListNode.java" />
       </list>
     </option>
   </component>
@@ -572,7 +551,13 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="String" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Stack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -616,7 +601,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._150">
+  <component name="RunManager" selected="JUnit._397">
     <configuration name="_150" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -647,16 +632,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_41" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_397" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Array" />
-      <option name="MAIN_CLASS_NAME" value="Array._41" />
+      <option name="PACKAGE_NAME" value="Math" />
+      <option name="MAIN_CLASS_NAME" value="Math._397" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -696,11 +681,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._397" />
         <item itemvalue="JUnit._150" />
         <item itemvalue="JUnit._991.test" />
         <item itemvalue="JUnit._518.test" />
         <item itemvalue="JUnit._38" />
-        <item itemvalue="JUnit._41" />
       </list>
     </recent_temporary>
   </component>
@@ -844,26 +829,21 @@
       <workItem from="1555637746701" duration="9560000" />
       <workItem from="1555728557683" duration="486000" />
       <workItem from="1555817002385" duration="108000" />
-      <workItem from="1555817284628" duration="2245000" />
+      <workItem from="1555817284628" duration="2918000" />
+      <workItem from="1555893351379" duration="1316000" />
+      <workItem from="1555932639048" duration="2541000" />
+      <workItem from="1555943162755" duration="598000" />
+      <workItem from="1555976451819" duration="588000" />
+      <workItem from="1555985528505" duration="529000" />
+      <workItem from="1556065635253" duration="577000" />
+      <workItem from="1556113276398" duration="334000" />
+      <workItem from="1556115470588" duration="487000" />
+      <workItem from="1556152742492" duration="310000" />
+      <workItem from="1556285216693" duration="202000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_991_test - 2019.04.19 at 11h 02m 38s.xml">
-      <configuration name="_991.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_991_test - 2019.04.19 at 11h 02m 50s.xml">
-      <configuration name="_991.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_991_test - 2019.04.19 at 11h 06m 27s.xml">
-      <configuration name="_991.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_991_test - 2019.04.19 at 11h 06m 35s.xml">
-      <configuration name="_991.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_991_test - 2019.04.19 at 11h 13m 52s.xml">
-      <configuration name="_991.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="_991_test - 2019.04.19 at 11h 14m 02s.xml">
       <configuration name="_991.test" configurationId="JUnit" />
     </history-entry>
@@ -879,15 +859,30 @@
     <history-entry file="_150 - 2019.04.19 at 21h 49m 54s.xml">
       <configuration name="_150" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="_397 - 2019.04.22 at 19h 33m 28s.xml">
+      <configuration name="_397" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_397 - 2019.04.22 at 19h 34m 44s.xml">
+      <configuration name="_397" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_397 - 2019.04.22 at 19h 34m 48s.xml">
+      <configuration name="_397" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_397 - 2019.04.22 at 19h 35m 24s.xml">
+      <configuration name="_397" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_397 - 2019.04.22 at 19h 40m 52s.xml">
+      <configuration name="_397" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264133000" />
+    <option name="totallyTimeSpent" value="272288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="793" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.18454936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.21101573" />
       <window_info id="Structure" order="1" sideWeight="0.5010526" side_tool="true" weight="0.22174536" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -896,7 +891,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.33380884" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.33380884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39800286" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -936,41 +931,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DFS/_559.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFS/_698.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFS/_77.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFS/_52.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DFS/_51.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DFS/_47.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1285,16 +1245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/_150.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DFS/_980.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -1309,6 +1259,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/_1002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/_999.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -1316,10 +1276,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/_1002.java">
+    <entry file="file://$PROJECT_DIR$/src/Stack/_150.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="122">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math/_397.java" />
+    <entry file="file://$PROJECT_DIR$/src/String/_395.java" />
+    <entry file="file://$PROJECT_DIR$/src/Array/_220.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack/_445.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
