@@ -426,13 +426,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/String/_151.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="265">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#120#121#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Binary_Search/_278.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding>
+                <element signature="e#380#381#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/StringBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1159">
+              <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -441,16 +462,16 @@
         <entry file="file://$PROJECT_DIR$/src/Binary_Search/_153.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DP/_213.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="1083">
+              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -484,7 +505,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Tree/_98.java" />
         <option value="$PROJECT_DIR$/src/DP/_5.java" />
         <option value="$PROJECT_DIR$/src/Stack/_84.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -532,9 +552,10 @@
         <option value="$PROJECT_DIR$/src/Math/_89.java" />
         <option value="$PROJECT_DIR$/src/DP/_91.java" />
         <option value="$PROJECT_DIR$/src/DP/_139.java" />
-        <option value="$PROJECT_DIR$/src/String/_151.java" />
         <option value="$PROJECT_DIR$/src/Binary_Search/_153.java" />
         <option value="$PROJECT_DIR$/src/DP/_213.java" />
+        <option value="$PROJECT_DIR$/src/String/_151.java" />
+        <option value="$PROJECT_DIR$/src/Binary_Search/_278.java" />
       </list>
     </option>
   </component>
@@ -557,7 +578,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -569,6 +589,12 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Binary_Search" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
@@ -587,6 +613,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -873,7 +900,8 @@
       <workItem from="1557458180674" duration="13000" />
       <workItem from="1557475543878" duration="3761000" />
       <workItem from="1557545152887" duration="1242000" />
-      <workItem from="1557549783566" duration="3020000" />
+      <workItem from="1557549783566" duration="4416000" />
+      <workItem from="1557580418210" duration="210000" />
     </task>
     <servers />
   </component>
@@ -910,13 +938,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287611000" />
+    <option name="totallyTimeSpent" value="289217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="793" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.16094421" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.16309012" />
       <window_info id="Structure" order="1" sideWeight="0.5010526" side_tool="true" weight="0.22174536" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -933,7 +961,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3260234" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32524964" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.32624114" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32765958" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3230994" />
@@ -972,8 +1000,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Map.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/DP/_309.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -1289,27 +1315,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/String/_151.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="265">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Binary_Search/_153.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DP/_213.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="1083">
+          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Binary_Search/_278.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
