@@ -437,11 +437,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Binary_Search/_153.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DP/_213.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -475,7 +484,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Binary_Search/_1011.java" />
         <option value="$PROJECT_DIR$/src/Tree/_98.java" />
         <option value="$PROJECT_DIR$/src/DP/_5.java" />
         <option value="$PROJECT_DIR$/src/Stack/_84.java" />
@@ -526,6 +534,7 @@
         <option value="$PROJECT_DIR$/src/DP/_139.java" />
         <option value="$PROJECT_DIR$/src/String/_151.java" />
         <option value="$PROJECT_DIR$/src/Binary_Search/_153.java" />
+        <option value="$PROJECT_DIR$/src/DP/_213.java" />
       </list>
     </option>
   </component>
@@ -535,7 +544,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="776" />
@@ -565,7 +574,7 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Binary_Search" type="462c0819:PsiDirectoryNode" />
+              <item name="DP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
@@ -614,7 +623,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._151.test">
+  <component name="RunManager" selected="JUnit._213.test">
     <configuration name="Stack in LeetCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -645,17 +654,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_397" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_213.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.*" />
+          <option name="PATTERN" value="DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Math" />
-      <option name="MAIN_CLASS_NAME" value="Math._397" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="DP" />
+      <option name="MAIN_CLASS_NAME" value="DP._213" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -694,11 +704,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._213.test" />
         <item itemvalue="JUnit._151.test" />
         <item itemvalue="JUnit._91.test" />
         <item itemvalue="JUnit._71.test" />
         <item itemvalue="JUnit.Stack in LeetCode" />
-        <item itemvalue="JUnit._397" />
       </list>
     </recent_temporary>
   </component>
@@ -863,20 +873,11 @@
       <workItem from="1557458180674" duration="13000" />
       <workItem from="1557475543878" duration="3761000" />
       <workItem from="1557545152887" duration="1242000" />
-      <workItem from="1557549783566" duration="1392000" />
+      <workItem from="1557549783566" duration="3020000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_151_test - 2019.05.11 at 12h 39m 45s.xml">
-      <configuration name="_151.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_151_test - 2019.05.11 at 12h 43m 51s.xml">
-      <configuration name="_151.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_151_test - 2019.05.11 at 12h 44m 34s.xml">
-      <configuration name="_151.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="_151_test - 2019.05.11 at 12h 44m 43s.xml">
       <configuration name="_151.test" configurationId="JUnit" />
     </history-entry>
@@ -898,15 +899,24 @@
     <history-entry file="_151_test - 2019.05.11 at 12h 51m 50s.xml">
       <configuration name="_151.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="_213_test - 2019.05.11 at 13h 39m 48s.xml">
+      <configuration name="_213.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_213_test - 2019.05.11 at 13h 53m 06s.xml">
+      <configuration name="_213.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_213_test - 2019.05.11 at 13h 53m 22s.xml">
+      <configuration name="_213.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="285983000" />
+    <option name="totallyTimeSpent" value="287611000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="776" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="793" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.16094421" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.16094421" />
       <window_info id="Structure" order="1" sideWeight="0.5010526" side_tool="true" weight="0.22174536" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -915,7 +925,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.33333334" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.33238232" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39766082" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -962,7 +972,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Map.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/DP/_309.java">
@@ -1293,7 +1302,14 @@
     <entry file="file://$PROJECT_DIR$/src/Binary_Search/_153.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DP/_213.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
