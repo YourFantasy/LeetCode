@@ -20,9 +20,9 @@ public class _697 {
         }
         int degree = 1, res = n;
         for (int[] value : map.values()) {
-            if (value[0] > degree) {
+            if (value[0] >= degree) {
                 degree = value[0];
-                res = value[2] - value[1] + 1;
+                res = Math.min(res, value[2] - value[1] + 1);
             } else if (value[0] == degree)
                 res = Math.min(res, value[2] - value[1] + 1);
         }
