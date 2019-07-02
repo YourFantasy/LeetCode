@@ -447,8 +447,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/_54.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state relative-caret-position="456">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -460,16 +460,25 @@
         <entry file="file://$PROJECT_DIR$/src/Binary_Search/_81.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="456">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Binary_Search/_154.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="142" selection-start-line="4" selection-start-column="142" selection-end-line="4" selection-end-column="142" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Binary_Search/_154.java">
+        <entry file="file://$PROJECT_DIR$/src/Binary_Search/_153.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="4" column="142" selection-start-line="4" selection-start-column="142" selection-end-line="4" selection-end-column="142" />
+            <state relative-caret-position="323">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -478,7 +487,7 @@
         <entry file="file://$PROJECT_DIR$/src/Binary_Search/_33.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -512,9 +521,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/String/_344.java" />
-        <option value="$PROJECT_DIR$/src/DFS/_212.java" />
-        <option value="$PROJECT_DIR$/src/String/_38.java" />
         <option value="$PROJECT_DIR$/src/Tree/_112.java" />
         <option value="$PROJECT_DIR$/src/Stack/_32.java" />
         <option value="$PROJECT_DIR$/src/Math/_504.java" />
@@ -541,7 +547,6 @@
         <option value="$PROJECT_DIR$/src/Math/_89.java" />
         <option value="$PROJECT_DIR$/src/DP/_91.java" />
         <option value="$PROJECT_DIR$/src/DP/_139.java" />
-        <option value="$PROJECT_DIR$/src/Binary_Search/_153.java" />
         <option value="$PROJECT_DIR$/src/DP/_213.java" />
         <option value="$PROJECT_DIR$/src/String/_151.java" />
         <option value="$PROJECT_DIR$/src/Binary_Search/_278.java" />
@@ -563,6 +568,10 @@
         <option value="$PROJECT_DIR$/src/Binary_Search/_81.java" />
         <option value="$PROJECT_DIR$/src/Binary_Search/_33.java" />
         <option value="$PROJECT_DIR$/src/Binary_Search/_154.java" />
+        <option value="$PROJECT_DIR$/src/Binary_Search/_153.java" />
+        <option value="$PROJECT_DIR$/src/SIngleton/Singleton1.java" />
+        <option value="$PROJECT_DIR$/src/SIngleton/Singleton3.java" />
+        <option value="$PROJECT_DIR$/src/SIngleton/Singleton2.java" />
       </list>
     </option>
   </component>
@@ -575,7 +584,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="932" />
+    <option name="height" value="939" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -585,6 +594,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -601,14 +611,13 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Binary_Search" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -629,6 +638,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="SIngleton" />
       <recent name="DFS" />
       <recent name="Greedy" />
     </key>
@@ -645,19 +655,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._373.test">
-    <configuration name="_151.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Singleton2">
+    <configuration name="Singleton1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SIngleton.Singleton1" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String.*" />
+          <option name="PATTERN" value="SIngleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="String" />
-      <option name="MAIN_CLASS_NAME" value="String._151" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Singleton2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SIngleton.Singleton2" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SIngleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -710,29 +730,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_91.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DP" />
-      <option name="MAIN_CLASS_NAME" value="DP._91" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Singleton2" />
+        <item itemvalue="Application.Singleton1" />
         <item itemvalue="JUnit._373.test" />
         <item itemvalue="JUnit._848.test" />
         <item itemvalue="JUnit._213.test" />
-        <item itemvalue="JUnit._151.test" />
-        <item itemvalue="JUnit._91.test" />
       </list>
     </recent_temporary>
   </component>
@@ -965,7 +969,15 @@
       <workItem from="1561129472790" duration="966000" />
       <workItem from="1561161842408" duration="483000" />
       <workItem from="1561356589028" duration="598000" />
-      <workItem from="1561423416366" duration="4087000" />
+      <workItem from="1561423416366" duration="5706000" />
+      <workItem from="1561509979166" duration="439000" />
+      <workItem from="1561520394138" duration="456000" />
+      <workItem from="1561600927551" duration="305000" />
+      <workItem from="1561684908338" duration="421000" />
+      <workItem from="1561765560173" duration="1092000" />
+      <workItem from="1561938470575" duration="506000" />
+      <workItem from="1561942724727" duration="2162000" />
+      <workItem from="1562030421267" duration="599000" />
     </task>
     <servers />
   </component>
@@ -1002,13 +1014,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="350297000" />
+    <option name="totallyTimeSpent" value="357896000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="932" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="939" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.21550672" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.23504274" />
       <window_info id="Structure" order="1" sideWeight="0.5010526" side_tool="true" weight="0.22174536" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1017,7 +1028,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.3319616" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.33175915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39643347" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1071,17 +1082,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/String/_395.java" />
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/_220.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1209,13 +1209,6 @@
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/StringBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/Binary_Search/_153.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DP/_213.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1083">
@@ -1408,6 +1401,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SIngleton/Singleton1.java" />
+    <entry file="file://$PROJECT_DIR$/src/SIngleton/Singleton2.java" />
     <entry file="file://$PROJECT_DIR$/src/Array/_373.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -1427,32 +1429,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/_54.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="456">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Binary_Search/_33.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Binary_Search/_81.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Binary_Search/_154.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state relative-caret-position="76">
           <caret line="4" column="142" selection-start-line="4" selection-start-column="142" selection-end-line="4" selection-end-column="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Binary_Search/_33.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Binary_Search/_153.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
         </state>
       </provider>
     </entry>
