@@ -9,7 +9,7 @@ import java.util.List;
  * 以(1,2,3,4)为例，开头为1的情况后面的所有三个数为(2,3,4),同理，继续以这三个数为一个数组进行全排列，所以f(n)=n*f(n-1),其中f(1)=1,这就构成了一个递归
  */
 public class _46 {
-    static int cnt = 0;
+    private int cnt = 0;
 
     @Test
     public void test() {

@@ -1,16 +1,10 @@
 package Tree;
 
-import org.junit.Test;
-
 import java.util.*;
 
-public class _102 {
-    @Test
-    public void Test() {
-
-    }
-
-    public List<List<Integer>> levelOrder(TreeNode root) {
+public class _103 {
+    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+        int k = 0;
         List<List<Integer>> res = new ArrayList<>();
         if (root == null)
             return res;
@@ -27,7 +21,11 @@ public class _102 {
                 if (p.right != null)
                     queue.offer(p.right);
             }
-            res.add(temp);
+            if (k % 2 == 1)
+                Collections.reverse(temp);
+            if (!temp.isEmpty())
+                res.add(temp);
+            k++;
         }
         return res;
     }

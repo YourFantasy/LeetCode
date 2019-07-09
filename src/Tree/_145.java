@@ -14,7 +14,7 @@ public class _145 {
         TreeNode p;
         while (!stack.isEmpty()) {
             p = stack.peek();
-            //如果该节点是叶子节点或活该该节点该节点的孩子节点已经被访问，则访问该节点，并且将该节点出栈，更新被访问的节点，避免重复访问
+            //如果该节点是叶子节点或该节点的孩子节点已经被访问，则访问该节点，并且将该节点出栈，更新被访问的节点，避免重复访问
             if ((p.left == null && p.right == null) || (q != null && (q == p.left || q == p.right))) {
                 result.add(p.val);
                 stack.pop();
