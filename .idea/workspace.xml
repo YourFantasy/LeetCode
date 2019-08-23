@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.6900149" />
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fdb12e5a-eda0-47f9-9d3c-cc523d46c846" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../quwenDev-master/.gitignore" afterDir="false" />
@@ -472,7 +476,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -842,41 +846,12 @@
       <workItem from="1564188302627" duration="536000" />
       <workItem from="1564287934640" duration="598000" />
       <workItem from="1564361180690" duration="350000" />
-      <workItem from="1566131993970" duration="1240000" />
+      <workItem from="1566131993970" duration="1415000" />
+      <workItem from="1566179800399" duration="245000" />
+      <workItem from="1566535827345" duration="1882000" />
+      <workItem from="1566539632679" duration="2334000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="_373_test - 2019.06.12 at 21h 43m 19s.xml">
-      <configuration name="_373.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_373_test - 2019.06.12 at 21h 43m 52s.xml">
-      <configuration name="_373.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_373_test - 2019.06.12 at 21h 43m 57s.xml">
-      <configuration name="_373.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_373_test - 2019.06.12 at 21h 43m 58s.xml">
-      <configuration name="_373.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_373_test - 2019.06.12 at 21h 44m 01s.xml">
-      <configuration name="_373.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_373_test - 2019.06.12 at 21h 44m 03s.xml">
-      <configuration name="_373.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_373_test - 2019.06.12 at 21h 44m 05s.xml">
-      <configuration name="_373.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_46_test - 2019.07.05 at 11h 26m 06s.xml">
-      <configuration name="_46.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_46_test - 2019.07.05 at 11h 27m 32s.xml">
-      <configuration name="_46.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_151_test - 2019.07.12 at 17h 22m 45s.xml">
-      <configuration name="_151.test" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />

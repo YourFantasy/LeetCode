@@ -4,8 +4,8 @@ import java.util.Stack;
 
 public class _232 {
 
-    Stack<Integer> stack1;
-    Stack<Integer> stack2;
+    private Stack<Integer> stack1;
+    private Stack<Integer> stack2;
 
     /**
      * Initialize your data structure here.
