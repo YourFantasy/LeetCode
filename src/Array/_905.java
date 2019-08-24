@@ -3,8 +3,9 @@ package Array;
 public class _905 {
     public int[] sortArrayByParity(int[] A) {
         int i = 0, j = A.length - 1;
-        if (i == j)
+        if (i == j) {
             return A;
+        }
         while (i < j) {
             while (i < j && A[i] % 2 == 0) {
                 i++;

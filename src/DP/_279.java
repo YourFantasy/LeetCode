@@ -11,24 +11,26 @@ public class _279 {
     public int numSquares(int n) {
         int[] dp = new int[n + 1];
         for (int i = 1; i <= n; i++) {
-            if (isSquares(i))
+            if (isSquares(i)) {
                 dp[i] = 1;
-            else {
+            } else {
                 int c = search(i);
                 System.out.print(c+",");
                 dp[i] = dp[i - c] + dp[c];
             }
         }
-        for (int i = 1; i <= n; i++)
+        for (int i = 1; i <= n; i++) {
             System.out.print(dp[i] + " ");
+        }
         System.out.println();
         return dp[n];
     }
 
     public boolean isSquares(int n) {
         for (int i = 0; i <= n; i++) {
-            if (n == i * i)
+            if (n == i * i) {
                 return true;
+            }
 
         }
         return false;

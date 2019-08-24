@@ -5,10 +5,11 @@ public class _278 {
         int i = 1, j = n;
         while (i < j) {
             int mid = i + (j - i) / 2;
-            if (!isBadVersion(mid))
+            if (!isBadVersion(mid)) {
                 i = mid + 1;
-            else
+            } else {
                 j = mid;
+            }
         }
         return i;
     }

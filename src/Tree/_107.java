@@ -5,8 +5,9 @@ import java.util.*;
 public class _107 {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
-        if (root == null)
+        if (root == null) {
             return res;
+        }
         Queue<TreeNode> queue = new LinkedList<>();
         TreeNode p;
         queue.offer(root);

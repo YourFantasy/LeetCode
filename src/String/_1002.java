@@ -21,13 +21,15 @@ public class _1002 {
                     min = 0;
                     break;
                 }
-                if (count[j][i] < min)
+                if (count[j][i] < min) {
                     min = count[j][i];
+                }
             }
             if (min > 0) {
                 char ch = (char) ('a' + i);
-                for (int k = 0; k < min; k++)
+                for (int k = 0; k < min; k++) {
                     res.add("" + ch);
+                }
             }
         }
         return res;

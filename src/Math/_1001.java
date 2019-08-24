@@ -2,8 +2,9 @@ package Math;
 
 public class _1001 {
     public int bitwiseComplement(int N) {
-        if (N == 0)
+        if (N == 0) {
             return 1;
+        }
         int res = 0;
         int b = 1;
         while (N > 0) {

@@ -15,7 +15,7 @@ public class _151 {
         String[] strs = s.split(" ");
         StringBuilder res = new StringBuilder();
         for (int i = strs.length - 1; i >= 0; i--) {
-            if(!strs[i].equals("")){
+            if(!"".equals(strs[i])){
                 res.append(strs[i]);
                 res.append(" ");
             }

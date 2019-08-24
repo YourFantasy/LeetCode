@@ -15,8 +15,9 @@ public class _503 {
                 }
 
             }
-            if (flag == false)
+            if (flag == false) {
                 result[i] = -1;
+            }
         }
         return result;
     }

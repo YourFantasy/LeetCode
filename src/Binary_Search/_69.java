@@ -9,19 +9,23 @@ public class _69 {
     }
 
     public long mySqrt(int x) {
-        if (x == 0)
+        if (x == 0) {
             return 0;
-        if (x < 4)
+        }
+        if (x < 4) {
             return 1;
+        }
         long i = 0, j = x / 2;
         while (i <= j) {
             long mid = (i + j) / 2;
             long temp = mid * mid;
-            if (x == temp)
+            if (x == temp) {
                 return mid;
-            else if (x < temp) {
+            } else if (x < temp) {
                 j = mid - 1;
-            } else i = mid + 1;
+            } else {
+                i = mid + 1;
+            }
         }
         return j;
     }

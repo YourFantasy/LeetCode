@@ -28,18 +28,21 @@ public class _41 {
         int len = nums.length;
         int i = 0;
         while (i < len) {
-            if (nums[i] == i + 1)
+            if (nums[i] == i + 1) {
                 i++;
+            }
             if (i < len && nums[i] >= 1 && nums[i] <= len && nums[i] != nums[nums[i] - 1]) {
                 int temp = nums[i];
                 nums[i] = nums[nums[i] - 1];
                 nums[temp - 1] = temp;
-            } else
+            } else {
                 i++;
+            }
         }
         for (int j = 0; j < len; j++) {
-            if (nums[j] != j + 1)
+            if (nums[j] != j + 1) {
                 return j + 1;
+            }
         }
         return len + 1;
     }

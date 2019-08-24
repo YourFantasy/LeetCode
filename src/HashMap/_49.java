@@ -35,8 +35,9 @@ public class _49 {
         for (Map.Entry<String, List<Integer>> entry : map.entrySet()) {
             List<Integer> list = entry.getValue();
             List<String> temp = new ArrayList<>();
-            for (int index : list)
+            for (int index : list) {
                 temp.add(strs[index]);
+            }
             res.add(temp);
         }
         return res;
@@ -48,8 +49,9 @@ public class _49 {
             char[] ch = strs[i].toCharArray();
             Arrays.sort(ch);
             String str = String.valueOf(ch);
-            if (!map.containsKey(str))
+            if (!map.containsKey(str)) {
                 map.put(str, new ArrayList<>());
+            }
             map.get(str).add(strs[i]);
         }
         return new ArrayList<>(map.values());

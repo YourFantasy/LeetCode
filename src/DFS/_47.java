@@ -12,15 +12,18 @@ public class _47 {
     public void dfs(int[] nums, List<List<Integer>> res, int begin, int end) {
         List<Integer> temp = new ArrayList<>();//临时存储数组中的元素
         if (begin == end) {
-            for (int i = 0; i < nums.length; i++)
+            for (int i = 0; i < nums.length; i++) {
                 temp.add(nums[i]);
-            if (!res.contains(temp))
+            }
+            if (!res.contains(temp)) {
                 res.add(temp);
+            }
             return;
         }
         for (int i = begin; i <= end; i++) {
-            if(i!=begin&&nums[i]==nums[begin])
+            if(i!=begin&&nums[i]==nums[begin]) {
                 continue;
+            }
             swap(i, begin, nums);
             dfs(nums, res, begin + 1, end);
             swap(i, begin, nums);//一次全排列完成后需要将数组还原，所以再进行一次交换

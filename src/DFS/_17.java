@@ -14,27 +14,36 @@ public class _17 {
     public List<String> letterCombinations(String digits) {
         int n = digits.length();
         List<String> list = new ArrayList<>();
-        if (n == 0)
+        if (n == 0) {
             return list;
+        }
         String[] s = new String[n];
         for (int i = 0; i < n; i++) {
             int index = digits.charAt(i) - '2';
-            if (index == 0)
+            if (index == 0) {
                 s[i] = "abc";
-            if (index == 1)
+            }
+            if (index == 1) {
                 s[i] = "def";
-            if (index == 2)
+            }
+            if (index == 2) {
                 s[i] = "ghi";
-            if (index == 3)
+            }
+            if (index == 3) {
                 s[i] = "jkl";
-            if (index == 4)
+            }
+            if (index == 4) {
                 s[i] = "mno";
-            if (index == 5)
+            }
+            if (index == 5) {
                 s[i] = "pqrs";
-            if (index == 6)
+            }
+            if (index == 6) {
                 s[i] = "tuv";
-            if (index == 7)
+            }
+            if (index == 7) {
                 s[i] = "wxyz";
+            }
         }
         dfs(s, n, 0, list, "");
         return list;
@@ -45,7 +54,8 @@ public class _17 {
             list.add(temp);
             return;
         }
-        for (int j = 0; j < s[begin].length(); j++)
+        for (int j = 0; j < s[begin].length(); j++) {
             dfs(s, n, begin + 1, list, temp + s[begin].charAt(j));
+        }
     }
 }

@@ -14,12 +14,14 @@ public class _216 {
 
     public List<List<Integer>> combinationSum3(int k, int n) {
         List<List<Integer>> result = new ArrayList<>();
-        if (n < 1 || n < k)
+        if (n < 1 || n < k) {
             return result;
+        }
         List<Integer> temp = new ArrayList<>();
         dfs(k, n, 1, result, temp, 0);
-        for(int i=0;i<result.size();i++)
+        for(int i=0;i<result.size();i++) {
             System.out.println(result.get(i)+",");
+        }
         return result;
     }
 
@@ -32,8 +34,9 @@ public class _216 {
             }
             if (sum == n) {
                 result.add(new ArrayList<>(temp));
-                for (int i = 0; i < k; i++)
+                for (int i = 0; i < k; i++) {
                     System.out.print(temp.get(i) + ",");
+                }
                 System.out.println();
             }
             return;

@@ -13,10 +13,12 @@ public class _513 {
             result = queue.peek().val;
             for (int i = 0; i < len; i++) {
                 TreeNode p = queue.poll();
-                if (p.left != null)
+                if (p.left != null) {
                     queue.offer(p.left);
-                if (p.right != null)
+                }
+                if (p.right != null) {
                     queue.offer(p.right);
+                }
             }
         }
         return result;

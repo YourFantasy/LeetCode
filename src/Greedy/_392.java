@@ -7,11 +7,13 @@ public class _392 {
             if (s.charAt(i) == t.charAt(j)) {
                 i++;
                 j++;
-            } else
+            } else {
                 j++;
+            }
         }
-        if (i == s.length())
+        if (i == s.length()) {
             return true;
+        }
         return false;
     }
 }

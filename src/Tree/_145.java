@@ -8,8 +8,9 @@ public class _145 {
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
-        if (root != null)
+        if (root != null) {
             stack.push(root);
+        }
         TreeNode q = null;
         TreeNode p;
         while (!stack.isEmpty()) {
@@ -20,10 +21,12 @@ public class _145 {
                 stack.pop();
                 q = p;
             } else {
-                if (p.right != null)
+                if (p.right != null) {
                     stack.push(p.right);//右子树不为空，右子树入栈
-                if (p.left != null)
+                }
+                if (p.left != null) {
                     stack.push(p.left);//左子树不为空，左子树入栈
+                }
 
             }
         }

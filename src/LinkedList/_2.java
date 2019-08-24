@@ -22,10 +22,12 @@ public class _2 {
             tmp = (val1 + val2 + tmp) / 10;
             p.next = temp;
             p = temp;
-            if (p1 != null)
+            if (p1 != null) {
                 p1 = p1.next;
-            if (p2 != null)
+            }
+            if (p2 != null) {
                 p2 = p2.next;
+            }
 
         }
 

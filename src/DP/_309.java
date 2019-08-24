@@ -3,8 +3,9 @@ package DP;
 public class _309 {
     public int maxProfit(int[] prices) {
         int len = prices.length;
-        if (len == 0)
+        if (len == 0) {
             return 0;
+        }
         //三种状态对应的最大利润
         int[] n = new int[len];//该天没股票
         int[] s = new int[len];//该天有股票，已经卖出，此时没股票
@@ -22,8 +23,9 @@ public class _309 {
 
     public int maxProfit2(int[] prices) {
         int len = prices.length;
-        if (len == 0)
+        if (len == 0) {
             return 0;
+        }
         int n = 0;
         int s = -1;
         int m = -prices[0];

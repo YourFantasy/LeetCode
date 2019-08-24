@@ -6,10 +6,11 @@ public class _476 {
         int pow = 1;
         while (num > 0) {
             int temp = num % 2;
-            if (temp == 1)
+            if (temp == 1) {
                 temp = 0;
-            else
+            } else {
                 temp = 1;
+            }
             result += pow * temp;
             pow *= 2;
             num /= 2;

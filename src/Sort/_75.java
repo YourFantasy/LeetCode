@@ -27,14 +27,16 @@ public class _75 {
                 i++;
                 k++;
             }
-            while (k <= j && nums[k] == 1)
+            while (k <= j && nums[k] == 1) {
                 k++;
+            }
             while (k <= j && nums[k] == 2) {
                 int temp = nums[k];
                 nums[k] = nums[j];
                 nums[j] = temp;
-                if (nums[k] == 1)
+                if (nums[k] == 1) {
                     k++;
+                }
                 j--;
             }
         }

@@ -15,10 +15,12 @@ public class _817 {
             if (map.containsKey(p.val)) {
                 result += 1;
                 p = p.next;
-                while (p != null && map.containsKey(p.val))
+                while (p != null && map.containsKey(p.val)) {
                     p = p.next;
-            } else
+                }
+            } else {
                 p = p.next;
+            }
         }
         return result;
 

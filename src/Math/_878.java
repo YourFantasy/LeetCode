@@ -15,15 +15,17 @@ public class _878 {
         for (int i = Math.min(A, B); i < multiple; i++) {
             if (i % A == 0 || i % B == 0) {
                 N--;
-                if (N == 0)
+                if (N == 0) {
                     return i;
+                }
             }
 
         }
         int k = 0;
         for (int i = multiple; i < 2 * multiple; i++) {
-            if (i % A == 0 || i % B == 0)
+            if (i % A == 0 || i % B == 0) {
                 k++;
+            }
         }
         System.out.println(multiple);
         System.out.println(k);

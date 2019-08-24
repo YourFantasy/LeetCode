@@ -18,13 +18,15 @@ public class _134 {
             while (cnt <= len) {
                 System.out.print(sum + ",");
                 sum -= cost[(i + len + cnt) % len];
-                if (sum < 0)
+                if (sum < 0) {
                     break;
+                }
                 cnt++;
                 sum += gas[(i + cnt + len) % len];
             }
-            if (sum >= 0)
+            if (sum >= 0) {
                 return i;
+            }
         }
         return -1;
     }

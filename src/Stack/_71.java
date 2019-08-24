@@ -11,8 +11,9 @@ public class _71 {
     }
 
     public String simplifyPath(String path) {
-        if(path.equals("/.")||path.equals("/.."))
+        if("/.".equals(path)|| "/..".equals(path)) {
             return path;
+        }
         Stack<Character> stack = new Stack<>();
         stack.push('/');
         for (int i = 1; i < path.length(); i++) {
@@ -27,8 +28,9 @@ public class _71 {
                System.out.println("返回上一层");
                 int cnt = 0;
                 while (stack.size()>1&&(stack.peek() != '/' || cnt !=1)) {
-                    if (stack.pop() == '/')
+                    if (stack.pop() == '/') {
                         cnt++;
+                    }
                 }
                 continue;
             }if (ch == '/' && stack.peek() == '.') {
@@ -37,8 +39,9 @@ public class _71 {
             }
             System.out.println(stack);
         }
-        if (stack.size() > 1 && (stack.peek() == '/'||stack.peek()=='.'))
+        if (stack.size() > 1 && (stack.peek() == '/'||stack.peek()=='.')) {
             stack.pop();
+        }
         String res = "";
         while (!stack.isEmpty()) {
             res = stack.pop() + res;
@@ -57,8 +60,9 @@ public class _71 {
             }
         }
         StringBuilder sb = new StringBuilder("/");
-        for(int i=0; i<cur; i++)
+        for(int i=0; i<cur; i++) {
             sb.append(stack[i]).append("/");
+        }
         String s = sb.toString().substring(0, sb.length()-1);
         return s.length()==0?"/":s;
     }

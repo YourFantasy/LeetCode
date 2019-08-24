@@ -24,8 +24,9 @@ public class _131 {
             if (is_Palindrome(s,begin,i)) {
                 temp.add(s.substring(begin, i + 1));
                 dfs(s, res, temp, i + 1);
-                if (temp.size() > 0)
+                if (temp.size() > 0) {
                     temp.remove(temp.size() - 1);
+                }
             }
         }
         if (begin == s.length()) {
@@ -36,8 +37,9 @@ public class _131 {
 
     public boolean is_Palindrome(String str,int i,int j) {
         while (i < j) {
-            if (str.charAt(i) != str.charAt(j))
+            if (str.charAt(i) != str.charAt(j)) {
                 return false;
+            }
             i++;
             j--;
         }

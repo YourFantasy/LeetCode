@@ -11,8 +11,9 @@ public class _77 {
     }
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> result=new ArrayList<>();
-        if(n<1||n<k)
+        if(n<1||n<k) {
             return result;
+        }
         List<Integer> temp=new ArrayList<>();
         dfs(n,k,1,result,temp,0);
         return result;
@@ -20,8 +21,9 @@ public class _77 {
     public void dfs(int n, int k, int start, List<List<Integer>> result, List<Integer> temp, int size){
         if(size==k){
             result.add(new ArrayList<>(temp));//结果添加到rusult中
-            for(int i=0;i<k;i++)
+            for(int i=0;i<k;i++) {
                 System.out.print(temp.get(i)+",");
+            }
             System.out.println();
             return ;
         }

@@ -2,8 +2,9 @@ package LinkedList;
 
 public class _148 {
     public ListNode sortList(ListNode head) {
-        if (head == null || head.next == null)
+        if (head == null || head.next == null) {
             return head;
+        }
         ListNode mid = findMid(head);
         ListNode first = mid.next;
         mid.next = null;
@@ -28,8 +29,9 @@ public class _148 {
     }
 
     public ListNode findMid(ListNode head) {
-        if (head == null || head.next == null)
+        if (head == null || head.next == null) {
             return head;
+        }
         ListNode p = head, q = head;
         while (q.next != null && q.next.next != null) {
             p = p.next;

@@ -9,19 +9,22 @@ public class _33 {
         int i = 0, j = nums.length - 1;
         while (i <= j) {
             int mid = i + (j - i) / 2;
-            if (nums[mid] == target)
+            if (nums[mid] == target) {
                 return mid;
+            }
             if (nums[mid] < nums[j]) {
-                if (nums[mid] < target && target <= nums[j])
+                if (nums[mid] < target && target <= nums[j]) {
                     i = mid + 1;
-                else
+                } else {
                     j = mid - 1;
+                }
 
             } else {
-                if (nums[mid] > target && target >= nums[i])
+                if (nums[mid] > target && target >= nums[i]) {
                     j = mid - 1;
-                else
+                } else {
                     i = mid + 1;
+                }
             }
         }
         return -1;

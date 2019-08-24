@@ -3,8 +3,9 @@ package Array;
 public class _189 {
     public void rotate(int[] nums, int k) {
         int len = nums.length;
-        if (len == 0 || len == 1)
+        if (len == 0 || len == 1) {
             return;
+        }
         k = k % len;
         while (k > 0) {
             int temp = nums[0];
@@ -20,8 +21,9 @@ public class _189 {
 
     public void rotate2(int[] nums, int k) {
         int len = nums.length;
-        if (len == 1 || len == 0)
+        if (len == 1 || len == 0) {
             return;
+        }
         k = k % len;
         reverse(nums, 0, len - 1);
         reverse(nums, 0, k - 1);

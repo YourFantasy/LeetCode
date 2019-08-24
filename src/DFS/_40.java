@@ -23,15 +23,17 @@ public class _40 {
     }
 
     public void dfs(int[] condidates, List<List<Integer>> res, ArrayList<Integer> temp, int start, int target) {
-        if (target < 0)
+        if (target < 0) {
             return;
+        }
         if (target == 0) {
             res.add(new ArrayList<>(temp));
             return;
         }
         for (int i = start; i < condidates.length; i++) {
-            if (i > start && condidates[i] == condidates[i - 1])
+            if (i > start && condidates[i] == condidates[i - 1]) {
                 continue;
+            }
             temp.add(condidates[i]);
             dfs(condidates, res, temp, i + 1, target - condidates[i]);
                 temp.remove(temp.size() - 1);

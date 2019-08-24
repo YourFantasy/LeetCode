@@ -13,8 +13,9 @@ public class _347 {
         for (int i = 0; i < nums.length; i++) {
             if (!map.containsKey(nums[i])) {
                 map.put(nums[i], map.get(nums[i]) + 1);
-            } else
+            } else {
                 map.put(nums[i], 1);
+            }
         }
 
         return res;

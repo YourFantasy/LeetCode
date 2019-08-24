@@ -4,10 +4,12 @@ public class _52 {
     int res = 0;
 
     public int totalNQueens(int n) {
-        if (n == 1)
+        if (n == 1) {
             return 1;
-        if (n == 0)
+        }
+        if (n == 0) {
             return 0;
+        }
         int[] nums = new int[n];
         search(0, n, nums);
         return res;
@@ -27,8 +29,9 @@ public class _52 {
                     break;
                 }
             }
-            if (flag)
+            if (flag) {
                 search(n + 1, N, nums);
+            }
         }
     }
 }

@@ -14,8 +14,9 @@ public class _946 {
 
     public boolean validateStackSequences(int[] pushed, int[] popped) {
         int len = pushed.length;
-        if (len < 3)
+        if (len < 3) {
             return true;
+        }
         int i = 0, j = 0;
         Stack<Integer> stack = new Stack<>();
 
@@ -31,8 +32,9 @@ public class _946 {
             if (stack.peek() == popped[j]) {
                 stack.pop();
                 j++;
-            } else
+            } else {
                 break;
+            }
         }
         return stack.empty();
     }

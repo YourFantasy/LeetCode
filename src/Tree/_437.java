@@ -9,18 +9,21 @@ public class _437{
     }
 
     public void preorder(TreeNode root, int sum) {
-        if (root == null)
+        if (root == null) {
             return;
+        }
         dfs(root, sum);
         preorder(root.left, sum);
         preorder(root.right, sum);
     }
 
     public void dfs(TreeNode root, int sum) {
-        if (root == null)
+        if (root == null) {
             return;
-        if (root.val == sum)
+        }
+        if (root.val == sum) {
             cnt++;
+        }
         dfs(root.left, sum - root.val);
         dfs(root.right, sum - root.val);
     }

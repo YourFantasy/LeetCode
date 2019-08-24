@@ -24,24 +24,29 @@ public class _117 {
     }
 
     public Node connect(Node root) {
-        if (root == null)
+        if (root == null) {
             return null;
+        }
         Queue<Node> queue = new LinkedList<>();
         queue.offer(root);
         while (!queue.isEmpty()) {
             int len = queue.size();
             Node pre = queue.peek();
-            if (pre.left != null)
+            if (pre.left != null) {
                 queue.offer(pre.left);
-            if (pre.right != null)
+            }
+            if (pre.right != null) {
                 queue.offer(pre.right);
+            }
             queue.poll();
             for (int i = 1; i < len; i++) {
                 Node p = queue.poll();
-                if (p.left != null)
+                if (p.left != null) {
                     queue.offer(p.left);
-                if (p.right != null)
+                }
+                if (p.right != null) {
                     queue.offer(p.right);
+                }
                 pre.next = p;
                 pre = p;
             }

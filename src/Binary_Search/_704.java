@@ -6,12 +6,13 @@ public class _704 {
         while (i <= j) {
             int mid = (i + j) / 2;
             int midnums = nums[mid];
-            if (target == midnums)
+            if (target == midnums) {
                 return mid;
-            else if (target < midnums)
+            } else if (target < midnums) {
                 j = mid - 1;
-            else
+            } else {
                 i = mid + 1;
+            }
         }
         return -1;
     }

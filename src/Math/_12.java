@@ -21,8 +21,9 @@ public class _12 {
         int i=digits.length-1;
         while (num>0){
             int n=num/digits[i];
-            for (int j=0;j<n;j++)
+            for (int j=0;j<n;j++) {
                 res+=roman[i];
+            }
             num=num%digits[i];
             i--;
         }

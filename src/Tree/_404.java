@@ -10,8 +10,9 @@ public class _404 {
 
     public void sum(TreeNode root) {
         if (root != null) {
-            if (root.left != null && root.left.left == null && root.left.right == null)
+            if (root.left != null && root.left.left == null && root.left.right == null) {
                 result += root.left.val;
+            }
             sum(root.left);
             sum(root.right);
         }

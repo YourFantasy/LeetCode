@@ -24,10 +24,11 @@ public class _84 {
         int max = 0;
         int current;
         for (int i = 0; i <= n; i++) {
-            if (i==n)
+            if (i==n) {
                 current=-1;
-            else
+            } else {
                 current=heights[i];
+            }
             while (!stack.isEmpty() && current < heights[stack.peek()]) {
                 int height = heights[stack.pop()];
                 int width = stack.isEmpty() ? i : i - stack.peek() - 1;

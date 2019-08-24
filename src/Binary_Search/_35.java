@@ -9,8 +9,9 @@ public class _35 {
                 return mid;
             } else if (nums[mid] < target) {
                 i = mid + 1;
-            } else
+            } else {
                 j = mid - 1;
+            }
         }
         return i;
     }

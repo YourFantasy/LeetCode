@@ -3,8 +3,9 @@ package LinkedList;
 public class _23 {
     public ListNode mergeKLists(ListNode[] lists) {
         int len=lists.length;
-        if(len==0)
+        if(len==0) {
             return null;
+        }
         for(int i=0;i<len-1;i++){
             lists[i+1]=merge(lists[i],lists[i+1]);
         }

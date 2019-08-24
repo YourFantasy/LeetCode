@@ -6,8 +6,9 @@ public class _693 {
         n /= 2;
         while (n > 0) {
             int m = n % 2;
-            if (m == temp)
+            if (m == temp) {
                 return false;
+            }
             temp = m;
             n /= 2;
         }

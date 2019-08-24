@@ -19,8 +19,9 @@ public class _496 {
                     break;
                 }
             }
-            if (flag == false)
+            if (flag == false) {
                 result[i] = -1;
+            }
 
         }
         return result;

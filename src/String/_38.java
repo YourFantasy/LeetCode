@@ -9,8 +9,9 @@ public class _38 {
     }
 
     public String countAndSay(int n) {
-        if (n == 1)
+        if (n == 1) {
             return "1";
+        }
         String s = "1";
         for (int i = 2; i <= n; i++) {
             String temp = "";
@@ -22,8 +23,9 @@ public class _38 {
                     temp += tag;
                     cnt = 1;
                     tag = s.charAt(j);
-                } else
+                } else {
                     cnt++;
+                }
             }
             temp += cnt;
             temp += tag;

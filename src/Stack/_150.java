@@ -12,24 +12,29 @@ public class _150 {
     }
 
     public int evalRPN(String[] tokens) {
-        if (tokens.length == 1)
+        if (tokens.length == 1) {
             return Integer.parseInt(tokens[0]);
+        }
         Stack<String> stack = new Stack<>();
         for (int i = 0; i < tokens.length; i++) {
             String s = tokens[i];
-            if (stack.isEmpty() || (!s.equals("+") && !s.equals("-") && !s.equals("*") && !s.equals("/")))
+            if (stack.isEmpty() || (!"+".equals(s) && !"-".equals(s) && !"*".equals(s) && !"/".equals(s))) {
                 stack.push(s);
-            else {
+            } else {
                 int a = Integer.parseInt(stack.pop());
                 int b = Integer.parseInt(stack.pop());
-                if (s.equals("+"))
+                if ("+".equals(s)) {
                     stack.push((a + b) + "");
-                if (s.equals("-"))
+                }
+                if ("-".equals(s)) {
                     stack.push((b - a) + "");
-                if (s.equals("*"))
+                }
+                if ("*".equals(s)) {
                     stack.push((a * b) + "");
-                if (s.equals("/"))
+                }
+                if ("/".equals(s)) {
                     stack.push((b / a) + "");
+                }
             }
         }
         return Integer.parseInt(stack.peek());

@@ -12,18 +12,20 @@ public class _367 {
         System.out.println(isPerfectSquare(808201));
     }
     public boolean isPerfectSquare(int num) {
-        if (num == 0 || num == 1)
+        if (num == 0 || num == 1) {
             return true;
+        }
         long i = 0, j = num / 2;
         while (i <= j) {
             long mid = (i + j) / 2;
             long temp = mid * mid;
-            if (temp == num)
+            if (temp == num) {
                 return true;
-            else if (temp > num)
+            } else if (temp > num) {
                 j = mid - 1;
-            else
+            } else {
                 i = mid + 1;
+            }
         }
         return false;
     }

@@ -17,12 +17,14 @@ public class _55 {
     }
 
     public boolean canJump(int[] nums) {
-        if (nums.length <= 1)
+        if (nums.length <= 1) {
             return true;
+        }
         int max = 0;
         for (int i = 0; i < nums.length-1; i++) {
-            if (nums[i] == 0&&max<=i)
-                    return false;
+            if (nums[i] == 0&&max<=i) {
+                return false;
+            }
             max = Math.max(max, nums[i] + i);
 
         }

@@ -10,8 +10,9 @@ public class _287 {
     public void Test() {
         int n = 50;
         int[] nums1 = new int[n];
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < n; i++) {
             nums1[i] = (int) (Math.random() * n);
+        }
         int[] nums2 = nums1;
         System.out.println(findDuplicate1(nums1));
         System.out.println(findDuplicate2(nums2));
@@ -21,9 +22,9 @@ public class _287 {
         Map<Integer, Integer> map = new HashMap<>();
         int res = nums[0];
         for (int i = 1; i < nums.length; i++) {
-            if (!map.containsKey(nums[i]))
+            if (!map.containsKey(nums[i])) {
                 map.put(nums[i], i);
-            else {
+            } else {
                 res = nums[i];
                 break;
             }
@@ -39,8 +40,9 @@ public class _287 {
             if (index < 0) {
                 res = Math.abs(nums[i]);
                 break;
-            } else
+            } else {
                 nums[Math.abs(nums[i]) - 1] *= -1;
+            }
         }
         return res;
     }

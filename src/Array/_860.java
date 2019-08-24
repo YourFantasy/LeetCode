@@ -26,25 +26,26 @@ public class _860 {
 
             }
             if (money == 10) {
-                if (nums1 < 1)
+                if (nums1 < 1) {
                     return false;
-                else {
+                } else {
                     nums2++;
                     nums1--;
                 }
             }
             if (money == 20) {
-                if (nums1 < 1)
+                if (nums1 < 1) {
                     return false;
-                else {
-                    if (nums1 * 5 + nums2 * 10 < 15)
+                } else {
+                    if (nums1 * 5 + nums2 * 10 < 15) {
                         return false;
-                    else {
+                    } else {
                         if (nums2 > 0) {
                             nums2--;
                             nums1--;
-                        } else
+                        } else {
                             nums1 -= 3;
+                        }
                     }
                 }
             }

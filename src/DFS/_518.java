@@ -26,8 +26,9 @@ public class _518 {
     }
 
     public void dfs(int amount, int[] coins, int temp, int begin) {
-        if (temp > amount || begin >= coins.length)
+        if (temp > amount || begin >= coins.length) {
             return;
+        }
         if (temp == amount) {
             cnt++;
             return;
@@ -47,11 +48,13 @@ public class _518 {
     public int change2(int amount, int[] coins) {
         int[] dp = new int[amount + 1];
         dp[0] = 1;
-        for (int i = 0; i < coins.length; i++)
+        for (int i = 0; i < coins.length; i++) {
             for (int j = 1; j <= amount; j++) {
-                if (j >= coins[i])
+                if (j >= coins[i]) {
                     dp[j] += dp[j - coins[i]];
+                }
             }
+        }
         return dp[amount];
     }
 }

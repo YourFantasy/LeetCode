@@ -9,17 +9,19 @@ public class _350 {
         int[] res = new int[Math.min(nums1.length, nums2.length)];
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums1.length; i++) {
-            if (!map.containsKey(nums1[i]))
+            if (!map.containsKey(nums1[i])) {
                 map.put(nums1[i], 1);
-            else
+            } else {
                 map.put(nums1[i], map.get(nums1[i]) + 1);
+            }
         }
         int index = 0;
-        for (int j = 0; j < nums2.length; j++)
+        for (int j = 0; j < nums2.length; j++) {
             if (map.containsKey(nums2[j]) && map.get(nums2[j]) != 0) {
                 res[index++] = nums2[j];
                 map.put(nums2[j], map.get(nums2[j]) - 1);
             }
+        }
         return Arrays.copyOfRange(res, 0, index);
     }
 

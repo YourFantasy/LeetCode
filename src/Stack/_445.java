@@ -34,8 +34,9 @@ public class _445 {
             stack.push(sum % 10);
             m = sum / 10;
         }
-        if (m > 0)
+        if (m > 0) {
             stack.push(m);
+        }
         ListNode pre = new ListNode(-1);
         p = pre;
         while (!stack.isEmpty()) {

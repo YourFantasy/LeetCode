@@ -9,7 +9,9 @@ public class _100 {
                 isSameTree(p.left, q.left);
                 isSameTree(p.right, q.right);
 
-            } else flag = false;
+            } else {
+                flag = false;
+            }
         } else if ((p == null && q != null) || (p != null && q == null)) {
             flag = false;
         }

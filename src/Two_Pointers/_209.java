@@ -14,11 +14,14 @@ public class _209 {
                 sum -= nums[i];
                 i++;
             }
-            if (sum >= s) res = Math.min(res, j - i);
+            if (sum >= s) {
+                res = Math.min(res, j - i);
+            }
 
         }
-        if (res < nums.length + 1)
+        if (res < nums.length + 1) {
             return res;
+        }
         return 0;
     }
 }

@@ -8,8 +8,9 @@ public class _98 {
         List<Integer> temp = new ArrayList<>();
         inorder(root, temp);
         for (int i = 1; i < temp.size(); i++) {
-            if (temp.get(i) <= temp.get(i - 1))
+            if (temp.get(i) <= temp.get(i - 1)) {
                 return false;
+            }
         }
         return true;
     }

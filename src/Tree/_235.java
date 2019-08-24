@@ -9,12 +9,15 @@ public class _235 {
 //        TreeNode L = lowestCommonAncestor(root.left, p, q);
 //        TreeNode R = lowestCommonAncestor(root.right, p, q);
 //        return (L != null && R != null) ? root : (L != null) ? L : R;
-        if (root == null || p == null || q == null)
+        if (root == null || p == null || q == null) {
             return null;
-        if (root.val <= q.val && root.val >= p.val || root.val >= q.val && root.val <= p.val)
+        }
+        if (root.val <= q.val && root.val >= p.val || root.val >= q.val && root.val <= p.val) {
             return root;
-        if (root.val > q.val && root.val > p.val)
+        }
+        if (root.val > q.val && root.val > p.val) {
             return lowestCommonAncestor(root.left, p, q);
+        }
         return lowestCommonAncestor(root.right, p, q);
 
 

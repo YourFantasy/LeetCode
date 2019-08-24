@@ -30,8 +30,9 @@ public class _530 {
     public void inorder(TreeNode root) {
         if (root != null) {
             inorder(root.left);
-            if (pre >= 0)
+            if (pre >= 0) {
                 min = Math.min(min, root.val - pre);
+            }
             pre = root.val;
             inorder(root.right);
         }

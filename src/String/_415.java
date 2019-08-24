@@ -42,8 +42,9 @@ public class _415 {
             result = e + result;
             j--;
         }
-        if (temp > 0)
+        if (temp > 0) {
             result = temp + result;
+        }
         return result;
     }
 }

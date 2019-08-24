@@ -9,10 +9,12 @@ public class _101 {
     }
 
     public boolean isMirror(TreeNode left, TreeNode right) {
-        if (left == null && right == null)
+        if (left == null && right == null) {
             return true;
-        if (left == null || right == null)
+        }
+        if (left == null || right == null) {
             return false;
+        }
         return (left.val == right.val) && isMirror(left.right, right.left) && isMirror(left.left, right.right);
     }
 

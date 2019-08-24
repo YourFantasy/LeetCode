@@ -32,10 +32,11 @@ public class _1011 {
                     total = weights[i];
                 }
             }
-            if (cnt < D)
+            if (cnt < D) {
                 sum = mid - 1;
-            else
+            } else {
                 max = mid + 1;
+            }
         }
         return max;
     }

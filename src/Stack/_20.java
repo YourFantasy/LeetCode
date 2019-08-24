@@ -19,23 +19,25 @@ public class _20 {
                 if (ch == '(' || ch == '{' || ch == '[') {
                     stack.push(s.charAt(i));
                 } else {
-                    if ((!stack.empty()) && is_Pair(stack.peek(), ch))
+                    if ((!stack.empty()) && is_Pair(stack.peek(), ch)) {
                         stack.pop();
-                    else {
+                    } else {
                         flag = false;
                         return flag;
                     }
 
                 }
             }
-            if (!stack.empty())
+            if (!stack.empty()) {
                 flag = false;
+            }
             return flag;
     }
 
     boolean is_Pair(char ch1, char ch2) {
-        if (ch1 == '(' && ch2 == ')' || ch1 == '{' && ch2 == '}' || ch1 == '[' && ch2 == ']')
+        if (ch1 == '(' && ch2 == ')' || ch1 == '{' && ch2 == '}' || ch1 == '[' && ch2 == ']') {
             return true;
+        }
         return false;
     }
 }

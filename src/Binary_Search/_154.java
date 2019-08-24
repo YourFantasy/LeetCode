@@ -9,12 +9,13 @@ public class _154 {
         int i = 0, j = nums.length - 1;
         while (i < j) {
             int mid = i + (j - i) / 2;
-            if (nums[mid] > nums[j])
+            if (nums[mid] > nums[j]) {
                 i = mid + 1;
-            else if (nums[mid] < nums[j])
+            } else if (nums[mid] < nums[j]) {
                 j = mid;
-            else
+            } else {
                 j -= 1;
+            }
         }
         return nums[i];
     }

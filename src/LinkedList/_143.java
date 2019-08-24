@@ -12,8 +12,9 @@ package LinkedList;
  */
 public class _143 {
     public void reorderList(ListNode head) {
-        if (head == null)
+        if (head == null) {
             return;
+        }
         ListNode mid = head, p = head;
         while (p != null && p.next != null) {
             mid = mid.next;

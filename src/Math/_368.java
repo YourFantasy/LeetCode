@@ -15,8 +15,9 @@ public class _368 {
 
     public List<Integer> largestDivisibleSubset(int[] nums) {
         List<Integer> res = new ArrayList<>();
-        if (nums.length == 0)
+        if (nums.length == 0) {
             return res;
+        }
         Arrays.sort(nums);
         int[] dp = new int[nums.length];
         int[] index = new int[nums.length];

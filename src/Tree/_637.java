@@ -24,8 +24,9 @@ public class _637 {
 
     public List<Double> averageOfLevels(TreeNode root) {
         List<Double> result = new ArrayList<>();
-        if (root == null)
+        if (root == null) {
             return result;
+        }
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
         while (!queue.isEmpty()) {
@@ -34,11 +35,13 @@ public class _637 {
             for (int i = 0; i < num; i++) {
                 TreeNode p = queue.poll();
                 temp += p.val;
-                if (p.left != null)
+                if (p.left != null) {
                     queue.offer(p.left);
+                }
 
-                if (p.right != null)
+                if (p.right != null) {
                     queue.offer(p.right);
+                }
             }
             result.add(temp / num);
         }

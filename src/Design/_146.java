@@ -18,8 +18,9 @@ public class _146 {
 
         public int get(int key) {
             Integer temp = map.get(key);
-            if (temp == null)
+            if (temp == null) {
                 return -1;
+            }
             list.remove( key);
             list.add(key);
             return temp;

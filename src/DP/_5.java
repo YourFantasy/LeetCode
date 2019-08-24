@@ -18,8 +18,9 @@ public class _5 {
      */
     public String longestPalindrome(String s) {
         int len = s.length();
-        if (len < 2)
+        if (len < 2) {
             return s;
+        }
         int maxlen = 1, begin = 0;
         boolean[][] dp = new boolean[len + 1][len + 1];
         for (int i = 0; i < len + 1; i++) {
@@ -30,7 +31,7 @@ public class _5 {
                 maxlen = 2;
             }
         }
-        for (int l = 2; l < len; l++)
+        for (int l = 2; l < len; l++) {
             for (int i = 0; i < len - l; i++) {
                 if (s.charAt(i) == s.charAt(i + l)) {
                     dp[i][i + l] = dp[i + 1][i + l - 1];
@@ -40,6 +41,7 @@ public class _5 {
                     }
                 }
             }
+        }
         return s.substring(begin, begin + maxlen);
     }
 

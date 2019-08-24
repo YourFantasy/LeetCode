@@ -12,16 +12,18 @@ public class _60 {
         String s = "";
         int[] nums = new int[10];
         nums[0] = 1;
-        for (int i = 1; i < nums.length; i++)
+        for (int i = 1; i < nums.length; i++) {
             nums[i] = i * nums[i - 1];
+        }
         boolean[] flag = new boolean[n + 1];
         int cnt = n;
         while (cnt > 0) {
             int level = (k - 1) / nums[cnt - 1] + 1;
             int j = 0, i = 0;
             while (j < level) {
-                if (!flag[++i])
+                if (!flag[++i]) {
                     j++;
+                }
             }
             s += i;
             k -= (level - 1) * nums[cnt - 1];

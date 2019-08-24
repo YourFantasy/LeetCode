@@ -8,17 +8,18 @@ public class _32 {
         int begin = 0;
         Stack<Integer> stack = new Stack<>();
         for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == '(')
+            if (s.charAt(i) == '(') {
                 stack.push(i);
-            else {
-                if (stack.isEmpty())
+            } else {
+                if (stack.isEmpty()) {
                     begin = i + 1;
-                else {
+                } else {
                     stack.pop();
-                    if (stack.isEmpty())
+                    if (stack.isEmpty()) {
                         cnt = Math.max(cnt, i - begin + 1);
-                    else
+                    } else {
                         cnt = Math.max(cnt, i - stack.peek());
+                    }
                 }
             }
 

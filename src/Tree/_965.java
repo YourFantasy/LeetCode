@@ -11,8 +11,9 @@ public class _965 {
 
     public void Perse(TreeNode root, int target) {
         if (root != null) {
-            if (root.val != target)
+            if (root.val != target) {
                 flag = false;
+            }
             Perse(root.right, target);
             Perse(root.left, target);
         }

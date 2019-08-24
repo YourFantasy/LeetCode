@@ -26,15 +26,17 @@ public class _508 {
     }
 
     public int sum(TreeNode root, Map<Integer, Integer> map) {
-        if (root == null)
+        if (root == null) {
             return 0;
+        }
         int left = sum(root.left, map);
         int right = sum(root.right, map);
         int s = root.val + left + right;
         if (map.containsKey(s)) {
             map.put(s, map.get(s) + 1);
-        } else
+        } else {
             map.put(s, 1);
+        }
         max = Math.max(max, map.get(s));
         return s;
     }

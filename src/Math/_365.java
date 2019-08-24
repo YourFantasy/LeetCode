@@ -2,13 +2,16 @@ package Math;
 
 public class _365 {
     public boolean canMeasureWater(int x, int y, int z) {
-        if (x + y < z)
+        if (x + y < z) {
             return false;
-        if (x + y + z == 0)
+        }
+        if (x + y + z == 0) {
             return true;
+        }
         int m = get_divisor(x, y);
-        if (z % m == 0)
+        if (z % m == 0) {
             return true;
+        }
         return false;
     }
 

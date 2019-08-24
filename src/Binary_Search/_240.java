@@ -16,12 +16,13 @@ public class _240 {
             int left = 0, right = matrix[i].length - 1;
             while (left <= right) {
                 int mid = left + (right - left) / 2;
-                if (target == matrix[i][mid])
+                if (target == matrix[i][mid]) {
                     return true;
-                else if (target < matrix[i][mid])
+                } else if (target < matrix[i][mid]) {
                     right = mid - 1;
-                else
+                } else {
                     left = mid + 1;
+                }
             }
         }
         return false;
@@ -39,16 +40,18 @@ public class _240 {
      * @return
      */
     public boolean searchMatrix2(int[][] matrix, int target) {
-        if (matrix.length == 0)
+        if (matrix.length == 0) {
             return false;
+        }
         int i = 0, j = matrix[0].length - 1;
         while (i < matrix.length && j >= 0) {
-            if (target == matrix[i][j])
+            if (target == matrix[i][j]) {
                 return true;
-            else if (target < matrix[i][j])
+            } else if (target < matrix[i][j]) {
                 j--;
-            else
+            } else {
                 i++;
+            }
         }
         return false;
     }

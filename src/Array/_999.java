@@ -14,8 +14,9 @@ public class _999 {
                     break;
                 }
             }
-            if (flag)
+            if (flag) {
                 break;
+            }
         }
         int cnt = 0;
         int i = x - 1, j = x + 1;

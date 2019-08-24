@@ -18,8 +18,9 @@ public class _413 {
     }
 
     public int numberOfArithmeticSlices(int[] A) {
-        if (A.length < 3)
+        if (A.length < 3) {
             return 0;
+        }
         int[] dp = new int[A.length];
         int d = A[1] - A[0];
         int len = 2;

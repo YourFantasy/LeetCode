@@ -30,8 +30,9 @@ public class _67 {
             temp = (B + temp) / 2;
             j--;
         }
-        if (temp > 0)
+        if (temp > 0) {
             result = temp + result;
+        }
         return result;
     }
 }

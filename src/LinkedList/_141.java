@@ -6,8 +6,9 @@ public class _141 {
         while (R != null && R.next != null) {
             L = L.next;
             R = R.next.next;
-            if (R != null && (R == L || L == R.next))
+            if (R != null && (R == L || L == R.next)) {
                 return true;
+            }
         }
         return false;
 

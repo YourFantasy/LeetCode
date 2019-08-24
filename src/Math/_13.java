@@ -66,8 +66,9 @@ public class _13 {
                 continue;
             }
         }
-        if (i == s.length() - 1)
+        if (i == s.length() - 1) {
             res += map.get(s.charAt(i));
+        }
         return res;
     }
 }

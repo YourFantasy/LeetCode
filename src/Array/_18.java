@@ -34,15 +34,17 @@ public class _18 {
                         temp.add(nums[j]);
                         temp.add(nums[low]);
                         temp.add(nums[high]);
-                        if (!res.contains(temp))
+                        if (!res.contains(temp)) {
                             res.add(temp);
+                        }
                         low++;
                         high--;
                         continue;
-                    } else if (sum < target)
+                    } else if (sum < target) {
                         low++;
-                    else
+                    } else {
                         high--;
+                    }
                 }
             }
         }

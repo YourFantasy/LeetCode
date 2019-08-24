@@ -11,8 +11,9 @@ public class _22 {
     }
 
     public void dfs(int n, List<String> res, int cnt1, int cnt2, String temp) {
-        if (cnt1 > n || cnt2 > n)
+        if (cnt1 > n || cnt2 > n) {
             return;
+        }
         if (cnt1 == n && cnt2 == n) {
             res.add(temp);
             return;

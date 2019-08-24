@@ -13,8 +13,9 @@ public class _110 {
             int left = depth(root.left);
             int right = depth(root.right);
             if (flag) {
-                if (Math.abs(left - right) > 1)
+                if (Math.abs(left - right) > 1) {
                     flag = false;
+                }
             }
             return Math.max(left, right) + 1;
         }

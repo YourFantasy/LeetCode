@@ -17,10 +17,11 @@ public class _51 {
         for (int i = 0; i < n; i++) {
             String s = "";
             for (int j = 0; j < n; j++) {
-                if (j == nums[i])
+                if (j == nums[i]) {
                     s += "Q";
-                else
+                } else {
                     s += ".";
+                }
 
             }
             temp.add(s);
@@ -43,8 +44,9 @@ public class _51 {
                     break;
                 }
             }
-            if (flag)
+            if (flag) {
                 search(res, n + 1, N, nums);
+            }
         }
     }
 }

@@ -13,16 +13,19 @@ public class _896 {
                 break;
             }
         }
-        if (flag == 0)
+        if (flag == 0) {
             return true;
+        }
         for (int i = 1; i < A.length; i++) {
             if (flag == -1) {
-                if (A[i] > A[i - 1])
+                if (A[i] > A[i - 1]) {
                     return false;
+                }
             }
             if (flag == 1) {
-                if (A[i] < A[i - 1])
+                if (A[i] < A[i - 1]) {
                     return false;
+                }
             }
         }
         return true;

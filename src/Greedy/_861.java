@@ -21,12 +21,14 @@ public class _861 {
         int m = A.length;
         int n = A[0].length;
         for (int j = 0; j < m; j++) {
-            if (A[j][0] == 0)
+            if (A[j][0] == 0) {
                 reverse_row(A, j);
+            }
         }
         for (int i = 1; i < n; i++) {
-            if (column_sum(A, i) < (m + 1) / 2)
+            if (column_sum(A, i) < (m + 1) / 2) {
                 reverse_column(A, i);
+            }
         }
         for (int i = 0; i < m; i++) {
             int temp = 0, x = 1;
@@ -41,18 +43,21 @@ public class _861 {
 
     int column_sum(int[][] A, int column) {
         int res = 0;
-        for (int i = 0; i < A.length; i++)
+        for (int i = 0; i < A.length; i++) {
             res += A[i][column];
+        }
         return res;
     }
 
     void reverse_row(int[][] A, int row) {
-        for (int i = 0; i < A[0].length; i++)
+        for (int i = 0; i < A[0].length; i++) {
             A[row][i] = (A[row][i] + 1) % 2;
+        }
     }
 
     void reverse_column(int[][] A, int column) {
-        for (int i = 0; i < A.length; i++)
+        for (int i = 0; i < A.length; i++) {
             A[i][column] = (A[i][column] + 1) % 2;
+        }
     }
 }

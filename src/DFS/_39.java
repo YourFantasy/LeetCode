@@ -12,8 +12,9 @@ public class _39 {
         int[] nums = new int[16];
         for (int i = 0; i < 16; i++) {
             nums[i] = (int) (Math.random() * 20);
-            if (nums[i] == 0)
+            if (nums[i] == 0) {
                 nums[i] = i;
+            }
         }
 
         combinationSum(nums, 12);
@@ -22,8 +23,9 @@ public class _39 {
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> result = new ArrayList<>();
-        if (candidates.length < 1)
+        if (candidates.length < 1) {
             return result;
+        }
         List<Integer> temp = new ArrayList<>();
         dfs(result, temp, target, candidates, 0);
         System.out.println(result);
@@ -31,11 +33,13 @@ public class _39 {
     }
 
     public void dfs(List<List<Integer>> result, List<Integer> temp, int target, int[] condidates, int start) {
-        if (target < 0)
+        if (target < 0) {
             return;
+        }
         if (target == 0) {
-            if (!result.contains(temp))
+            if (!result.contains(temp)) {
                 result.add(new ArrayList<>(temp));
+            }
             //result.add(temp);
             return;
         }
@@ -43,8 +47,9 @@ public class _39 {
 
             temp.add(condidates[i]);
             dfs(result, temp, target - condidates[i], condidates, i);
-            if (temp.size() > 0)
+            if (temp.size() > 0) {
                 temp.remove(temp.size() - 1);
+            }
         }
     }
 }

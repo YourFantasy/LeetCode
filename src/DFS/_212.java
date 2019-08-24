@@ -8,23 +8,28 @@ public class _212 {
         List<String> res = new ArrayList<>();
         int m = board.length;
         int n = board[0].length;
-        for (int i = 0; i < m; i++)
+        for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 for (int k = 0; k < words.length; k++) {
-                    if (dfs(board, i, j, m, n, words[k], 0))
+                    if (dfs(board, i, j, m, n, words[k], 0)) {
                         res.add(words[k]);
+                    }
                 }
             }
+        }
         return res;
     }
 
     boolean dfs(char[][] board, int i, int j, int m, int n, String word, int cnt) {
-        if (i >= m || i < 0 || j >= n || j < 0 || cnt >= word.length())
+        if (i >= m || i < 0 || j >= n || j < 0 || cnt >= word.length()) {
             return false;
-        if (word.charAt(cnt) != board[i][j])
+        }
+        if (word.charAt(cnt) != board[i][j]) {
             return false;
-        if (cnt == word.length())
+        }
+        if (cnt == word.length()) {
             return true;
+        }
         char temp = board[i][j];
         board[i][j] = '*';
         boolean res = dfs(board, i + 1, j, m, n, word, cnt + 1) || dfs(board, i - 1, j, m, n, word, cnt + 1) || dfs(board, i, j + 1, m, n, word, cnt + 1) || dfs(board, i, j - 1, m, n, word, cnt + 1);

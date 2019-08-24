@@ -9,8 +9,9 @@ public class _230 {
     public void Inorder(TreeNode root,int k){
         if(root!=null){
             Inorder(root.left,k);
-            if(cnt==k)
+            if(cnt==k) {
                 result=root.val;
+            }
             cnt++;
             Inorder(root.right,k);
         }

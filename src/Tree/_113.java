@@ -12,11 +12,13 @@ public class _113{
     }
 
     public void dfs(List<List<Integer>> res, List<Integer> temp, TreeNode root, int sum) {
-        if (root == null)
+        if (root == null) {
             return;
+        }
         temp.add(root.val);
-        if (root.left == null && root.right == null && sum == root.val)
+        if (root.left == null && root.right == null && sum == root.val) {
             res.add(new ArrayList<>(temp));
+        }
         dfs(res, temp, root.left, sum - root.val);
         dfs(res, temp, root.right, sum - root.val);
         temp.remove(temp.size() - 1);

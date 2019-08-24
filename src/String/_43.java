@@ -3,8 +3,9 @@ package String;
 public class _43 {
     public String multiply(String s1, String s2) {
         String res = "";
-        if (s1.equals("0") || s2.equals("0"))
+        if ("0".equals(s1) || "0".equals(s2)) {
             return "0";
+        }
         int len1 = s1.length();
         int len2 = s2.length();
         int cnt = 0;
@@ -17,8 +18,9 @@ public class _43 {
                 temp = (m * n + a) % 10 + temp;
                 a = (m * n + a) / 10;
             }
-            if (a > 0)
+            if (a > 0) {
                 temp = a + temp;
+            }
             //System.out.print(temp + ",");
             res = sum(res, temp, cnt++);
             //System.out.println();
@@ -29,8 +31,9 @@ public class _43 {
 
     public static String sum(String s1, String s2, int cnt) {
         String res = "";
-        for (int i = s1.length() - cnt; i < s1.length(); i++)
+        for (int i = s1.length() - cnt; i < s1.length(); i++) {
             res = res + s1.charAt(i);
+        }
         int a = 0;
         int i = s1.length() - cnt - 1, j = s2.length() - 1;
         while (i >= 0 && j >= 0) {
@@ -55,8 +58,9 @@ public class _43 {
             j--;
 
         }
-        if (a > 0)
+        if (a > 0) {
             res = a + res;
+        }
         return res;
     }
 }

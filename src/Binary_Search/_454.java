@@ -10,19 +10,22 @@ public class _454 {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 int total = A[i] + B[j];
-                if (!map.containsKey(total))
+                if (!map.containsKey(total)) {
                     map.put(total, 1);
-                else
+                } else {
                     map.put(A[i] + B[j], map.get(total) + 1);
+                }
             }
         }
         int cnt = 0;
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 int sum = -(C[i] + D[j]);
-                if (map.containsKey(sum))
+                if (map.containsKey(sum)) {
                     cnt += map.get(sum);
+                }
             }
+        }
         return cnt;
     }
 }

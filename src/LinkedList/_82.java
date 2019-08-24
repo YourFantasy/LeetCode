@@ -11,8 +11,9 @@ public class _82 {
             boolean flag = false;
             while (p.next != null && p.next.val == target) {
                 p = p.next;
-                if (!flag)
+                if (!flag) {
                     flag = true;
+                }
             }
             if (flag) {
                 pre.next = p.next;

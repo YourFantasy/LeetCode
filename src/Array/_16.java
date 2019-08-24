@@ -18,14 +18,16 @@ public class _16 {
             int high = nums.length - 1;
             while (low < high) {
                 int sum = nums[i] + nums[low] + nums[high];
-                if (sum == target)
+                if (sum == target) {
                     return sum;
-                else if (sum < target)
+                } else if (sum < target) {
                     low++;
-                else
+                } else {
                     high--;
-                if (Math.abs(result - target) > Math.abs(sum - target))
+                }
+                if (Math.abs(result - target) > Math.abs(sum - target)) {
                     result = sum;
+                }
             }
         }
         return result;

@@ -11,8 +11,9 @@ public class _991{
 
     public int brokenCalc(int X, int Y) {
         int cnt = 0;
-        if (Y <= X)
+        if (Y <= X) {
             return X - Y;
+        }
         while (X < Y) {
             if (Y % 2 == 0) {
                 Y /= 2;

@@ -12,17 +12,18 @@ public class _14 {
     public String longestCommonPrefix(String[] strs) {
         String s = "";
 
-        if (strs.length == 0)
+        if (strs.length == 0) {
             return s;
+        }
 
         int len = strs.length;
         int maxlength = strs[0].length();
         for (int i = 1; i < len; i++) {
             int cnt = 0;
             for (int j = 0; j < Math.min(strs[i].length(), maxlength); j++) {
-                if (strs[i - 1].charAt(j) != strs[i].charAt(j))
+                if (strs[i - 1].charAt(j) != strs[i].charAt(j)) {
                     break;
-                else {
+                } else {
                     cnt++;
                 }
 

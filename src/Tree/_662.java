@@ -14,8 +14,9 @@ public class _662 {
     }
 
     public int widthOfBinaryTree(TreeNode root) {
-        if (root == null)
+        if (root == null) {
             return 0;
+        }
         int res = 1;
         Queue<TreeNode> queue = new LinkedList<>();
         Map<TreeNode, Integer> map = new HashMap<>();
@@ -28,10 +29,12 @@ public class _662 {
             for (int i = 0; i < len; i++) {
                 p = queue.peek();
                 queue.poll();
-                if (i == 0)
+                if (i == 0) {
                     left = map.get(p);
-                if (i == len - 1)
+                }
+                if (i == len - 1) {
                     right = map.get(p);
+                }
                 if (p.left != null) {
                     queue.offer(p.left);
                     map.put(p.left, 2 * map.get(p));

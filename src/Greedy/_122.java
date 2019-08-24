@@ -2,8 +2,9 @@ package Greedy;
 
 public class _122 {
     public int maxProfit(int[] prices) {
-        if (prices.length == 0)
+        if (prices.length == 0) {
             return 0;
+        }
         int min = prices[0], max = prices[0];
         int res = 0;
         for (int i = 1; i < prices.length; i++) {
@@ -15,8 +16,9 @@ public class _122 {
                 min = prices[i];
             }
         }
-        if (max != min)
+        if (max != min) {
             res += max - min;
+        }
         return res;
     }
 }
