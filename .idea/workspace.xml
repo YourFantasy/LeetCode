@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AnalysisUIOptions">
-    <option name="SPLITTER_PROPORTION" value="0.6900149" />
+    <option name="SPLITTER_PROPORTION" value="0.3718331" />
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
@@ -453,11 +453,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="803" />
-  </component>
   <component name="ProjectId" id="1Pb9aTjYgfXL1w5GNBbUb7DJp0B" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -852,7 +847,8 @@
       <workItem from="1566539632679" duration="2334000" />
       <workItem from="1566560389769" duration="1240000" />
       <workItem from="1566612345268" duration="456000" />
-      <workItem from="1566614515371" duration="884000" />
+      <workItem from="1566614515371" duration="1690000" />
+      <workItem from="1566701824245" duration="637000" />
     </task>
     <servers />
   </component>

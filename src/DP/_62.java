@@ -9,9 +9,6 @@ public class _62 {
 
     @Test
     public void Test() {
-        Scanner input = new Scanner(System.in);
-        /*int m = input.nextInt();
-        int n = input.nextByte();*/
         int m = 7;
         int n = 5;
         System.out.println(uniquePaths(m, n));

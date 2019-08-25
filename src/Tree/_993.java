@@ -19,7 +19,6 @@ public class _993 {
         TreeNode p;
         while (!queue.isEmpty()) {
             int len = queue.size();
-            List<Integer> list = new ArrayList<>();
             boolean flag1 = false, flag2 = false;
             for (int i = 0; i < len; i++) {
                 p = queue.poll();
@@ -29,7 +28,6 @@ public class _993 {
                 if (!flag2 && p.val == y) {
                     flag2 = true;
                 }
-                list.add(p.val);
                 if (p.left != null) {
                     queue.offer(p.left);
                     map.put(p.left.val, map.get(p.val) * 2);
