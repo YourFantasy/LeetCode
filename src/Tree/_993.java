@@ -9,37 +9,26 @@ import java.util.*;
  */
 public class _993 {
     public boolean isCousins(TreeNode root, int x, int y) {
-        if (root == null || root.left == null && root.right == null) {
-            return false;
-        }
         Queue<TreeNode> queue = new LinkedList<>();
-        Map<Integer, Integer> map = new HashMap<>();
         queue.offer(root);
-        map.put(root.val, 1);
         TreeNode p;
         while (!queue.isEmpty()) {
+            int index = -1;
             int len = queue.size();
-            boolean flag1 = false, flag2 = false;
             for (int i = 0; i < len; i++) {
                 p = queue.poll();
-                if (!flag1 && p.val == x) {
-                    flag1 = true;
+                if (p == null) {
+                    continue;
                 }
-                if (!flag2 && p.val == y) {
-                    flag2 = true;
+                if (p.val == x || p.val == y) {
+                    if (index == -1) {
+                        index = i;
+                    } else {
+                        return index % 2 == 1 || i - index > 1;
+                    }
                 }
-                if (p.left != null) {
-                    queue.offer(p.left);
-                    map.put(p.left.val, map.get(p.val) * 2);
-                }
-                if (p.right != null) {
-                    queue.offer(p.right);
-                    map.put(p.right.val, map.get(p.val) * 2 + 1);
-                }
-            }
-            boolean flag = flag1 && flag2 && (Math.abs(map.get(x) - map.get(y)) != 1);
-            if (flag) {
-                return true;
+                queue.offer(p.left);
+                queue.offer(p.right);
             }
         }
         return false;
