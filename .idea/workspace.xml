@@ -492,7 +492,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._151.test">
+  <component name="RunManager" selected="JUnit.Math in LeetCode">
     <configuration name="Singleton1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SIngleton.Singleton1" />
       <module name="LeetCode" />
@@ -519,6 +519,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Math in LeetCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Math" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_151.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -529,22 +543,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="String" />
       <option name="MAIN_CLASS_NAME" value="String._151" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_373.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Array" />
-      <option name="MAIN_CLASS_NAME" value="Array._373" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -569,11 +567,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Math in LeetCode" />
         <item itemvalue="JUnit._151.test" />
         <item itemvalue="JUnit._46.test" />
         <item itemvalue="Application.Singleton2" />
         <item itemvalue="Application.Singleton1" />
-        <item itemvalue="JUnit._373.test" />
       </list>
     </recent_temporary>
   </component>
@@ -848,7 +846,11 @@
       <workItem from="1566560389769" duration="1240000" />
       <workItem from="1566612345268" duration="456000" />
       <workItem from="1566614515371" duration="1690000" />
-      <workItem from="1566701824245" duration="2859000" />
+      <workItem from="1566701824245" duration="5178000" />
+      <workItem from="1566785745742" duration="4752000" />
+      <workItem from="1566883458186" duration="2100000" />
+      <workItem from="1567071884482" duration="597000" />
+      <workItem from="1567915998704" duration="2679000" />
     </task>
     <servers />
   </component>
