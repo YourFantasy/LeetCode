@@ -3,9 +3,9 @@ package Design;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class _225 {
-    Queue<Integer> queue1;
-    Queue<Integer> queue2;
+class _225 {
+    private Queue<Integer> queue1;
+    private Queue<Integer> queue2;
 
     public _225() {
         queue1 = new LinkedList<>();

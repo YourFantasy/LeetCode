@@ -3,7 +3,7 @@ package Tree;
 import java.util.ArrayList;
 import java.util.List;
 
-public class _113{
+class _113{
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
         List<List<Integer>> res = new ArrayList<>();
         List<Integer> temp = new ArrayList<>();
@@ -11,7 +11,7 @@ public class _113{
         return res;
     }
 
-    public void dfs(List<List<Integer>> res, List<Integer> temp, TreeNode root, int sum) {
+    private void dfs(List<List<Integer>> res, List<Integer> temp, TreeNode root, int sum) {
         if (root == null) {
             return;
         }

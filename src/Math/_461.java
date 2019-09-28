@@ -1,6 +1,6 @@
 package Math;
 
-public class _461 {
+class _461 {
     public int hammingDistance(int x, int y) {
         int c = x ^ y;
         int cnt = 0;

@@ -1,6 +1,6 @@
 package Binary_Search;
 
-public class _153 {
+class _153 {
     public int findMin1(int[] nums) {
         int i = 0, j = nums.length - 1;
         if (nums[j] > nums[i]) {

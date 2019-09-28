@@ -1,14 +1,14 @@
 package Tree;
 
-public class _110 {
-    boolean flag = true;
+class _110 {
+    private boolean flag = true;
 
     public boolean isBalanced(TreeNode root) {
         depth(root);
         return flag;
     }
     //在求树的高度的时候顺便判断是否为平衡二叉树
-    int depth(TreeNode root) {
+    private int depth(TreeNode root) {
         if (root != null) {
             int left = depth(root.left);
             int right = depth(root.right);

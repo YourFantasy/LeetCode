@@ -1,6 +1,6 @@
 package Tree;
 
-public class _1008 {
+class _1008 {
     public TreeNode bstFromPreorder(int[] preorder) {
         if (preorder.length == 0) {
             return null;
@@ -12,7 +12,7 @@ public class _1008 {
         return res;
     }
 
-    TreeNode pre_order(TreeNode root, int val) {
+    private TreeNode pre_order(TreeNode root, int val) {
         if (root != null) {
             if (root.val > val) {
                 root.left = pre_order(root.left, val);

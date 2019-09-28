@@ -1,6 +1,6 @@
 package Binary_Search;
 
-public class _81 {
+class _81 {
     public boolean search(int[] nums, int target) {
         int i = 0, j = nums.length - 1;
         while (i <= j) {

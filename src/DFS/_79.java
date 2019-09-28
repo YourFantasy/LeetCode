@@ -1,6 +1,6 @@
 package DFS;
 
-public class _79 {
+class _79 {
     public boolean exist(char[][] board, String word) {
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[0].length; j++) {
@@ -12,7 +12,7 @@ public class _79 {
         return false;
     }
 
-    boolean dfs(char[][] board, String word, int i, int j, int cnt) {
+    private boolean dfs(char[][] board, String word, int i, int j, int cnt) {
         if (i >= board.length || j >= board[0].length || i < 0 || j < 0 || cnt >= word.length() || board[i][j] != word.charAt(cnt)) {
             return false;
         }

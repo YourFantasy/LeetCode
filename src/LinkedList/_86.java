@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class _86 {
+class _86 {
     public ListNode partition(ListNode head, int x) {
         ListNode phead = new ListNode(0);
         phead.next = head;

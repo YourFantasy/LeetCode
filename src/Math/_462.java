@@ -2,7 +2,7 @@ package Math;
 
 import java.util.Arrays;
 
-public class _462 {
+class _462 {
     public int minMoves2(int[] nums) {
         Arrays.sort(nums);
         int result=0;

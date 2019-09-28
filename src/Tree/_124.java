@@ -1,14 +1,14 @@
 package Tree;
 
-public class _124 {
-    static int res = Integer.MIN_VALUE;
+class _124 {
+    private static int res = Integer.MIN_VALUE;
 
     public int MaxPathSum(TreeNode root) {
         dp(root);
         return res;
     }
 
-    public int dp(TreeNode root) {
+    private int dp(TreeNode root) {
         if (root != null) {
             int left = dp(root.left);
             int right = dp(root.right);
@@ -18,10 +18,8 @@ public class _124 {
         return 0;
     }
 
-    public int max(int a, int b) {
-        if (a > b) {
-            return a;
-        }
+    private int max(int a, int b) {
+        return Math.max(a, b);
         return b;
     }
 }

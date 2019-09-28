@@ -2,7 +2,7 @@ package Tree;
 
 import java.util.*;
 
-public class _103 {
+class _103 {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         int k = 0;
         List<List<Integer>> res = new ArrayList<>();

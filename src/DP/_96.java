@@ -1,12 +1,6 @@
 package DP;
 
-import org.junit.Test;
-
 public class _96 {
-    @Test
-    public void Test() {
-
-    }
 
     public int numTrees(int n) {
         if (n < 2) {

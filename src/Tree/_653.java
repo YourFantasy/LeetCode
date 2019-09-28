@@ -3,8 +3,8 @@ package Tree;
 import java.util.ArrayList;
 import java.util.List;
 
-public class _653 {
-    List<Integer> list = new ArrayList<Integer>();
+class _653 {
+    private final List<Integer> list = new ArrayList<>();
 
     public boolean findTarget(TreeNode root, int k) {
         In_order(root);
@@ -26,12 +26,11 @@ public class _653 {
 
     }
 
-    public void In_order(TreeNode root) {
+    private void In_order(TreeNode root) {
         if (root != null) {
             In_order(root.left);
             list.add(root.val);
             In_order(root.right);
         }
-        return;
     }
 }

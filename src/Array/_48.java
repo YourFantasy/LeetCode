@@ -1,12 +1,6 @@
 package Array;
 
-import org.junit.Test;
-
 public class _48 {
-    @Test
-    public void Test() {
-
-    }
 
     public void rotate(int[][] matrix) {
         int n = matrix.length;
@@ -14,7 +8,12 @@ public class _48 {
         reverse(n, matrix);
 
     }
-    //先交换，再翻转。
+
+    /**
+     * 先交换，再翻转
+     * @param n
+     * @param array
+     */
     private static void diagonal_change(int n, int[][] array) {
         int temp;
         for (int i = 0; i < n; i++) {

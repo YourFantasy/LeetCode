@@ -2,7 +2,7 @@ package Array;
 
 import java.util.Arrays;
 
-public class _628 {
+class _628 {
     public int maximumProduct(int[] nums) {
         int result;
         int len = nums.length;

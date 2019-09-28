@@ -2,7 +2,7 @@ package Stack;
 
 import java.util.Stack;
 
-public class _739 {
+class _739 {
     public int[] dailyTemperatures(int[] T) {
         int len = T.length;
         int[] res = new int[len];

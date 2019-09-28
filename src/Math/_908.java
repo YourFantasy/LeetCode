@@ -1,6 +1,6 @@
 package Math;
 
-public class _908 {
+class _908 {
     public int smallestRangeI(int[] A, int K) {
         if (A.length == 0) {
             return 0;
@@ -10,6 +10,6 @@ public class _908 {
             max = Math.max(max, A[i]);
             min = Math.min(min, A[i]);
         }
-        return (max - min - 2 * K) > 0 ? max - min - 2 * K : 0;
+        return Math.max((max - min - 2 * K), 0);
     }
 }

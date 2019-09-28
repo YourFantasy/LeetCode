@@ -16,7 +16,7 @@ public class _55 {
         //System.out.println(canJump(new int[]{2,0,0}));
     }
 
-    public boolean canJump(int[] nums) {
+    private boolean canJump(int[] nums) {
         if (nums.length <= 1) {
             return true;
         }

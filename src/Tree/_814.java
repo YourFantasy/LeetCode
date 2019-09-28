@@ -1,14 +1,8 @@
 package Tree;
 
-import org.junit.Test;
-
 public class _814 {
-    @Test
-    public void Test() {
 
-    }
-
-    public TreeNode pruneTree(TreeNode root) {
+    private TreeNode pruneTree(TreeNode root) {
         if (root != null) {
             root.left = pruneTree(root.left);
             root.right = pruneTree(root.right);

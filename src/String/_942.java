@@ -1,6 +1,6 @@
 package String;
 
-public class _942 {
+class _942 {
     public int[] diStringMatch(String S) {
         int len = S.length();
         int m = 0, n = len;

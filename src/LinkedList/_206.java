@@ -1,12 +1,6 @@
 package LinkedList;
 
-import org.junit.Test;
-
 public class _206 {
-    @Test
-    public void Test() {
-
-    }
 
     public ListNode reverseList(ListNode head) {
         ListNode pre = null;

@@ -1,15 +1,8 @@
 package String;
 
-import org.junit.Test;
-
 import java.util.HashMap;
 
 public class _3 {
-
-    @Test
-    public void Test() {
-
-    }
 
     public int lengthOfLongestSubstring(String s) {
         int n = s.length(), ans = 0;

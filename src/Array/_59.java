@@ -1,6 +1,6 @@
 package Array;
 
-public class _59 {
+class _59 {
     public int[][] generateMatrix(int n) {
         int[][] res = new int[n][n];
         int cnt = 1;

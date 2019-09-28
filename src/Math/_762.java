@@ -1,6 +1,6 @@
 package Math;
 
-public class _762 {
+class _762 {
     public int countPrimeSetBits(int L, int R) {
         //boolean[] notPrime = new boolean[R-L+1];
         int count = 0;
@@ -13,7 +13,7 @@ public class _762 {
         return count;
     }
 
-    public boolean is_Prime(int a) {
+    private boolean is_Prime(int a) {
         if (a == 1) {
             return false;
         }
@@ -25,7 +25,7 @@ public class _762 {
         return true;
     }
 
-    public int count_number(int a) {
+    private int count_number(int a) {
         int cnt = 0;
         while (a > 0) {
             cnt += (a % 2);

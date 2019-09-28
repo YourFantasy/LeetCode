@@ -1,16 +1,14 @@
 package Tree;
 
-import org.w3c.dom.Node;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class _117 {
-    private class Node {
-        public int val;
-        public Node left;
-        public Node right;
-        public Node next;
+    private static class Node {
+        int val;
+        Node left;
+        Node right;
+        Node next;
 
         public Node() {
         }

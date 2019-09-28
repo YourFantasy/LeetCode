@@ -2,7 +2,7 @@ package HashMap;
 
 import java.util.HashMap;
 
-public class _268 {
+class _268 {
 
     public int missingNumber(int[] nums) {
         HashMap<Integer,Integer> map=new HashMap<>();

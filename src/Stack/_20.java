@@ -11,7 +11,7 @@ public class _20 {
         System.out.println(isValid(s));
     }
 
-    public boolean isValid(String s) {
+    private boolean isValid(String s) {
             boolean flag = true;
             Stack<Character> stack = new Stack<>();
             for (int i = 0; i < s.length(); i++) {
@@ -34,10 +34,7 @@ public class _20 {
             return flag;
     }
 
-    boolean is_Pair(char ch1, char ch2) {
-        if (ch1 == '(' && ch2 == ')' || ch1 == '{' && ch2 == '}' || ch1 == '[' && ch2 == ']') {
-            return true;
-        }
-        return false;
+    private boolean is_Pair(char ch1, char ch2) {
+        return ch1 == '(' && ch2 == ')' || ch1 == '{' && ch2 == '}' || ch1 == '[' && ch2 == ']';
     }
 }

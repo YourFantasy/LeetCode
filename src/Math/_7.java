@@ -1,13 +1,6 @@
 package Math;
 
-import org.junit.Test;
-
 public class _7 {
-
-    @Test
-    public void Test() {
-
-    }
 
     public int reverse(int x) {
         int result = 0;

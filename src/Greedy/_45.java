@@ -1,8 +1,6 @@
 package Greedy;
 
-import java.util.Arrays;
-
-public class _45 {
+class _45 {
     public int jump(int[] nums) {
         if (nums.length <= 1) {
             return 0;

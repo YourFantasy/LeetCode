@@ -8,15 +8,15 @@ public class _861 {
     public void test() {
         int[][] A = {{0, 0, 1, 1}, {1, 0, 1, 0}, {1, 1, 0, 0}};
         System.out.println(matrixScore(A));
-        for (int i = 0; i < A.length; i++) {
+        for (int[] ints : A) {
             for (int j = 0; j < A[0].length; j++) {
-                System.out.print(A[i][j] + ",");
+                System.out.print(ints[j] + ",");
             }
             System.out.println();
         }
     }
 
-    public int matrixScore(int[][] A) {
+    private int matrixScore(int[][] A) {
         int res = 0;
         int m = A.length;
         int n = A[0].length;
@@ -30,10 +30,10 @@ public class _861 {
                 reverse_column(A, i);
             }
         }
-        for (int i = 0; i < m; i++) {
+        for (int[] ints : A) {
             int temp = 0, x = 1;
             for (int j = n - 1; j >= 0; j--) {
-                temp += x * A[i][j];
+                temp += x * ints[j];
                 x *= 2;
             }
             res += temp;
@@ -41,21 +41,21 @@ public class _861 {
         return res;
     }
 
-    int column_sum(int[][] A, int column) {
+    private int column_sum(int[][] A, int column) {
         int res = 0;
-        for (int i = 0; i < A.length; i++) {
-            res += A[i][column];
+        for (int[] ints : A) {
+            res += ints[column];
         }
         return res;
     }
 
-    void reverse_row(int[][] A, int row) {
+    private void reverse_row(int[][] A, int row) {
         for (int i = 0; i < A[0].length; i++) {
             A[row][i] = (A[row][i] + 1) % 2;
         }
     }
 
-    void reverse_column(int[][] A, int column) {
+    private void reverse_column(int[][] A, int column) {
         for (int i = 0; i < A.length; i++) {
             A[i][column] = (A[i][column] + 1) % 2;
         }

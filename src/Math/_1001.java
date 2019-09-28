@@ -1,6 +1,6 @@
 package Math;
 
-public class _1001 {
+class _1001 {
     public int bitwiseComplement(int N) {
         if (N == 0) {
             return 1;

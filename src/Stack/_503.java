@@ -1,6 +1,6 @@
 package Stack;
 
-public class _503 {
+class _503 {
     public int[] nextGreaterElements(int[] nums) {
         int len = nums.length;
         int[] result = new int[len];
@@ -15,7 +15,7 @@ public class _503 {
                 }
 
             }
-            if (flag == false) {
+            if (!flag) {
                 result[i] = -1;
             }
         }

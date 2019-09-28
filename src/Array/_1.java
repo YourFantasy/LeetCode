@@ -1,15 +1,14 @@
 package Array;
 
-import org.junit.Test;
-
 import java.util.HashMap;
 
 public class _1 {
-    @Test
-    public void Test() {
-
-    }
-    //使用hashmap存储每个元素的键值对，然后遍历数组查找
+    /**
+     * 使用hashmap存储每个元素的键值对，然后遍历数组查找
+     * @param nums
+     * @param target
+     * @return
+     */
 
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();

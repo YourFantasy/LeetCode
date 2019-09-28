@@ -11,14 +11,14 @@ public class _131 {
         System.out.println(partition("aabdbde"));
     }
 
-    public List<List<String>> partition(String s) {
+    private List<List<String>> partition(String s) {
         List<List<String>> res = new ArrayList<>();
         List<String> temp = new ArrayList<>();
         dfs(s, res, temp, 0);
         return res;
     }
 
-    public void dfs(String s, List<List<String>> res, List<String> temp, int begin) {
+    private void dfs(String s, List<List<String>> res, List<String> temp, int begin) {
 
         for (int i = begin; i < s.length(); i++) {
             if (is_Palindrome(s,begin,i)) {
@@ -31,11 +31,10 @@ public class _131 {
         }
         if (begin == s.length()) {
             res.add(new ArrayList<>(temp));
-            return;
         }
     }
 
-    public boolean is_Palindrome(String str,int i,int j) {
+    private boolean is_Palindrome(String str, int i, int j) {
         while (i < j) {
             if (str.charAt(i) != str.charAt(j)) {
                 return false;

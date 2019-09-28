@@ -3,7 +3,7 @@ package Tree;
 import java.util.ArrayList;
 import java.util.List;
 
-public class _501 {
+class _501 {
     private TreeNode pre = null;
     private int max = 0, now = 1;
 
@@ -23,7 +23,7 @@ public class _501 {
 
     }
 
-    public void inorder(TreeNode root, List<Integer> res) {
+    private void inorder(TreeNode root, List<Integer> res) {
         if (root != null) {
             inorder(root.left, res);
             if (pre != null) {

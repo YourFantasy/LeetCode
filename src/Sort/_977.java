@@ -1,6 +1,6 @@
 package Sort;
 
-public class _977 {
+class _977 {
     public int[] sortedSquares(int[] A) {
         int[] res = new int[A.length];
         int i = 0, j = A.length - 1, index = A.length - 1;

@@ -4,11 +4,11 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
 
-public class _146 {
-    class LRUCache {
-        private Map<Integer, Integer> map;
-        private int cap;
-        private LinkedList<Integer> list;
+class _146 {
+    static class LRUCache {
+        private final Map<Integer, Integer> map;
+        private final int cap;
+        private final LinkedList<Integer> list;
 
         public LRUCache(int capacity) {
             cap = capacity;

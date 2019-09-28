@@ -12,7 +12,7 @@ public class _49 {
         System.out.println(groupAnagrams2(strs));
     }
 
-    public List<List<String>> groupAnagrams1(String[] strs) {
+    private List<List<String>> groupAnagrams1(String[] strs) {
         List<List<String>> res = new ArrayList<>();
         Map<String, List<Integer>> map = new HashMap<>();
         String[] s = new String[strs.length];
@@ -43,16 +43,16 @@ public class _49 {
         return res;
     }
 
-    public List<List<String>> groupAnagrams2(String[] strs) {
+    private List<List<String>> groupAnagrams2(String[] strs) {
         Map<String, List<String>> map = new HashMap<>();
-        for (int i = 0; i < strs.length; i++) {
-            char[] ch = strs[i].toCharArray();
+        for (String s : strs) {
+            char[] ch = s.toCharArray();
             Arrays.sort(ch);
             String str = String.valueOf(ch);
             if (!map.containsKey(str)) {
                 map.put(str, new ArrayList<>());
             }
-            map.get(str).add(strs[i]);
+            map.get(str).add(s);
         }
         return new ArrayList<>(map.values());
     }

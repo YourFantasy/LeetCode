@@ -8,8 +8,8 @@ public class _60 {
         System.out.print(getPermutation(9, 7));
     }
 
-    public String getPermutation(int n, int k) {
-        String s = "";
+    private String getPermutation(int n, int k) {
+        StringBuilder s = new StringBuilder();
         int[] nums = new int[10];
         nums[0] = 1;
         for (int i = 1; i < nums.length; i++) {
@@ -25,11 +25,11 @@ public class _60 {
                     j++;
                 }
             }
-            s += i;
+            s.append(i);
             k -= (level - 1) * nums[cnt - 1];
             flag[i] = true;
             cnt--;
         }
-        return s;
+        return s.toString();
     }
 }

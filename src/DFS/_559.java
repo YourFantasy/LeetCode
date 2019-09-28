@@ -2,8 +2,8 @@ package DFS;
 
 import java.util.List;
 
-public class _559 {
-    public int maxDepth(Node root) {
+class _559 {
+    private int maxDepth(Node root) {
         if(root==null) {
             return 0;
         }
@@ -16,8 +16,8 @@ public class _559 {
 
 }
 class Node {
-    public int val;
-    public List<Node> children;
+    private int val;
+    List<Node> children;
 
     public Node() {}
 

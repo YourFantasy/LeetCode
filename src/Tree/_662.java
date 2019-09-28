@@ -1,17 +1,11 @@
 package Tree;
 
-import org.junit.Test;
-
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
 import java.util.Queue;
 
 public class _662 {
-    @Test
-    public void test() {
-
-    }
 
     public int widthOfBinaryTree(TreeNode root) {
         if (root == null) {

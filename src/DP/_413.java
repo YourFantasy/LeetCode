@@ -17,7 +17,7 @@ public class _413 {
         System.out.println(numberOfArithmeticSlices(nums));
     }
 
-    public int numberOfArithmeticSlices(int[] A) {
+    private int numberOfArithmeticSlices(int[] A) {
         if (A.length < 3) {
             return 0;
         }

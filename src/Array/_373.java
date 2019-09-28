@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class _373 {
-    public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
+    private List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
         List<List<Integer>> res = new ArrayList<>();
         int len1 = nums1.length, len2 = nums2.length;
         if (len1 * len2 == 0) {

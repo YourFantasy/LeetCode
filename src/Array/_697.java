@@ -3,7 +3,7 @@ package Array;
 import java.util.HashMap;
 import java.util.Map;
 
-public class _697 {
+class _697 {
     public int findShortestSubArray(int[] nums) {
         int n = nums.length;
         if (n == 0) {

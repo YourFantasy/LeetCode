@@ -1,14 +1,8 @@
 package Array;
-import org.junit.Test;
 
 import java.util.Arrays;
 
 public class _16 {
-
-    @Test
-    public void Test() {
-
-    }
 
     public int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);

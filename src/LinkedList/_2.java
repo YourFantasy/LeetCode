@@ -1,12 +1,6 @@
 package LinkedList;
 
-import org.junit.Test;
-
 public class _2 {
-    @Test
-    public void Test() {
-
-    }
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode p1 = l1;

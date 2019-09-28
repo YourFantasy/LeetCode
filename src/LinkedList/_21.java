@@ -1,12 +1,6 @@
 package LinkedList;
 
-import org.junit.Test;
-
 public class _21 {
-    @Test
-    public void Test() {
-
-    }
 
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode L = new ListNode(0);

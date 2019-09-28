@@ -7,7 +7,7 @@ import java.util.*;
  * @date 2019-08-23 14:07
  * @description: 判断二叉树中的两个节点是否是堂兄弟节点
  */
-public class _993 {
+class _993 {
     public boolean isCousins(TreeNode root, int x, int y) {
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);

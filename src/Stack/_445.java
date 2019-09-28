@@ -4,7 +4,7 @@ import LinkedList.ListNode;
 
 import java.util.Stack;
 
-public class _445 {
+class _445 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         Stack<Integer> stack1 = new Stack<>();
         Stack<Integer> stack2 = new Stack<>();

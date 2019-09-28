@@ -3,7 +3,7 @@ package Tree;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class _513 {
+class _513 {
     public int findBottomLeftValue(TreeNode root) {
         int result = root.val;
         Queue<TreeNode> queue = new LinkedList<>();

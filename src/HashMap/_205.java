@@ -11,7 +11,7 @@ public class _205 {
         System.out.println(isIsomorphic("abb", "baa"));
     }
 
-    public boolean isIsomorphic(String s, String t) {
+    private boolean isIsomorphic(String s, String t) {
         Map<Character, Character> map = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
             if (!map.containsKey(s.charAt(i))) {

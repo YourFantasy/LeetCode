@@ -1,6 +1,6 @@
 package Array;
 
-public class _724 {
+class _724 {
     public int pivotIndex(int[] nums) {
         int n = nums.length;
         if (n == 0 || n == 2) {
@@ -10,8 +10,8 @@ public class _724 {
             return 0;
         }
         int sum = 0;
-        for (int i = 0; i < n; i++) {
-            sum += nums[i];
+        for (int num : nums) {
+            sum += num;
         }
         if (sum - nums[0] == 0) {
             return 0;

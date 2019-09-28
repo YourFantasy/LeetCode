@@ -1,13 +1,6 @@
 package DP;
 
-import org.junit.Test;
-
 public class _198 {
-
-    @Test
-    public void Test() {
-
-    }
 
     public int rob(int[] nums) {
         if (nums.length == 0) {

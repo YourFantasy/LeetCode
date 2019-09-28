@@ -1,7 +1,7 @@
 package Tree;
 
-public class _235 {
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+class _235 {
+    private TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
 //        if (root == null || p == null || q == null)
 //            return null;
 //        if (root == p || root == q)

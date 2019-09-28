@@ -1,6 +1,6 @@
 package Two_Pointers;
 
-public class _209 {
+class _209 {
     //使用双指针实现滑动窗口，i始终指向满足sum>=s时左边元素，j是工作指针。i作为指向左边元素的指针，所以不能指向最后一个元素，不然sum为0。
     public int minSubArrayLen(int s, int[] nums) {
         int res = nums.length + 1;

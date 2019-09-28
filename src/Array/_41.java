@@ -24,7 +24,7 @@ public class _41 {
      * @param nums
      * @return
      */
-    public int firstMissingPositive(int[] nums) {
+    private int firstMissingPositive(int[] nums) {
         int len = nums.length;
         int i = 0;
         while (i < len) {

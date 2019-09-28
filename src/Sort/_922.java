@@ -1,6 +1,6 @@
 package Sort;
 
-public class _922 {
+class _922 {
     public int[] sortArrayByParityII(int[] A) {
         int i = 0, j = A.length - 1;
         while (i < A.length && j >= 0) {

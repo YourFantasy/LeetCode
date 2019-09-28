@@ -4,8 +4,8 @@ import Tree.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class _257 {
-    public List<String> binaryTreePaths(TreeNode root) {
+class _257 {
+    private List<String> binaryTreePaths(TreeNode root) {
         List<String> res = new ArrayList<>();
         if (root == null) {
             return res;

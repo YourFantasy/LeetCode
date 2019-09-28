@@ -1,12 +1,6 @@
 package Heap;
 
-import org.junit.Test;
-
 public class _215 {
-    @Test
-    public void Test() {
-
-    }
 
     public int findKthLargest(int[] nums, int k) {
         for (int i = 0; i < k; i++) {

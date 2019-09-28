@@ -2,7 +2,7 @@ package DP;
 
 import java.util.List;
 
-public class _139 {
+class _139 {
     public boolean wordBreak(String s, List<String> wordDict) {
         int n = s.length();
         boolean[] dp = new boolean[n + 1];

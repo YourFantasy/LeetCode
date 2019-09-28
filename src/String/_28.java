@@ -9,7 +9,7 @@ public class _28 {
         String needle="a";
         System.out.println(strStr(haystack,needle));
     }
-    public int strStr(String haystack, String needle) {
+    private int strStr(String haystack, String needle) {
         int len = needle.length();
         for (int i = 0; i <= haystack.length() - len; i++) {
             if (haystack.substring(i, i + len).equals(needle)) {

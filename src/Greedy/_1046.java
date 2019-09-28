@@ -10,7 +10,7 @@ package Greedy;
  * 将最大元素的值重新赋值为上述元素的差值
  * 将第二大元素的值重新赋值为0
  */
-public class _1046 {
+class _1046 {
     public int lastStoneWeight(int[] stones) {
 
         if (stones.length == 1) {
@@ -31,7 +31,7 @@ public class _1046 {
         return stones[i];
     }
 
-    public void findFirstAndSecond(int[] stones, int[] index) {
+    private void findFirstAndSecond(int[] stones, int[] index) {
         int index1 = 0, index2 = 0;
         for (int i = 0; i < stones.length; i++) {
             if (stones[i] > stones[index1]) {

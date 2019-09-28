@@ -11,7 +11,7 @@ public class _17 {
         System.out.println(letterCombinations("723"));
     }
 
-    public List<String> letterCombinations(String digits) {
+    private List<String> letterCombinations(String digits) {
         int n = digits.length();
         List<String> list = new ArrayList<>();
         if (n == 0) {
@@ -49,7 +49,7 @@ public class _17 {
         return list;
     }
 
-    void dfs(String[] s, int n, int begin, List<String> list, String temp) {
+    private void dfs(String[] s, int n, int begin, List<String> list, String temp) {
         if (begin == n) {
             list.add(temp);
             return;

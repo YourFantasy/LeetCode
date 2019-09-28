@@ -3,7 +3,7 @@ package String;
 import java.util.ArrayList;
 import java.util.List;
 
-public class _1002 {
+class _1002 {
     public List<String> commonChars(String[] A) {
         int n = A.length;
         List<String> res = new ArrayList<>();

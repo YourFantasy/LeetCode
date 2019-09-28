@@ -19,7 +19,7 @@ public class _18 {
         System.out.println(res);
     }
 
-    public List<List<Integer>> fourSum(int[] nums, int target) {
+    private List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> res = new ArrayList<>();
         Arrays.sort(nums);
         int len = nums.length;
@@ -39,7 +39,6 @@ public class _18 {
                         }
                         low++;
                         high--;
-                        continue;
                     } else if (sum < target) {
                         low++;
                     } else {

@@ -2,7 +2,7 @@ package Tree;
 
 import java.util.*;
 
-public class _107 {
+class _107 {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         if (root == null) {

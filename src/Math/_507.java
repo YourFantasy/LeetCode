@@ -1,6 +1,6 @@
 package Math;
 
-public class _507 {
+class _507 {
     public boolean checkPerfectNumber(int num) {
         if (num < 2) {
             return false;

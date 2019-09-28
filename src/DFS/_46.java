@@ -24,17 +24,18 @@ public class _46 {
 
     }
 
-    public List<List<Integer>> permute(int[] nums) {
+    private List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         dfs(nums, res, 0, nums.length - 1);
         return res;
     }
 
-    public void dfs(int[] nums, List<List<Integer>> res, int begin, int end) {
-        List<Integer> temp = new ArrayList<>();//临时存储数组中的元素
+    private void dfs(int[] nums, List<List<Integer>> res, int begin, int end) {
+        //临时存储数组中的元素
+        List<Integer> temp = new ArrayList<>();
         if (begin == end) {
-            for (int i = 0; i < nums.length; i++) {
-                temp.add(nums[i]);
+            for (int num : nums) {
+                temp.add(num);
             }
             if (!res.contains(temp)) {
                 res.add(temp);
@@ -44,14 +45,16 @@ public class _46 {
         }
         for (int i = begin; i <= end; i++) {
             if (i != begin) {
-                swap(i, begin, nums);//与待排列组合的数组的第一个元素交换
+                //与待排列组合的数组的第一个元素交换
+                swap(i, begin, nums);
             }
-            dfs(nums, res, begin + 1, end);//交换过后与
-            swap(i, begin, nums);//一次全排列完成后需要将数组还原，所以再进行一次交换
+            dfs(nums, res, begin + 1, end);
+            //一次全排列完成后需要将数组还原，所以再进行一次交换
+            swap(i, begin, nums);
         }
     }
 
-    public void swap(int i, int j, int[] nums) {//交换数组中的两个元素
+    private void swap(int i, int j, int[] nums) {//交换数组中的两个元素
         int temp = nums[i];
         nums[i] = nums[j];
         nums[j] = temp;

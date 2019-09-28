@@ -16,7 +16,7 @@ public class _5 {
      * @param
      * @return
      */
-    public String longestPalindrome(String s) {
+    private String longestPalindrome(String s) {
         int len = s.length();
         if (len < 2) {
             return s;

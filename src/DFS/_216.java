@@ -12,20 +12,20 @@ public class _216 {
 
     }
 
-    public List<List<Integer>> combinationSum3(int k, int n) {
+    private List<List<Integer>> combinationSum3(int k, int n) {
         List<List<Integer>> result = new ArrayList<>();
         if (n < 1 || n < k) {
             return result;
         }
         List<Integer> temp = new ArrayList<>();
         dfs(k, n, 1, result, temp, 0);
-        for(int i=0;i<result.size();i++) {
-            System.out.println(result.get(i)+",");
+        for (List<Integer> integers : result) {
+            System.out.println(integers + ",");
         }
         return result;
     }
 
-    public void dfs(int k, int n, int start, List<List<Integer>> result, List<Integer> temp, int size) {
+    private void dfs(int k, int n, int start, List<List<Integer>> result, List<Integer> temp, int size) {
         if (size == k) {
             int sum = 0;
             for (int i = 0; i < k; i++) {

@@ -1,6 +1,6 @@
 package DP;
 
-public class _516 {
+class _516 {
     public int longestPalindromeSubseq(String s) {
         int len = s.length();
         if (len == 0) {

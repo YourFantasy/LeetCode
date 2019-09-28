@@ -1,6 +1,6 @@
 package Math;
 
-public class _365 {
+class _365 {
     public boolean canMeasureWater(int x, int y, int z) {
         if (x + y < z) {
             return false;
@@ -9,13 +9,10 @@ public class _365 {
             return true;
         }
         int m = get_divisor(x, y);
-        if (z % m == 0) {
-            return true;
-        }
-        return false;
+        return z % m == 0;
     }
 
-    int get_divisor(int m, int n) {
+    private int get_divisor(int m, int n) {
         if (m < n) {
             int temp = m;
             m = n;

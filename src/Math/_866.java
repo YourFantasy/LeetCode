@@ -5,7 +5,7 @@ package Math;
  * @date 2019-08-27 19:45
  * @description: 判读回文素数
  */
-public class _866 {
+class _866 {
     public int primePalindrome(int N) {
         while (true) {
             if (isPrime(N) && isPalindrome(Integer.toString(N))) {
@@ -13,7 +13,7 @@ public class _866 {
             }
             int len = Integer.toString(N).length();
             /**
-             * 设回文数n，如果n的形式位a1-a2-a3..an-an-..a3-a2-a1的形式即n的位数位偶数时候，可以用数学归纳法证明n可以被11整除
+             * 设回文数n，如果n的形式位a1-a2-a3..an-an-..a3-a2-a1的形式即n的位数为偶数时候，可以用数学归纳法证明n可以被11整除
              */
             if (N > 10 && len % 2 == 0) {
                 N = (int) Math.pow(10, len + 1);

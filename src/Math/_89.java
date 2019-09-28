@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 找规律题 ^(亦或运算) 相同为0，不同为1
  */
-public class _89 {
+class _89 {
     public List<Integer> grayCode(int n) {
         List<Integer> res = new ArrayList<>();
         int len = 1 << n;

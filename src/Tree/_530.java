@@ -1,6 +1,6 @@
 package Tree;
 
-public class _530 {
+class _530 {
 //    private int min = Integer.MAX_VALUE;
 //    private TreeNode pre = null;
 //
@@ -27,7 +27,7 @@ public class _530 {
         return min;
     }
 
-    public void inorder(TreeNode root) {
+    private void inorder(TreeNode root) {
         if (root != null) {
             inorder(root.left);
             if (pre >= 0) {

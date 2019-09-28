@@ -2,10 +2,10 @@ package Design;
 
 import java.util.Stack;
 
-public class _232 {
+class _232 {
 
-    private Stack<Integer> stack1;
-    private Stack<Integer> stack2;
+    private final Stack<Integer> stack1;
+    private final Stack<Integer> stack2;
 
     /**
      * Initialize your data structure here.

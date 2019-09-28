@@ -1,6 +1,6 @@
 package Array;
 
-public class _999 {
+class _999 {
     public int numRookCaptures(char[][] board) {
         int n = board.length;
         int x = -1, y = -1;

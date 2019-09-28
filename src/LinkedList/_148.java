@@ -1,7 +1,7 @@
 package LinkedList;
 
-public class _148 {
-    public ListNode sortList(ListNode head) {
+class _148 {
+    private ListNode sortList(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }
@@ -11,7 +11,7 @@ public class _148 {
         return merge(sortList(head), sortList(first));
     }
 
-    public ListNode merge(ListNode p1, ListNode p2) {
+    private ListNode merge(ListNode p1, ListNode p2) {
         ListNode tail = new ListNode(0);
         ListNode p = tail;
         while (p1 != null && p2 != null) {
@@ -28,7 +28,7 @@ public class _148 {
         return tail.next;
     }
 
-    public ListNode findMid(ListNode head) {
+    private ListNode findMid(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }

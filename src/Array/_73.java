@@ -1,6 +1,6 @@
 package Array;
 
-public class _73 {
+class _73 {
     /**
      * 第一行，第一列单独拿出来讨论
      * 核心思想:如果matrix[i][j]==0的话，将该元素所在行和列的第一个元素分别置为0
@@ -21,8 +21,8 @@ public class _73 {
             }
         }
         boolean cflag = false;
-        for (int i = 0; i < m; i++) {
-            if (matrix[i][0] == 0) {
+        for (int[] ints : matrix) {
+            if (ints[0] == 0) {
                 cflag = true;
                 break;
             }

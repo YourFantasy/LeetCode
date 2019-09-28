@@ -3,7 +3,7 @@ package DFS;
 import java.util.ArrayList;
 import java.util.List;
 
-public class _51 {
+class _51 {
     public List<List<String>> solveNQueens(int n) {
         List<List<String>> res = new ArrayList<>();
         int[] nums = new int[n];
@@ -12,25 +12,25 @@ public class _51 {
 
     }
 
-    List<String> plan(int[] nums, int n) {
+    private List<String> plan(int[] nums, int n) {
         List<String> temp = new ArrayList<>();
         for (int i = 0; i < n; i++) {
-            String s = "";
+            StringBuilder s = new StringBuilder();
             for (int j = 0; j < n; j++) {
                 if (j == nums[i]) {
-                    s += "Q";
+                    s.append("Q");
                 } else {
-                    s += ".";
+                    s.append(".");
                 }
 
             }
-            temp.add(s);
+            temp.add(s.toString());
 
         }
         return temp;
     }
 
-    void search(List<List<String>> res, int n, int N, int[] nums) {
+    private void search(List<List<String>> res, int n, int N, int[] nums) {
         if (n == N) {
             res.add(new ArrayList<>(plan(nums, N)));
             return;

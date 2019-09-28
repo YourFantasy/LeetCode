@@ -3,7 +3,7 @@ package DP;
 /**
  * dp[i][j]表示s[0-i]和p[0-j]是否能够匹配
  */
-public class _10 {
+class _10 {
 
     public boolean isMatch(String s, String p) {
         int len1 = s.length(), len2 = p.length();

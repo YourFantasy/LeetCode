@@ -1,6 +1,6 @@
 package Array;
 
-public class _189 {
+class _189 {
     public void rotate(int[] nums, int k) {
         int len = nums.length;
         if (len == 0 || len == 1) {
@@ -30,7 +30,7 @@ public class _189 {
         reverse(nums, k, len - 1);
     }
 
-    public void reverse(int[] nums, int i, int j) {
+    private void reverse(int[] nums, int i, int j) {
         //int i=begin,j=end;
         while (i < j) {
             int temp = nums[i];

@@ -1,14 +1,8 @@
 package DP;
 
-import org.junit.Test;
 
 public class _303 {
-    private int[] data;
-
-    @Test
-    public void Test() {
-
-    }
+    private final int[] data;
 
     public _303(int[] nums) {
         data = new int[nums.length + 1];

@@ -3,7 +3,7 @@ package LinkedList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class _817 {
+class _817 {
     public int numComponents(ListNode head, int[] G) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < G.length; i++) {

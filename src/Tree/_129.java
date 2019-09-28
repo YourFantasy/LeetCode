@@ -1,11 +1,11 @@
 package Tree;
 
-public class _129 {
+class _129 {
     public int sumNumbers(TreeNode root) {
         return sum(root, 0);
     }
 
-    public int sum(TreeNode root, int data) {
+    private int sum(TreeNode root, int data) {
         if (root == null) {
             return 0;
         }

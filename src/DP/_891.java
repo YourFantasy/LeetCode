@@ -2,7 +2,7 @@ package DP;
 
 import java.util.Arrays;
 
-public class _891 {
+class _891 {
     public int sumSubseqWidths(int[] A) {
         Arrays.sort(A);
         int[] dp=new int[A.length];

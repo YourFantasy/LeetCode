@@ -18,7 +18,7 @@ public class _84 {
      * @param heights
      * @return
      */
-    public int largestRectangleArea(int[] heights) {
+    private int largestRectangleArea(int[] heights) {
         int n = heights.length;
         Stack<Integer> stack = new Stack<>();
         int max = 0;

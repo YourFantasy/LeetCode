@@ -11,7 +11,7 @@ public class _970 {
         System.out.print(powerfulIntegers(2, 3, 100));
     }
 
-    public List<Integer> powerfulIntegers(int x, int y, int bound) {
+    private List<Integer> powerfulIntegers(int x, int y, int bound) {
         List<Integer> res = new ArrayList<>();
         if (bound == 0) {
             return res;
@@ -31,7 +31,7 @@ public class _970 {
 
     }
 
-    int get_times(int a, int bound) {
+    private int get_times(int a, int bound) {
         if (a == 1) {
             return 0;
         }
@@ -44,7 +44,7 @@ public class _970 {
         return i;
     }
 
-    int Exponential(int a, int index) {
+    private int Exponential(int a, int index) {
         int res = 1;
         for (int i = 0; i < index; i++) {
             res *= a;

@@ -3,16 +3,16 @@ package DFS;
 import java.util.ArrayList;
 import java.util.List;
 
-public class _212 {
+class _212 {
     public List<String> findWords(char[][] board, String[] words) {
         List<String> res = new ArrayList<>();
         int m = board.length;
         int n = board[0].length;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                for (int k = 0; k < words.length; k++) {
-                    if (dfs(board, i, j, m, n, words[k], 0)) {
-                        res.add(words[k]);
+                for (String word : words) {
+                    if (dfs(board, i, j, m, n, word, 0)) {
+                        res.add(word);
                     }
                 }
             }
@@ -20,7 +20,7 @@ public class _212 {
         return res;
     }
 
-    boolean dfs(char[][] board, int i, int j, int m, int n, String word, int cnt) {
+    private boolean dfs(char[][] board, int i, int j, int m, int n, String word, int cnt) {
         if (i >= m || i < 0 || j >= n || j < 0 || cnt >= word.length()) {
             return false;
         }

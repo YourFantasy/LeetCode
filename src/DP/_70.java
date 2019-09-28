@@ -1,12 +1,6 @@
 package DP;
 
-import org.junit.Test;
-
 public class _70 {
-    @Test
-    public void Test() {
-
-    }
     public int climbStairs(int n) {
         if(n<2) {
             return 1;

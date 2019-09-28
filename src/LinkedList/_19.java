@@ -1,12 +1,6 @@
 package LinkedList;
 
-import org.junit.Test;
-
 public class _19 {
-    @Test
-    public void Test() {
-
-    }
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode prehead = new ListNode(0);

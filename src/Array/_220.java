@@ -1,6 +1,6 @@
 package Array;
 
-public class _220 {
+class _220 {
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
         int n = nums.length;
         if (k==10000) {

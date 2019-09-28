@@ -1,12 +1,6 @@
 package String;
 
-import org.junit.Test;
-
 public class _520 {
-    @Test
-    public void Test(){
-
-    }
     public boolean detectCapitalUse(String word) {
         if (word.length() < 2) {
             return true;
@@ -26,8 +20,10 @@ public class _520 {
             return false;
         }
         for (int i = 2; i < word.length(); i++) {
+            boolean b1 = !(word.charAt(i) >= 'a' && word.charAt(i) <= 'z');
             if (flag == 1) {
-                if (!(word.charAt(i) >= 'a' && word.charAt(i) <= 'z')) {
+                boolean b = b1;
+                if (b) {
                     return false;
                 }
             }
@@ -37,7 +33,7 @@ public class _520 {
                 }
             }
             if (flag == 3) {
-                if (!(word.charAt(i) >= 'a' && word.charAt(i) <= 'z')) {
+                if (b1) {
                     return false;
                 }
             }

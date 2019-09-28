@@ -1,6 +1,6 @@
 package Two_Pointers;
 
-public class _11 {
+class _11 {
     public int maxArea(int[] height) {
         int i = 0, j = height.length - 1;
         int res = 0;

@@ -9,7 +9,7 @@ public class _77 {
         combine(9,7);
 
     }
-    public List<List<Integer>> combine(int n, int k) {
+    private List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> result=new ArrayList<>();
         if(n<1||n<k) {
             return result;
@@ -18,7 +18,7 @@ public class _77 {
         dfs(n,k,1,result,temp,0);
         return result;
     }
-    public void dfs(int n, int k, int start, List<List<Integer>> result, List<Integer> temp, int size){
+    private void dfs(int n, int k, int start, List<List<Integer>> result, List<Integer> temp, int size){
         if(size==k){
             result.add(new ArrayList<>(temp));//结果添加到rusult中
             for(int i=0;i<k;i++) {

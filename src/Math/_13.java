@@ -12,7 +12,7 @@ public class _13 {
         System.out.println(a);
     }
 
-    public int romanToInt(String s) {
+    private int romanToInt(String s) {
         Map<Character, Integer> map = new HashMap<>();
         map.put('I', 1);
         map.put('V', 5);
@@ -58,12 +58,10 @@ public class _13 {
                 temp = 900;
                 i += 2;
                 res += temp;
-                continue;
             } else {
                 temp = map.get(s.charAt(i));
                 i += 1;
                 res += temp;
-                continue;
             }
         }
         if (i == s.length() - 1) {

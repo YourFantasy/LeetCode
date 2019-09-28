@@ -1,6 +1,6 @@
 package Two_Pointers;
 
-public class _713 {
+class _713 {
     /**
      * j为工作指针
      * i始终指向当b<k时的起始位置，并且此时i在j处或者j前面

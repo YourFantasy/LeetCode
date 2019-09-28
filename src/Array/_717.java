@@ -1,6 +1,6 @@
 package Array;
 
-public class _717 {
+class _717 {
     public boolean isOneBitCharacter(int[] bits) {
         int len = bits.length;
         int i = 0;
@@ -11,10 +11,7 @@ public class _717 {
                 i += 2;
             }
         }
-        if (i == len - 1 && bits[i] == 0) {
-            return true;
-        }
-        return false;
+        return i == len - 1 && bits[i] == 0;
 
     }
 }

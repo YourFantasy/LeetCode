@@ -8,7 +8,7 @@ public class _58 {
         String s="abc  ";
         System.out.println(lengthOfLastWord(s));
     }
-    public int lengthOfLastWord(String s) {
+    private int lengthOfLastWord(String s) {
         s=s.trim();
         int cnt = 0;
         for (int i = 0; i < s.length(); i++) {

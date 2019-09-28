@@ -1,7 +1,7 @@
 package Tree;
 
-public class _572 {
-    public boolean isSubtree(TreeNode s, TreeNode t) {
+class _572 {
+    private boolean isSubtree(TreeNode s, TreeNode t) {
         if (s == null && t == null) {
             return true;
         }
@@ -11,7 +11,7 @@ public class _572 {
         return false;
     }
 
-    public boolean preorder(TreeNode s, TreeNode t) {
+    private boolean preorder(TreeNode s, TreeNode t) {
         if (s == null && t == null) {
             return true;
         }

@@ -9,7 +9,7 @@ public class _345 {
         System.out.print(reverseVowels(s));
     }
 
-    public String reverseVowels(String s) {
+    private String reverseVowels(String s) {
         char[] ch = new char[s.length()];
         int i = 0, j = s.length() - 1;
         while (i <= j) {
@@ -33,16 +33,12 @@ public class _345 {
                 ch[j] = s.charAt(i);
                 i++;
                 j--;
-                continue;
             }
         }
         return new String(ch);
     }
 
-    boolean is_vowel(char ch) {
-        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
-            return true;
-        }
-        return false;
+    private boolean is_vowel(char ch) {
+        return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U';
     }
 }

@@ -4,22 +4,22 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class _350 {
+class _350 {
     public int[] intersect(int[] nums1, int[] nums2) {
         int[] res = new int[Math.min(nums1.length, nums2.length)];
         Map<Integer, Integer> map = new HashMap<>();
-        for (int i = 0; i < nums1.length; i++) {
-            if (!map.containsKey(nums1[i])) {
-                map.put(nums1[i], 1);
+        for (int value : nums1) {
+            if (!map.containsKey(value)) {
+                map.put(value, 1);
             } else {
-                map.put(nums1[i], map.get(nums1[i]) + 1);
+                map.put(value, map.get(value) + 1);
             }
         }
         int index = 0;
-        for (int j = 0; j < nums2.length; j++) {
-            if (map.containsKey(nums2[j]) && map.get(nums2[j]) != 0) {
-                res[index++] = nums2[j];
-                map.put(nums2[j], map.get(nums2[j]) - 1);
+        for (int i : nums2) {
+            if (map.containsKey(i) && map.get(i) != 0) {
+                res[index++] = i;
+                map.put(i, map.get(i) - 1);
             }
         }
         return Arrays.copyOfRange(res, 0, index);

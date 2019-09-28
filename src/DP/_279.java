@@ -8,7 +8,7 @@ public class _279 {
         System.out.println(numSquares(35));
     }
 
-    public int numSquares(int n) {
+    private int numSquares(int n) {
         int[] dp = new int[n + 1];
         for (int i = 1; i <= n; i++) {
             if (isSquares(i)) {
@@ -26,7 +26,7 @@ public class _279 {
         return dp[n];
     }
 
-    public boolean isSquares(int n) {
+    private boolean isSquares(int n) {
         for (int i = 0; i <= n; i++) {
             if (n == i * i) {
                 return true;
@@ -36,7 +36,7 @@ public class _279 {
         return false;
     }
 
-    public int search(int n) {
+    private int search(int n) {
         int k = 0;
         int i = 0;
         while (k <= n) {

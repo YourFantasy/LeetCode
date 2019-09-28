@@ -1,6 +1,6 @@
 package Math;
 
-public class _263 {
+class _263 {
     public boolean isUgly(int num) {
         if (num == 1) {
             return true;
@@ -19,9 +19,6 @@ public class _263 {
                 num /= 5;
             }
         }
-        if (num == 1) {
-            return true;
-        }
-        return false;
+        return num == 1;
     }
 }

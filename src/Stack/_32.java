@@ -2,7 +2,7 @@ package Stack;
 
 import java.util.Stack;
 
-public class _32 {
+class _32 {
     public int longestValidParentheses(String s) {
         int cnt = 0;
         int begin = 0;

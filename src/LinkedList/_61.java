@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class _61 {
+class _61 {
     public ListNode rotateRight(ListNode head, int k) {
         ListNode phead = new ListNode(0);
         if (head == null || head.next == null) {

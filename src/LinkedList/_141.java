@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class _141 {
+class _141 {
     public boolean hasCycle(ListNode head) {
         ListNode L = head, R = head;
         while (R != null && R.next != null) {

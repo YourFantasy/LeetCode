@@ -9,7 +9,7 @@ public class _991{
         System.out.println(brokenCalc(x, y));
     }
 
-    public int brokenCalc(int X, int Y) {
+    private int brokenCalc(int X, int Y) {
         int cnt = 0;
         if (Y <= X) {
             return X - Y;

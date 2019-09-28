@@ -14,10 +14,10 @@ public class _698 {
         System.out.print(canPartitionKSubsets(nums, 4));
     }
 
-    public boolean canPartitionKSubsets(int[] nums, int k) {
+    private boolean canPartitionKSubsets(int[] nums, int k) {
         int sum = 0;
-        for (int i = 0; i < nums.length; i++) {
-            sum += nums[i];
+        for (int num : nums) {
+            sum += num;
         }
         if (k < 1 || sum % k != 0) {
             return false;
@@ -37,7 +37,7 @@ public class _698 {
      * cnt：当前递归中参与相加的元素个数(当a=0的时候，cnt为0，此时sum永远为0，因为此时不需要元素相加，所以要统计相加的元素个数)
      *
      * */
-    boolean dfs(int[] nums, int k, int a, int begin, boolean[] flag, int sum, int cnt) {
+    private boolean dfs(int[] nums, int k, int a, int begin, boolean[] flag, int sum, int cnt) {
         if (k == 1)//剩下部分：因为其余部分都分割成功，而且sum%k==0，所以剩下部分一定满足条件，此时所有部份都成功分割，分割成功！
         {
             return true;

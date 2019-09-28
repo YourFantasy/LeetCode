@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class _23 {
+class _23 {
     public ListNode mergeKLists(ListNode[] lists) {
         int len=lists.length;
         if(len==0) {
@@ -11,7 +11,7 @@ public class _23 {
         }
         return lists[len-1];
     }
-    public ListNode merge(ListNode l1,ListNode l2){
+    private ListNode merge(ListNode l1, ListNode l2){
         ListNode L = new ListNode(0);
         ListNode p = L;
         ListNode p1 = l1;

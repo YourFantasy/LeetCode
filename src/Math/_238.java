@@ -1,6 +1,6 @@
 package Math;
 
-public class _238 {
+class _238 {
     public int[] productExceptSelf(int[] nums) {
         int[] res = new int[nums.length];
         int left = 1, right = 1;

@@ -1,6 +1,6 @@
 package Math;
 
-public class _504 {
+class _504 {
     public String convertToBase7(int num) {
         if (num == 0) {
             return "0";
@@ -10,11 +10,11 @@ public class _504 {
             num *= -1;
             flag = false;
         }
-        String res = "";
+        StringBuilder res = new StringBuilder();
         while (num != 0) {
-            res = num % 7 + res;
+            res.insert(0, num % 7);
             num /= 7;
         }
-        return flag ? res : "-" + res;
+        return flag ? res.toString() : "-" + res;
     }
 }

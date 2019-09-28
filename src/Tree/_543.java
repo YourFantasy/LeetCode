@@ -1,9 +1,9 @@
 package Tree;
 
-public class _543 {
-    int maxlen = 0;
+class _543 {
+    private int maxlen = 0;
 
-    public int diameterOfBinary(TreeNode root) {
+    private int diameterOfBinary(TreeNode root) {
         if (root != null) {
             int left = diameterOfBinary(root.left);
             int right = diameterOfBinary(root.right);

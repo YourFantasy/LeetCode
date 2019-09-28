@@ -1,6 +1,6 @@
 package Array;
 
-public class _167 {
+class _167 {
     public int[] twoSum(int[] numbers, int target) {
         int i = 0, j = numbers.length - 1;
         while (i < j) {

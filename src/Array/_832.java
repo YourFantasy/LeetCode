@@ -1,6 +1,6 @@
 package Array;
 
-public class _832 {
+class _832 {
     public int[][] flipAndInvertImage(int[][] A) {
         for (int i = 0; i < A.length; i++) {
             for (int j = 0, k = A[i].length - 1; j < k; j++, k--) {

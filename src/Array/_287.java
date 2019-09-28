@@ -13,12 +13,11 @@ public class _287 {
         for (int i = 0; i < n; i++) {
             nums1[i] = (int) (Math.random() * n);
         }
-        int[] nums2 = nums1;
         System.out.println(findDuplicate1(nums1));
-        System.out.println(findDuplicate2(nums2));
+        System.out.println(findDuplicate2(nums1));
     }
 
-    public int findDuplicate1(int[] nums) {
+    private int findDuplicate1(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
         int res = nums[0];
         for (int i = 1; i < nums.length; i++) {
@@ -32,7 +31,7 @@ public class _287 {
         return res;
     }
 
-    public int findDuplicate2(int[] nums) {
+    private int findDuplicate2(int[] nums) {
         int index;
         int res = nums[0];
         for (int i = 0; i < nums.length; i++) {

@@ -9,7 +9,7 @@ public class _537 {
         System.out.println(s);
     }
 
-    public String complexNumberMultiply(String a, String b) {
+    private String complexNumberMultiply(String a, String b) {
         String result = "";
         String m = "";
         String n = "";

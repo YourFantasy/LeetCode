@@ -2,7 +2,7 @@ package DP;
 
 import java.util.List;
 
-public class _120 {
+class _120 {
     /**
      * 从上往下走与从下往下走是等价的。
      * @param triangle

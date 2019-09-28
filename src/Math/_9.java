@@ -1,12 +1,6 @@
 package Math;
 
-import org.junit.Test;
-
 public class _9 {
-    @Test
-    public void Test() {
-
-    }
 
     public boolean isPalindrome(int x) {
         if (x < 0) {

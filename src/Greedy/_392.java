@@ -1,6 +1,6 @@
 package Greedy;
 
-public class _392 {
+class _392 {
     public boolean isSubsequence(String s, String t) {
         int i = 0, j = 0;
         while (i < s.length() && j < t.length()) {
@@ -11,9 +11,6 @@ public class _392 {
                 j++;
             }
         }
-        if (i == s.length()) {
-            return true;
-        }
-        return false;
+        return i == s.length();
     }
 }

@@ -2,7 +2,7 @@ package String;
 
 import java.util.Arrays;
 
-public class _387 {
+class _387 {
     public int firstUniqChar(String s) {
         int[] nums = new int[26];
         Arrays.fill(nums, -1);
@@ -15,9 +15,9 @@ public class _387 {
             }
         }
         int res = s.length();
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] != -1 && nums[i] != -2 && res > nums[i]) {
-                res = nums[i];
+        for (int num : nums) {
+            if (num != -1 && num != -2 && res > num) {
+                res = num;
             }
         }
         if (res == s.length()) {

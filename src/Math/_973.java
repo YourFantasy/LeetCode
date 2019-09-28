@@ -7,12 +7,12 @@ public class _973 {
     public void test() {
         int[][] points = {{1, 2}, {3, 4}, {-1, 2}, {3, 1}, {-2, -3}};
         int[][] res = kClosest(points, 3);
-        for (int i = 0; i < res.length; i++) {
-            System.out.println(res[i][0] + "," + res[i][1]);
+        for (int[] re : res) {
+            System.out.println(re[0] + "," + re[1]);
         }
     }
 
-    public int[][] kClosest(int[][] points, int K) {
+    private int[][] kClosest(int[][] points, int K) {
         int len = points.length;
         int[][] res = new int[K][2];
         int[] temp = new int[len];
@@ -41,7 +41,7 @@ public class _973 {
 
     }
 
-    int squares_sum(int a, int b) {
+    private int squares_sum(int a, int b) {
         return a * a + b * b;
     }
 }

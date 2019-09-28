@@ -1,13 +1,6 @@
 package DP;
 
-import org.junit.Test;
-
 public class _53 {
-
-    @Test
-    public void Test() {
-
-    }
 
     public int maxSubArray(int[] nums) {
         int[] dp = new int[nums.length];

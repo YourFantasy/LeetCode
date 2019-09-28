@@ -1,6 +1,6 @@
 package DP;
 
-public class _647 {
+class _647 {
     public int countSubstrings(String s) {
         int length = s.length();
         if (length == 0) {

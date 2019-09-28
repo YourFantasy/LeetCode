@@ -1,6 +1,6 @@
 package Binary_Search;
 
-public class _1011 {
+class _1011 {
     /**
      * 二分查找，找到所需的最小容量
      * 分析：
@@ -17,19 +17,19 @@ public class _1011 {
         int len = weights.length;
         int sum = 0;
         int max = 0;
-        for (int i = 0; i < len; i++) {
-            max = Math.max(weights[i], max);
-            sum += weights[i];
+        for (int value : weights) {
+            max = Math.max(value, max);
+            sum += value;
         }
         while (max <= sum) {
             int total = 0;
             int mid = max + (sum - max) / 2;
             int cnt = 0;
-            for (int i = 0; i < len; i++) {
-                total += weights[i];
+            for (int weight : weights) {
+                total += weight;
                 if (total > mid) {
                     cnt++;
-                    total = weights[i];
+                    total = weight;
                 }
             }
             if (cnt < D) {

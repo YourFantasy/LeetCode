@@ -14,7 +14,7 @@ public class _40 {
         System.out.print(combinationSum2(nums, target));
     }
 
-    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+    private List<List<Integer>> combinationSum2(int[] candidates, int target) {
         Arrays.sort(candidates);
         List<List<Integer>> res = new ArrayList<>();
         ArrayList<Integer> temp = new ArrayList<>();
@@ -22,7 +22,7 @@ public class _40 {
         return res;
     }
 
-    public void dfs(int[] condidates, List<List<Integer>> res, ArrayList<Integer> temp, int start, int target) {
+    private void dfs(int[] condidates, List<List<Integer>> res, ArrayList<Integer> temp, int start, int target) {
         if (target < 0) {
             return;
         }

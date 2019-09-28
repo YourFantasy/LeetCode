@@ -3,7 +3,7 @@ package Math;
 import java.util.ArrayList;
 import java.util.List;
 
-public class _728 {
+class _728 {
     public List<Integer> selfDividingNumbers(int left, int right) {
         List<Integer> list = new ArrayList<>();
         for (int i = left; i <= right; i++) {
@@ -14,7 +14,7 @@ public class _728 {
         return list;
     }
 
-    boolean isnum(int n) {
+    private boolean isnum(int n) {
         int m = n;
         while (n > 0) {
             if (n % 10 == 0) {

@@ -1,6 +1,6 @@
 package DP;
 
-public class _264 {
+class _264 {
     public int nthUglyNumber(int n) {
         int[] dp = new int[n];
         dp[0] = 1;

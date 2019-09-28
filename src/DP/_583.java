@@ -10,7 +10,7 @@ package DP;
  * 3、删除次数最少，说明得到的公共子序列最长；同理公共子序列最长，删除的次数肯定也是最少
  * 4、所以问题转变为求两个字符串的最长公共子序列长度
  */
-public class _583 {
+class _583 {
     public int minDistance(String word1, String word2) {
         int m = word1.length(), n = word2.length();
         int[][] dp = new int[m + 1][n + 1];

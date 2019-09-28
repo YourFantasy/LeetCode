@@ -9,11 +9,11 @@ public class _14 {
         System.out.println(longestCommonPrefix(strs));
     }
 
-    public String longestCommonPrefix(String[] strs) {
-        String s = "";
+    private String longestCommonPrefix(String[] strs) {
+        StringBuilder s = new StringBuilder();
 
         if (strs.length == 0) {
-            return s;
+            return s.toString();
         }
 
         int len = strs.length;
@@ -32,8 +32,8 @@ public class _14 {
         }
 
         for (int i = 0; i < maxlength; i++) {
-            s += strs[0].charAt(i);
+            s.append(strs[0].charAt(i));
         }
-        return s;
+        return s.toString();
     }
 }

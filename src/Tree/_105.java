@@ -1,6 +1,6 @@
 package Tree;
 
-public class _105 {
+class _105 {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         if (inorder.length == 0) {
             return null;
@@ -10,7 +10,7 @@ public class _105 {
         return res;
     }
 
-    TreeNode create_Tree(TreeNode root, int[] preorder, int begin1, int end1, int begin2, int end2, int[] inorder) {
+    private TreeNode create_Tree(TreeNode root, int[] preorder, int begin1, int end1, int begin2, int end2, int[] inorder) {
         if (begin2 <= end2) {
             int index = get_index(preorder[begin1], begin2, end2, inorder);
             root.val = preorder[begin1];

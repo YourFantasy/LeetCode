@@ -1,6 +1,6 @@
 package Math;
 
-public class _326 {
+class _326 {
     public boolean isPowerOfThree(int n) {
         if (n == 0) {
             return false;

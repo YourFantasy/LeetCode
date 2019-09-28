@@ -1,7 +1,7 @@
 package Binary_Search;
 
 //分别寻找左边的索引和右边的索引。两次二分查找
-public class _34 {
+class _34 {
     public int[] searchRange(int[] nums, int target) {
         if (nums.length < 1 || (nums.length == 1 && nums[0] != target)) {
             return new int[]{-1, -1};
@@ -11,7 +11,7 @@ public class _34 {
         return new int[]{begin, end};
     }
 
-    int find_left(int[] nums, int target) {
+    private int find_left(int[] nums, int target) {
         int i = 0, j = nums.length - 1, begin = -1;
         while (i <= j) {
             int mid = (i + j) / 2;
@@ -28,7 +28,7 @@ public class _34 {
         return begin;
     }
 
-    int find_right(int[] nums, int target) {
+    private int find_right(int[] nums, int target) {
         int i = 0, j = nums.length - 1, end = -1;
         while (i <= j) {
             int mid = (i + j) / 2;

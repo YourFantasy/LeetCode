@@ -3,7 +3,7 @@ package DFS;
 import org.junit.Test;
 
 public class _518 {
-    int cnt = 0;
+    private int cnt = 0;
 
     @Test
     public void test() {
@@ -20,12 +20,12 @@ public class _518 {
      * @param coins
      * @return
      */
-    public int change1(int amount, int[] coins) {
+    private int change1(int amount, int[] coins) {
         dfs(amount, coins, 0, 0);
         return cnt;
     }
 
-    public void dfs(int amount, int[] coins, int temp, int begin) {
+    private void dfs(int amount, int[] coins, int temp, int begin) {
         if (temp > amount || begin >= coins.length) {
             return;
         }
@@ -45,13 +45,13 @@ public class _518 {
      * @param coins
      * @return
      */
-    public int change2(int amount, int[] coins) {
+    private int change2(int amount, int[] coins) {
         int[] dp = new int[amount + 1];
         dp[0] = 1;
-        for (int i = 0; i < coins.length; i++) {
+        for (int coin : coins) {
             for (int j = 1; j <= amount; j++) {
-                if (j >= coins[i]) {
-                    dp[j] += dp[j - coins[i]];
+                if (j >= coin) {
+                    dp[j] += dp[j - coin];
                 }
             }
         }

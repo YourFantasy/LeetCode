@@ -1,7 +1,7 @@
 package DFS;
 
-public class _52 {
-    int res = 0;
+class _52 {
+    private int res = 0;
 
     public int totalNQueens(int n) {
         if (n == 1) {
@@ -15,7 +15,7 @@ public class _52 {
         return res;
     }
 
-    void search(int n, int N, int[] nums) {
+    private void search(int n, int N, int[] nums) {
         if (n == N) {
             res++;
             return;

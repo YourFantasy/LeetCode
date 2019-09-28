@@ -1,6 +1,6 @@
 package Math;
 
-public class _672 {
+class _672 {
     public int flipLights(int n, int m) {
         if (m == 0) {
             return 1;

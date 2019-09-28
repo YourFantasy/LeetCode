@@ -3,7 +3,7 @@ package Tree;
 import java.util.ArrayList;
 import java.util.List;
 
-public class _98 {
+class _98 {
     public boolean isValidBST(TreeNode root) {
         List<Integer> temp = new ArrayList<>();
         inorder(root, temp);
@@ -15,7 +15,7 @@ public class _98 {
         return true;
     }
 
-    public void inorder(TreeNode root, List<Integer> temp) {
+    private void inorder(TreeNode root, List<Integer> temp) {
         if (root != null) {
             inorder(root.left, temp);
             temp.add(root.val);

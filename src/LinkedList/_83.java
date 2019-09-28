@@ -1,12 +1,6 @@
 package LinkedList;
 
-import org.junit.Test;
-
 public class _83 {
-    @Test
-    public void Test() {
-
-    }
 
     public ListNode deleteDuplicates(ListNode head) {
         ListNode phead = new ListNode(0);

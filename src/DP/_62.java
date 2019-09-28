@@ -2,10 +2,8 @@ package DP;
 
 import org.junit.Test;
 
-import java.util.Scanner;
-
 public class _62 {
-    int total = 0;
+    private int total = 0;
 
     @Test
     public void Test() {
@@ -17,7 +15,7 @@ public class _62 {
     }
 
 
-    public int uniquePaths(int m, int n) {
+    private int uniquePaths(int m, int n) {
         if (m < 0 || n < 0) {
             return 0;
         }
@@ -38,7 +36,7 @@ public class _62 {
     }
 
     //DFS 解法,超时
-    public void dfs(int i, int j) {
+    private void dfs(int i, int j) {
         if (i >= 0 && j >= 0) {
             if (i == 0 && j == 0) {
                 total++;

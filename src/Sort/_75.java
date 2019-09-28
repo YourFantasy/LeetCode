@@ -12,12 +12,12 @@ public class _75 {
     public void test() {
         int[] nums = {2, 0, 2, 1, 1, 0};
         sortColors(nums);
-        for (int i = 0; i < nums.length; i++) {
-            System.out.print(nums[i] + " ");
+        for (int num : nums) {
+            System.out.print(num + " ");
         }
     }
 
-    public void sortColors(int[] nums) {
+    private void sortColors(int[] nums) {
         int i = 0, k = 0, j = nums.length - 1;
         while (k <= j) {
             while (k <= j && nums[k] == 0) {

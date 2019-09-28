@@ -27,7 +27,7 @@ public class _848 {
 //        return sb.toString();
 //    }
 
-    public String shiftingLetters(String S, int[] shifts) {
+    private String shiftingLetters(String S, int[] shifts) {
         shifts[shifts.length - 1] %= 26;
         for (int i = shifts.length - 2; i >= 0; i--) {
             shifts[i] = (shifts[i] % 26 + shifts[i + 1]) % 26;

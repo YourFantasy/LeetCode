@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class _82 {
+class _82 {
     public ListNode deleteDuplicates(ListNode head) {
         ListNode phead = new ListNode(0);
         phead.next = head;

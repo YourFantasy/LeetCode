@@ -3,7 +3,7 @@ package Math;
 import java.util.HashSet;
 import java.util.Set;
 
-public class _202 {
+class _202 {
     public boolean isHappy(int n) {
         if(n==1) {
             return true;

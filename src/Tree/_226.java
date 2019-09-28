@@ -1,12 +1,12 @@
 package Tree;
 
-public class _226 {
-    public TreeNode invertTree(TreeNode root) {
+class _226 {
+    private TreeNode invertTree(TreeNode root) {
         inverse(root);
         return root;
     }
 
-    public void inverse(TreeNode root) {
+    private void inverse(TreeNode root) {
         if (root != null) {
             if (root.left != null || root.right != null) {
                 TreeNode temp = root.left;

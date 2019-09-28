@@ -17,7 +17,7 @@ public class _135 {
         System.out.println(candy(nums));
     }
 
-    public int candy(int[] ratings) {
+    private int candy(int[] ratings) {
         int n = ratings.length;
         if (n <= 1) {
             return n;

@@ -13,42 +13,44 @@ public class _34 {
     }
 
     public int[] searchRange(int[] nums, int target) {
-        int i = 0, j = nums.length - 1;
-        int len = 0, index = -1;
-        int[] result;
-        while (i < j) {
+        if (nums.length < 1 || (nums.length == 1 && nums[0] != target))
+            return new int[]{-1, -1};
+        int begin = find_left(nums, target);
+        int end = find_right(nums, target);
+        return new int[]{begin, end};
+    }
+
+    int find_left(int[] nums, int target) {
+        int i = 0, j = nums.length - 1, begin = -1;
+        while (i <= j) {
             int mid = (i + j) / 2;
-            if (target == nums[mid]) {
-                index = mid;
-                break;
-            } else if (target < nums[mid]) {
+            int data = nums[mid];
+            if (data == target) {
+                begin = mid;
                 j = mid - 1;
-            } else {
+            } else if (data < target) {
                 i = mid + 1;
+            } else {
+                j = mid - 1;
             }
         }
-        int start = index, end = index;
-        if (index != -1) {
-            if (index > 0) {
-                start = i - 1;
-                while (start >= 0 && nums[start] == target) {
-                    start--;
-                }
+        return begin;
+    }
 
+    int find_right(int[] nums, int target) {
+        int i = 0, j = nums.length - 1, end = -1;
+        while (i <= j) {
+            int mid = (i + j) / 2;
+            int data = nums[mid];
+            if (data == target) {
+                end = mid;
+                i = mid + 1;
+            } else if (data < target) {
+                i = mid + 1;
+            } else {
+                j = mid - 1;
             }
         }
-
-        if (index < nums.length - 1) {
-            end = index + 1;
-
-            while (end <= nums.length && nums[end] == target) {
-                end++;
-            }
-            for (int k = start + 1; k < end;k++){
-                
-            }
-        }
-
-        return nums;
+        return end;
     }
 }

@@ -1,6 +1,6 @@
 package DP;
 
-public class _509 {
+class _509 {
     public int fib(int N) {
         if (N < 2) {
             return N;

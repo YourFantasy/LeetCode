@@ -1,7 +1,7 @@
 package Tree;
 
-public class _965 {
-    boolean flag = true;
+class _965 {
+    private boolean flag = true;
 
     public boolean isUnivalTree(TreeNode root) {
         int Target = root.val;
@@ -9,7 +9,7 @@ public class _965 {
         return flag;
     }
 
-    public void Perse(TreeNode root, int target) {
+    private void Perse(TreeNode root, int target) {
         if (root != null) {
             if (root.val != target) {
                 flag = false;

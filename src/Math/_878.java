@@ -9,7 +9,7 @@ public class _878 {
 
     }
 
-    public int nthMagicalNumber(int N, int A, int B) {
+    private int nthMagicalNumber(int N, int A, int B) {
         int mode=1000000007;
         int multiple = A * B / max_divisor(A, B);
         for (int i = Math.min(A, B); i < multiple; i++) {
@@ -45,7 +45,7 @@ public class _878 {
 
     }
 
-    public int max_divisor(int x, int y) {
+    private int max_divisor(int x, int y) {
         int temp;
         if (x > y) {
             temp = x;

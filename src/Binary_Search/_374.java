@@ -1,7 +1,6 @@
 package Binary_Search;
 
-public class _374 {
-    final int target = 20;
+class _374 {
 
     public int guessNumber(int n) {
         int i = 1, j = n;
@@ -20,13 +19,8 @@ public class _374 {
         return 0;
     }
 
-    int guess(int n) {
-        if (n == target) {
-            return 0;
-        }
-        if (n > target) {
-            return -1;
-        }
-        return 1;
+    private int guess(int n) {
+        int target = 20;
+        return Integer.compare(target, n);
     }
 }

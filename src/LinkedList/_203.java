@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class _203 {
+class _203 {
     public ListNode removeElements(ListNode head, int val) {
         ListNode phead = new ListNode(0);
         phead.next = head;

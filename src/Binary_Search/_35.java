@@ -1,6 +1,6 @@
 package Binary_Search;
 
-public class _35 {
+class _35 {
     public int searchInsert(int[] nums, int target) {
         int i = 0, j = nums.length - 1;
         while (i <= j) {

@@ -1,12 +1,6 @@
 package Array;
 
-import org.junit.Test;
-
 public class _80 {
-    @Test
-    public void Test() {
-
-    }
 
     public int removeDuplicates(int[] nums) {
         int length = 0, i = 0, j = 1;

@@ -1,8 +1,6 @@
 package Tree;
 
-import com.sun.source.tree.Tree;
-
-public class _106 {
+class _106 {
     public TreeNode buildTree(int[] inorder, int[] postorder) {
         if (inorder.length == 0) {
             return null;
@@ -12,7 +10,7 @@ public class _106 {
         return res;
     }
 
-    TreeNode createTree(TreeNode root, int[] inorder, int begin1, int end1, int[] postorder, int begin2, int end2) {
+    private TreeNode createTree(TreeNode root, int[] inorder, int begin1, int end1, int[] postorder, int begin2, int end2) {
         if (begin1 <= end1) {
             root.val = postorder[end2];
             int index = get_index(postorder[end2], begin1, end1, inorder);

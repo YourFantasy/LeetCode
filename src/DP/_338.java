@@ -1,12 +1,6 @@
 package DP;
 
-import org.junit.Test;
-
 public class _338 {
-    @Test
-    public void Test() {
-
-    }
 
     public int[] countBits(int num) {
         int[] dp = new int[num + 1];

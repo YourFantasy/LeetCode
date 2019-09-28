@@ -2,7 +2,7 @@ package Stack;
 
 import java.util.Stack;
 
-public class _844 {
+class _844 {
     public boolean backspaceCompare(String S, String T) {
         Stack<Character> stack1 = new Stack<>();
         Stack<Character> stack2 = new Stack<>();

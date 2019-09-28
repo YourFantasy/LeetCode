@@ -1,6 +1,6 @@
 package Math;
 
-public class _476 {
+class _476 {
     public int findComplement(int num) {
         int result = 0;
         int pow = 1;

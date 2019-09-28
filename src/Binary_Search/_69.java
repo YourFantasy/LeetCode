@@ -8,7 +8,7 @@ public class _69 {
         System.out.println(mySqrt(Integer.MAX_VALUE));
     }
 
-    public long mySqrt(int x) {
+    private long mySqrt(int x) {
         if (x == 0) {
             return 0;
         }

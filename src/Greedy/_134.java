@@ -10,7 +10,7 @@ public class _134 {
         System.out.println(canCompleteCircuit1(gas, cost));
     }
 
-    public int canCompleteCircuit1(int[] gas, int[] cost) {
+    private int canCompleteCircuit1(int[] gas, int[] cost) {
         int len = gas.length;
         for (int i = 0; i < len; i++) {
             int cnt = 0;

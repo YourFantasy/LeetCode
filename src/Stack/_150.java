@@ -11,13 +11,12 @@ public class _150 {
         System.out.println(evalRPN(tokens));
     }
 
-    public int evalRPN(String[] tokens) {
+    private int evalRPN(String[] tokens) {
         if (tokens.length == 1) {
             return Integer.parseInt(tokens[0]);
         }
         Stack<String> stack = new Stack<>();
-        for (int i = 0; i < tokens.length; i++) {
-            String s = tokens[i];
+        for (String s : tokens) {
             if (stack.isEmpty() || (!"+".equals(s) && !"-".equals(s) && !"*".equals(s) && !"/".equals(s))) {
                 stack.push(s);
             } else {

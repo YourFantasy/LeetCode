@@ -1,6 +1,6 @@
 package Binary_Search;
 
-public class _240 {
+class _240 {
     /**
      * 对每一行进行二分查找
      * 时间复杂度O(mlogn)
@@ -12,13 +12,13 @@ public class _240 {
     public boolean searchMatrix1(int[][] matrix, int target) {
 
         int len = matrix.length;
-        for (int i = 0; i < len; i++) {
-            int left = 0, right = matrix[i].length - 1;
+        for (int[] ints : matrix) {
+            int left = 0, right = ints.length - 1;
             while (left <= right) {
                 int mid = left + (right - left) / 2;
-                if (target == matrix[i][mid]) {
+                if (target == ints[mid]) {
                     return true;
-                } else if (target < matrix[i][mid]) {
+                } else if (target < ints[mid]) {
                     right = mid - 1;
                 } else {
                     left = mid + 1;

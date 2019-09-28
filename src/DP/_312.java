@@ -14,7 +14,7 @@ public class _312 {
         System.out.println(maxCoins(nums));
     }
 
-    public int maxCoins(int[] nums) {
+    private int maxCoins(int[] nums) {
         int n = nums.length;
         int[] digits = new int[n + 2];
         System.arraycopy(nums, 0, digits, 1, n);

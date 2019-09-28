@@ -1,6 +1,6 @@
 package String;
 
-public class _125 {
+class _125 {
     public boolean isPalindrome(String s) {
         int i = 0, j = s.length() - 1;
         while (i < j) {
@@ -19,15 +19,12 @@ public class _125 {
         return true;
     }
 
-    boolean isvalid(char ch) {
-        if (ch >= 'a' && ch <= 'z' || ch >= 'A' && ch <= 'Z' || ch >= '0' && ch <= '9') {
-            return true;
-        }
-        return false;
+    private boolean isvalid(char ch) {
+        return ch >= 'a' && ch <= 'z' || ch >= 'A' && ch <= 'Z' || ch >= '0' && ch <= '9';
 
     }
 
-    boolean isequal(char ch1, char ch2) {
+    private boolean isequal(char ch1, char ch2) {
         if (ch1 >= 'A' && ch1 <= 'Z') {
             ch1 += 32;
         }

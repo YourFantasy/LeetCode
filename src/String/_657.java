@@ -1,6 +1,6 @@
 package String;
 
-public class _657 {
+class _657 {
     public boolean judgeCircle(String moves) {
         int row = 0, column = 0;
         for (int i = 0; i < moves.length(); i++) {

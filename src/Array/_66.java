@@ -18,12 +18,12 @@ public class _66 {
         System.out.println();
         plusOne(nums);
         int[] res=plusOne(nums);
-        for (int i = 0; i < res.length; i++) {
-            System.out.print(res[i] + ",");
+        for (int re : res) {
+            System.out.print(re + ",");
         }
     }
 
-    public int[] plusOne(int[] digits) {
+    private int[] plusOne(int[] digits) {
         List<Integer> temp = new ArrayList<>();
         int cnt = 1;
         for (int i = digits.length - 1; i >= 0; i--) {

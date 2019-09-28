@@ -21,7 +21,7 @@ public class _39 {
 
     }
 
-    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+    private List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> result = new ArrayList<>();
         if (candidates.length < 1) {
             return result;
@@ -32,7 +32,7 @@ public class _39 {
         return result;
     }
 
-    public void dfs(List<List<Integer>> result, List<Integer> temp, int target, int[] condidates, int start) {
+    private void dfs(List<List<Integer>> result, List<Integer> temp, int target, int[] condidates, int start) {
         if (target < 0) {
             return;
         }

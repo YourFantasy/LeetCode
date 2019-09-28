@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class _645 {
+class _645 {
     public int[] findErrorNums(int[] nums) {
         int[] result = new int[2];
         Set<Integer> set = new HashSet<>();

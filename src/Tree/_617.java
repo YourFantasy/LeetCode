@@ -1,7 +1,7 @@
 package Tree;
 
-public class _617 {
-    public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
+class _617 {
+    private TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
         if (t1 != null || t2 != null) {
             if (t2 == null) {
                 return t1;

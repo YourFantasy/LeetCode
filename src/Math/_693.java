@@ -1,6 +1,6 @@
 package Math;
 
-public class _693 {
+class _693 {
     public boolean hasAlternatingBits(int n) {
         int temp = n % 2;
         n /= 2;

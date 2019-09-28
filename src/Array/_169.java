@@ -1,6 +1,6 @@
 package Array;
 
-public class _169 {
+class _169 {
     public int majorityElement(int[] nums) {
         int count = 1;
         int key = nums[0];

@@ -1,6 +1,6 @@
 package Math;
 
-public class _896 {
+class _896 {
     public boolean isMonotonic(int[] A) {
         int flag = 0;
         for (int i = 1; i < A.length; i++) {

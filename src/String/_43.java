@@ -1,6 +1,6 @@
 package String;
 
-public class _43 {
+class _43 {
     public String multiply(String s1, String s2) {
         String res = "";
         if ("0".equals(s1) || "0".equals(s2)) {
@@ -10,57 +10,57 @@ public class _43 {
         int len2 = s2.length();
         int cnt = 0;
         for (int i = len1 - 1; i >= 0; i--) {
-            String temp = "";
+            StringBuilder temp = new StringBuilder();
             int a = 0;
             for (int j = len2 - 1; j >= 0; j--) {
                 int m = Integer.parseInt("" + s1.charAt(i));
                 int n = Integer.parseInt("" + s2.charAt(j));
-                temp = (m * n + a) % 10 + temp;
+                temp.insert(0, (m * n + a) % 10);
                 a = (m * n + a) / 10;
             }
             if (a > 0) {
-                temp = a + temp;
+                temp.insert(0, a);
             }
             //System.out.print(temp + ",");
-            res = sum(res, temp, cnt++);
+            res = sum(res, temp.toString(), cnt++);
             //System.out.println();
             // System.out.print(res + "  ");
         }
         return res;
     }
 
-    public static String sum(String s1, String s2, int cnt) {
-        String res = "";
+    private static String sum(String s1, String s2, int cnt) {
+        StringBuilder res = new StringBuilder();
         for (int i = s1.length() - cnt; i < s1.length(); i++) {
-            res = res + s1.charAt(i);
+            res.append(s1.charAt(i));
         }
         int a = 0;
         int i = s1.length() - cnt - 1, j = s2.length() - 1;
         while (i >= 0 && j >= 0) {
             int m = Integer.parseInt("" + s1.charAt(i));
             int n = Integer.parseInt("" + s2.charAt(j));
-            res = (m + n + a) % 10 + res;
+            res.insert(0, (m + n + a) % 10);
             a = (m + n + a) / 10;
             i--;
             j--;
         }
         while (i >= 0) {
             int m = Integer.parseInt("" + s1.charAt(i));
-            res = (m + a) % 10 + res;
+            res.insert(0, (m + a) % 10);
             a = (m + a) / 10;
             i--;
 
         }
         while (j >= 0) {
             int n = Integer.parseInt("" + s2.charAt(j));
-            res = (n + a) % 10 + res;
+            res.insert(0, (n + a) % 10);
             a = (n + a) / 10;
             j--;
 
         }
         if (a > 0) {
-            res = a + res;
+            res.insert(0, a);
         }
-        return res;
+        return res.toString();
     }
 }

@@ -1,6 +1,6 @@
 package Array;
 
-public class _485 {
+class _485 {
     public int findMaxConsecutiveOnes(int[] nums) {
         int[] dp = new int[nums.length];
         if (nums[0] == 1) {

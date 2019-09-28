@@ -21,7 +21,7 @@ public class _763 {
      * @param S
      * @return
      */
-    public List<Integer> partitionLabels(String S) {
+    private List<Integer> partitionLabels(String S) {
         List<Integer> res = new ArrayList<>();
         int[] index = new int[26];
         for (int i = 0; i < S.length(); i++) {

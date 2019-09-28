@@ -3,7 +3,7 @@ package HashMap;
 import java.util.HashMap;
 import java.util.Map;
 
-public class _290 {
+class _290 {
     public boolean wordPattern(String pattern, String str) {
         String[] s = str.split(" ");
         if (pattern.length() != s.length) {

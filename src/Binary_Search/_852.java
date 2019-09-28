@@ -1,6 +1,6 @@
 package Binary_Search;
 
-public class _852 {
+class _852 {
     public int peakIndexInMountainArray(int[] A) {
         int index = 1;
         int max = A[1];

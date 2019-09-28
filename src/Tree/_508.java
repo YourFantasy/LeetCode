@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class _508 {
+class _508 {
     private int max = 0;
 
     public int[] findFrequentTreeSum(TreeNode root) {
@@ -25,7 +25,7 @@ public class _508 {
         return res;
     }
 
-    public int sum(TreeNode root, Map<Integer, Integer> map) {
+    private int sum(TreeNode root, Map<Integer, Integer> map) {
         if (root == null) {
             return 0;
         }

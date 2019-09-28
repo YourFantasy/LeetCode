@@ -9,24 +9,24 @@ import java.util.Map;
  * @date 2019/9/21 1:51 下午
  * @description: 数组的相对排序
  */
-public class _1122 {
+class _1122 {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {
         Map<Integer, Integer> map = new HashMap<>();
-        for (int i = 0; i < arr1.length; i++) {
-            if (!map.containsKey(arr1[i])) {
-                map.put(arr1[i], 1);
+        for (int item : arr1) {
+            if (!map.containsKey(item)) {
+                map.put(item, 1);
             } else {
-                map.put(arr1[i], map.get(arr1[i]) + 1);
+                map.put(item, map.get(item) + 1);
             }
         }
         int[] res = new int[arr1.length];
         int len = 0;
-        for (int i = 0; i < arr2.length; i++) {
-            int l = map.get(arr2[i]);
+        for (int value : arr2) {
+            int l = map.get(value);
             for (int j = len; j < len + l; j++) {
-                res[j] = arr2[i];
+                res[j] = value;
             }
-            map.remove(arr2[i]);
+            map.remove(value);
             len += l;
         }
         int size = map.size();

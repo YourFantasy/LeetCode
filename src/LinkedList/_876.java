@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class _876 {
+class _876 {
     public ListNode middleNode(ListNode head) {
         ListNode p = head, q = head;
         int len = 0;

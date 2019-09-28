@@ -10,7 +10,7 @@ package LinkedList;
  * 举例  1 2 3 4 5
  *      mid: 3 翻转之后为 1 2 3 5 4 然后将3之后的链表节点依次插入到前面中去，变成 1 5 2 4 3
  */
-public class _143 {
+class _143 {
     public void reorderList(ListNode head) {
         if (head == null) {
             return;

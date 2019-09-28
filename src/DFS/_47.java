@@ -3,17 +3,17 @@ package DFS;
 import java.util.ArrayList;
 import java.util.List;
 
-public class _47 {
+class _47 {
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         dfs(nums, res, 0, nums.length - 1);
         return res;
     }
-    public void dfs(int[] nums, List<List<Integer>> res, int begin, int end) {
+    private void dfs(int[] nums, List<List<Integer>> res, int begin, int end) {
         List<Integer> temp = new ArrayList<>();//临时存储数组中的元素
         if (begin == end) {
-            for (int i = 0; i < nums.length; i++) {
-                temp.add(nums[i]);
+            for (int num : nums) {
+                temp.add(num);
             }
             if (!res.contains(temp)) {
                 res.add(temp);
@@ -30,7 +30,7 @@ public class _47 {
         }
     }
 
-    public void swap(int i, int j, int[] nums) {//交换数组中的两个元素
+    private void swap(int i, int j, int[] nums) {//交换数组中的两个元素
         int temp = nums[i];
         nums[i] = nums[j];
         nums[j] = temp;

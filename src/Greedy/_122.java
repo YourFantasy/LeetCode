@@ -1,6 +1,6 @@
 package Greedy;
 
-public class _122 {
+class _122 {
     public int maxProfit(int[] prices) {
         if (prices.length == 0) {
             return 0;

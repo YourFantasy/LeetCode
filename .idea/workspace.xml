@@ -435,21 +435,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>e</find>
-      <find>next</find>
-      <find>ranynart</find>
-      <find>hash()</find>
-      <find>hashcode()</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/src/Array</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -471,10 +456,12 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DP" />
       <recent name="SIngleton" />
       <recent name="DFS" />
       <recent name="Greedy" />
@@ -492,22 +479,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._954">
-    <configuration name="Math in LeetCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit._542.test">
+    <configuration name="_409.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.*" />
+          <option name="PATTERN" value="HashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Math" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="HashMap" />
+      <option name="MAIN_CLASS_NAME" value="HashMap._409" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_151.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_459" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -516,23 +505,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="String" />
-      <option name="MAIN_CLASS_NAME" value="String._151" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="String._459" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_46.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_542.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DFS.*" />
+          <option name="PATTERN" value="DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DFS" />
-      <option name="MAIN_CLASS_NAME" value="DFS._46" />
+      <option name="PACKAGE_NAME" value="DP" />
+      <option name="MAIN_CLASS_NAME" value="DP._542" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -572,11 +560,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._542.test" />
+        <item itemvalue="JUnit._459" />
+        <item itemvalue="JUnit._409.test" />
         <item itemvalue="JUnit._954" />
         <item itemvalue="JUnit._954.test" />
-        <item itemvalue="JUnit.Math in LeetCode" />
-        <item itemvalue="JUnit._151.test" />
-        <item itemvalue="JUnit._46.test" />
       </list>
     </recent_temporary>
   </component>
@@ -864,7 +852,24 @@
       <workItem from="1568886186182" duration="3868000" />
       <workItem from="1568895565583" duration="795000" />
       <workItem from="1568941467665" duration="876000" />
-      <workItem from="1569028287812" duration="7845000" />
+      <workItem from="1569028287812" duration="8209000" />
+      <workItem from="1569051842492" duration="1000" />
+      <workItem from="1569054165976" duration="1396000" />
+      <workItem from="1569120498958" duration="329000" />
+      <workItem from="1569125845189" duration="3748000" />
+      <workItem from="1569199725492" duration="2271000" />
+      <workItem from="1569286553765" duration="587000" />
+      <workItem from="1569303258321" duration="527000" />
+      <workItem from="1569374240956" duration="597000" />
+      <workItem from="1569376731628" duration="598000" />
+      <workItem from="1569393454518" duration="568000" />
+      <workItem from="1569400204877" duration="1366000" />
+      <workItem from="1569459303878" duration="640000" />
+      <workItem from="1569464227077" duration="4416000" />
+      <workItem from="1569476669814" duration="5384000" />
+      <workItem from="1569546562289" duration="1603000" />
+      <workItem from="1569550210408" duration="5184000" />
+      <workItem from="1569634659445" duration="248000" />
     </task>
     <servers />
   </component>
@@ -876,6 +881,20 @@
       <path value="$PROJECT_DIR$" />
       <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/String/_459.java</url>
+          <line>17</line>
+          <properties class="String._459" method="repeatedSubstringPattern">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

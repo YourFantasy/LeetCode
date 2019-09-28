@@ -2,7 +2,7 @@ package Greedy;
 
 import java.util.Stack;
 
-public class _921 {
+class _921 {
     public int minAddToMakeValid(String S) {
         Stack<Character> stack = new Stack<>();
         for (int i = 0; i < S.length(); i++) {

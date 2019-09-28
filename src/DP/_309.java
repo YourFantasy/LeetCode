@@ -1,6 +1,6 @@
 package DP;
 
-public class _309 {
+class _309 {
     public int maxProfit(int[] prices) {
         int len = prices.length;
         if (len == 0) {

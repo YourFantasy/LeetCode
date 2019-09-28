@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class _234 {
+class _234 {
     public boolean isPalindrome(ListNode head) {
         if (head == null || head.next == null) {
             return true;
@@ -31,9 +31,6 @@ public class _234 {
                 break;
             }
         }
-        if (pre != null) {
-            return false;
-        }
-        return true;
+        return pre == null;
     }
 }

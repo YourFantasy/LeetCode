@@ -1,6 +1,6 @@
 package DP;
 
-public class _387 {
+class _387 {
     public int countNumbersWithUniqueDigits(int n) {
         if (n == 0) {
             return 1;

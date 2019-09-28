@@ -2,7 +2,6 @@ package Array;
 
 import org.junit.Test;
 
-import java.security.PublicKey;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -20,7 +19,7 @@ public class _15 {
         System.out.println(res);
     }
 
-    public static List<List<Integer>> threeSum(int[] nums) {
+    private static List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         Arrays.sort(nums);
         //int target=nums[0]+nums[1]+nums[2];
@@ -41,7 +40,6 @@ public class _15 {
                     }
                     low++;
                     high--;
-                    continue;
                 } else if (target < 0) {
                     low++;
                 } else {

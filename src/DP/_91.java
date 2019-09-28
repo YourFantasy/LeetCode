@@ -8,7 +8,7 @@ public class _91 {
         System.out.println(numDecodings("227"));
     }
 
-    public int numDecodings(String s) {
+    private int numDecodings(String s) {
         if (s.length() == 0 || s.charAt(0) == '0') {
             return 0;
         }

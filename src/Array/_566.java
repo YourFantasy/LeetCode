@@ -1,6 +1,6 @@
 package Array;
 
-public class _566 {
+class _566 {
     public int[][] matrixReshape(int[][] nums, int r, int c) {
         int x = nums.length;
         int y = nums[0].length;

@@ -39,7 +39,7 @@ public class _213 {
 //        int max2 = dp[n - 1];
 //        return Math.max(max1, max2);
 //    }
-    public int rob(int[] nums) {
+    private int rob(int[] nums) {
         int n = nums.length;
         if (n == 0) {
             return 0;

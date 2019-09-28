@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class _160 {
+class _160 {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         ListNode p = headA;
         ListNode q = headB;

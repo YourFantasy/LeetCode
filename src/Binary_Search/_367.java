@@ -11,7 +11,7 @@ public class _367 {
         System.out.println((long)808201*(long)808201);
         System.out.println(isPerfectSquare(808201));
     }
-    public boolean isPerfectSquare(int num) {
+    private boolean isPerfectSquare(int num) {
         if (num == 0 || num == 1) {
             return true;
         }

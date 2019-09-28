@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class _145 {
+class _145 {
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
@@ -22,10 +22,12 @@ public class _145 {
                 q = p;
             } else {
                 if (p.right != null) {
-                    stack.push(p.right);//右子树不为空，右子树入栈
+                    //右子树不为空，右子树入栈
+                    stack.push(p.right);
                 }
                 if (p.left != null) {
-                    stack.push(p.left);//左子树不为空，左子树入栈
+                    //左子树不为空，左子树入栈
+                    stack.push(p.left);
                 }
 
             }

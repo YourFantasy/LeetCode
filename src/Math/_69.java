@@ -1,6 +1,6 @@
 package Math;
 
-public class _69 {
+class _69 {
     public int mySqrt(int x) {
         long i = 1, j = x;
         while (i <= j) {

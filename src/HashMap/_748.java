@@ -8,30 +8,30 @@ import java.util.Map;
  * @date 2019/9/21 10:45 上午
  * @description: 最短完整词
  */
-public class _748 {
+class _748 {
     public String shortestCompletingWord(String licensePlate, String[] words) {
         Map<Character, Integer> map1 = getMap(licensePlate);
         String res = "";
         int maxlen = Integer.MAX_VALUE;
-        for (int i = 0; i < words.length; i++) {
+        for (String word : words) {
             boolean flag = true;
-            Map<Character, Integer> map = getMap(words[i]);
+            Map<Character, Integer> map = getMap(word);
             for (Character ch : map1.keySet()) {
                 if (!map.containsKey(ch) || map.get(ch) < map1.get(ch)) {
                     flag = false;
                     break;
                 }
             }
-            if (flag && words[i].length() < maxlen) {
-                res = words[i];
-                maxlen = words[i].length();
+            if (flag && word.length() < maxlen) {
+                res = word;
+                maxlen = word.length();
             }
         }
         return res;
 
     }
 
-    public Map<Character, Integer> getMap(String str) {
+    private Map<Character, Integer> getMap(String str) {
         Map<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);

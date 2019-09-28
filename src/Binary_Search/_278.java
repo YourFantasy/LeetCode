@@ -1,6 +1,6 @@
 package Binary_Search;
 
-public class _278 {
+class _278 {
     public int firstBadVersion(int n) {
         int i = 1, j = n;
         while (i < j) {
@@ -14,7 +14,7 @@ public class _278 {
         return i;
     }
 
-    boolean isBadVersion(int version) {
+    private boolean isBadVersion(int version) {
         return true;
     }
 }

@@ -1,7 +1,7 @@
 package Tree;
 
-public class _222 {
-    public int countNodes(TreeNode root) {
+class _222 {
+    private int countNodes(TreeNode root) {
         if (root != null) {
             if (root.left == null && root.right == null) {
                 return 1;

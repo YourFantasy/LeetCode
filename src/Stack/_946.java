@@ -12,7 +12,7 @@ public class _946 {
         System.out.print(validateStackSequences(pushed, poped));
     }
 
-    public boolean validateStackSequences(int[] pushed, int[] popped) {
+    private boolean validateStackSequences(int[] pushed, int[] popped) {
         int len = pushed.length;
         if (len < 3) {
             return true;

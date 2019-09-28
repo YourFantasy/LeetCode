@@ -1,14 +1,14 @@
 package Tree;
 
-public class _563 {
-    int sum = 0;
+class _563 {
+    private int sum = 0;
 
     public int findTilt(TreeNode root) {
         FindTilt(root);
         return sum;
     }
 
-    public void FindTilt(TreeNode root) {
+    private void FindTilt(TreeNode root) {
         if (root != null) {
             sum += Math.abs(inorder(root.left) - inorder(root.right));
             FindTilt(root.left);
@@ -16,7 +16,7 @@ public class _563 {
         }
     }
 
-    public int inorder(TreeNode node) {
+    private int inorder(TreeNode node) {
         int Sum = 0;
         if (node != null) {
             Sum += node.val;

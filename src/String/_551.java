@@ -1,6 +1,6 @@
 package String;
 
-public class _551 {
+class _551 {
     public boolean checkRecord(String s) {
         int len = s.length();
         if (len < 2) {

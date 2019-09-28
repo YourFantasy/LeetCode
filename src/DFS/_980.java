@@ -1,7 +1,7 @@
 package DFS;
 
-public class _980 {
-    int res = 0;
+class _980 {
+    private int res = 0;
 
     public int uniquePathsIII(int[][] grid) {
         int x = -1, y = -1, cnt = 0;
@@ -21,7 +21,7 @@ public class _980 {
         return res;
     }
 
-    public void dfs(int[][] grid, int count, int cnt, int i, int j) {
+    private void dfs(int[][] grid, int count, int cnt, int i, int j) {
         if (i < 0 || j < 0 || i >= grid.length || j >= grid[0].length) {
             return;
         }

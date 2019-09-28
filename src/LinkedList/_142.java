@@ -1,7 +1,7 @@
 package LinkedList;
 
 //画图分析，一目了然
-public class _142 {
+class _142 {
     public ListNode detectCycle(ListNode head) {
         ListNode L = head, R = head;
         boolean flag = false;

@@ -4,7 +4,7 @@ package Array;
  * @author YourFantasy
  * @date 2019-08-23 13:50
  */
-public class _419 {
+class _419 {
     public int countBattleships(char[][] board) {
         int m = board.length, n = board[0].length, cnt = 0;
         for (int i = 0; i < m; i++) {

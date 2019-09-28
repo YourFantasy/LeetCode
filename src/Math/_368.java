@@ -13,7 +13,7 @@ public class _368 {
         System.out.println(largestDivisibleSubset(nums));
     }
 
-    public List<Integer> largestDivisibleSubset(int[] nums) {
+    private List<Integer> largestDivisibleSubset(int[] nums) {
         List<Integer> res = new ArrayList<>();
         if (nums.length == 0) {
             return res;

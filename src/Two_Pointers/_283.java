@@ -1,6 +1,6 @@
 package Two_Pointers;
 
-public class _283 {
+class _283 {
     public void moveZeroes1(int[] nums) {
         for (int j = 0; j < nums.length - 1; j++) {
             for (int i = 0; i < nums.length - 1 - j; i++) {

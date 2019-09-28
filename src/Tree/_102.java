@@ -1,14 +1,8 @@
 package Tree;
 
-import org.junit.Test;
-
 import java.util.*;
 
 public class _102 {
-    @Test
-    public void Test() {
-
-    }
 
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();

@@ -42,13 +42,13 @@ public class _71 {
         if (stack.size() > 1 && (stack.peek() == '/'||stack.peek()=='.')) {
             stack.pop();
         }
-        String res = "";
+        StringBuilder res = new StringBuilder();
         while (!stack.isEmpty()) {
-            res = stack.pop() + res;
+            res.insert(0, stack.pop());
         }
-        return res;
+        return res.toString();
     }
-    public String simplifyPath1(String path) {
+    private String simplifyPath1(String path) {
         String[] strs = path.split("/");
         String[] stack = new String[strs.length];
         int cur = 0;

@@ -13,7 +13,7 @@ public class _63 {
         System.out.println(uniquePathsWithObstacles(chess));
     }
 
-    public int uniquePathsWithObstacles(int[][] obstacleGrid) {
+    private int uniquePathsWithObstacles(int[][] obstacleGrid) {
 
         int[][] dp = new int[obstacleGrid.length][obstacleGrid[0].length];
         for (int i = 0; i < obstacleGrid.length; i++) {
@@ -42,9 +42,9 @@ public class _63 {
                 }
             }
         }
-        for (int i = 0; i < obstacleGrid.length; i++) {
+        for (int[] ints : obstacleGrid) {
             for (int j = 0; j < obstacleGrid[0].length; j++) {
-                System.out.print(obstacleGrid[i][j] + " ");
+                System.out.print(ints[j] + " ");
             }
             System.out.println();
         }

@@ -1,4 +1,4 @@
 package Math;
 
-public class _371 {
+class _371 {
 }

@@ -1,6 +1,6 @@
 package DP;
 
-public class _718 {
+class _718 {
     public int findLength(int[] A, int[] B) {
         int len1 = A.length, len2 = B.length;
         int[][] dp = new int[len1][len2];

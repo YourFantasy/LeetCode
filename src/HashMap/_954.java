@@ -18,7 +18,7 @@ public class _954 {
         boolean res = canReorderDoubled(A);
     }
 
-    public boolean canReorderDoubled(int[] A) {
+    private boolean canReorderDoubled(int[] A) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int value : A) {
             if (!map.containsKey(value)) {
@@ -28,28 +28,28 @@ public class _954 {
             }
         }
         Arrays.sort(A);
-        for (int i = 0; i < A.length; i++) {
-            if (map.get(A[i]) == 0) {
+        for (int value : A) {
+            if (map.get(value) == 0) {
                 continue;
             }
-            if (A[i] < 0) {
-                if (A[i] % 2 == 1) {
+            if (value < 0) {
+                if (value % 2 == 1) {
                     return false;
                 } else {
-                    if (!map.containsKey(A[i] / 2) || map.get(A[i] / 2) == 0) {
+                    if (!map.containsKey(value / 2) || map.get(value / 2) == 0) {
                         return false;
                     } else {
-                        map.put(A[i], map.get(A[i]) - 1);
-                        map.put(A[i] / 2, map.get(A[i] / 2) - 1);
+                        map.put(value, map.get(value) - 1);
+                        map.put(value / 2, map.get(value / 2) - 1);
 
                     }
                 }
             } else {
-                if (!map.containsKey(A[i] * 2) || map.get(A[i] * 2) == 0) {
+                if (!map.containsKey(value * 2) || map.get(value * 2) == 0) {
                     return false;
                 } else {
-                    map.put(A[i], map.get(A[i]) - 1);
-                    map.put(A[i] * 2, map.get(A[i] * 2) - 1);
+                    map.put(value, map.get(value) - 1);
+                    map.put(value * 2, map.get(value * 2) - 1);
                 }
             }
         }

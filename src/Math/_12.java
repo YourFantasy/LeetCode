@@ -8,10 +8,10 @@ public class _12 {
         System.out.println(intToRoman(159));
     }
 
-    public String intToRoman(int num) {
+    private String intToRoman(int num) {
         int[] digits = {1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1000};
         String[] roman = {"I", "IV", "V", "IX", "X", "XL", "L", "XC", "C", "CD", "D", "CM", "M"};
-        String res = "";
+        StringBuilder res = new StringBuilder();
 //        for (int i=roman.length-1;i>=0;i--){
 ////            while (num>=digits[i]){
 ////                num-=digits[i];
@@ -22,11 +22,11 @@ public class _12 {
         while (num>0){
             int n=num/digits[i];
             for (int j=0;j<n;j++) {
-                res+=roman[i];
+                res.append(roman[i]);
             }
             num=num%digits[i];
             i--;
         }
-        return res;
+        return res.toString();
     }
 }

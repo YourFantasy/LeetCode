@@ -1,12 +1,6 @@
 package LinkedList;
 
-import org.junit.Test;
-
 public class _24 {
-    @Test
-    public void Test() {
-
-    }
 
     public ListNode swapPairs(ListNode head) {
         ListNode phead = new ListNode(0);

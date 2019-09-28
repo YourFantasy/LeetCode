@@ -1,14 +1,8 @@
 package Tree;
 
-import org.junit.Test;
-
 public class _101 {
-    @Test
-    public void Test() {
 
-    }
-
-    public boolean isMirror(TreeNode left, TreeNode right) {
+    private boolean isMirror(TreeNode left, TreeNode right) {
         if (left == null && right == null) {
             return true;
         }

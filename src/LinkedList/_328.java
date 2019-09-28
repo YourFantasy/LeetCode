@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class _328 {
+class _328 {
     //分别把奇数位的元素和偶数位的元素连接起来，然后在把奇数位的元素和偶数位的元素连接起来
     public ListNode oddEvenList(ListNode head) {
         if (head == null || head.next == null) {

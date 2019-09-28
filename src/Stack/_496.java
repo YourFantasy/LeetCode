@@ -2,7 +2,7 @@ package Stack;
 
 import java.util.HashMap;
 
-public class _496 {
+class _496 {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         int[] result = new int[nums1.length];
         HashMap<Integer, Integer> map = new HashMap<>();
@@ -19,7 +19,7 @@ public class _496 {
                     break;
                 }
             }
-            if (flag == false) {
+            if (!flag) {
                 result[i] = -1;
             }
 

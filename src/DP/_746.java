@@ -1,6 +1,6 @@
 package DP;
 
-public class _746 {
+class _746 {
     public int minCostClimbingStairs(int[] cost) {
         int n = cost.length;
         int[] dp = new int[n + 1];

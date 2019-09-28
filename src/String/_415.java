@@ -10,8 +10,8 @@ public class _415 {
         System.out.println(addStrings(num1,num2));
     }
 
-    public String addStrings(String num1, String num2) {
-        String result = "";
+    private String addStrings(String num1, String num2) {
+        StringBuilder result = new StringBuilder();
         int len1 = num1.length(), len2 = num2.length();
         int temp = 0;
         int len = Math.min(len1, len2);
@@ -22,7 +22,7 @@ public class _415 {
             int b = num2.charAt(len2 - index) - '0';
             int c = (a + b + temp) % 10;
             temp = (a + b + temp) / 10;
-            result = c + result;
+            result.insert(0, c);
             len--;
             index++;
         }
@@ -31,7 +31,7 @@ public class _415 {
             int d = num1.charAt(i - 1) - '0';
             int e = (d + temp) % 10;
             temp = (d + temp) / 10;
-            result = e + result;
+            result.insert(0, e);
             i--;
 
         }
@@ -39,12 +39,12 @@ public class _415 {
             int d = num2.charAt(j - 1) - '0';
             int e = (d + temp) % 10;
             temp = (d + temp) / 10;
-            result = e + result;
+            result.insert(0, e);
             j--;
         }
         if (temp > 0) {
-            result = temp + result;
+            result.insert(0, temp);
         }
-        return result;
+        return result.toString();
     }
 }

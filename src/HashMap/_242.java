@@ -2,7 +2,7 @@ package HashMap;
 
 import java.util.Arrays;
 
-public class _242 {
+class _242 {
     public boolean isAnagram(String s, String t) {
         int len1 = s.length();
         int len2 = s.length();

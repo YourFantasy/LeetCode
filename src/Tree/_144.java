@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class _144 {
+class _144 {
     public List<Integer> preorderTraversal(TreeNode root) {
 
         List<Integer> result = new ArrayList<>();

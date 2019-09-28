@@ -2,7 +2,7 @@ package Math;
 
 import java.util.Arrays;
 
-public class _976 {
+class _976 {
     public int largestPerimeter(int[] A) {
         Arrays.sort(A);
         int len = A.length;

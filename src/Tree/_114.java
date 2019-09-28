@@ -3,7 +3,7 @@ package Tree;
 import java.util.ArrayList;
 import java.util.List;
 
-public class _114 {
+class _114 {
     public void flatten(TreeNode root) {
         List<TreeNode> list = new ArrayList<>();
         preorder(root, list);
@@ -23,7 +23,7 @@ public class _114 {
         }
     }
 
-    public void preorder(TreeNode root, List<TreeNode> list) {
+    private void preorder(TreeNode root, List<TreeNode> list) {
         if (root != null) {
             list.add(root);
             preorder(root.left, list);
