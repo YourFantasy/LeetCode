@@ -479,8 +479,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._542.test">
-    <configuration name="_409.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit._36">
+    <configuration name="_36" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -489,9 +489,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="HashMap" />
-      <option name="MAIN_CLASS_NAME" value="HashMap._409" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="HashMap._36" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -527,31 +526,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_954" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_665.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashMap.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HashMap" />
-      <option name="MAIN_CLASS_NAME" value="HashMap._954" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Array" />
+      <option name="MAIN_CLASS_NAME" value="Array._665" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_954.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_673.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashMap.*" />
+          <option name="PATTERN" value="DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HashMap" />
-      <option name="MAIN_CLASS_NAME" value="HashMap._954" />
+      <option name="PACKAGE_NAME" value="DP" />
+      <option name="MAIN_CLASS_NAME" value="DP._673" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -560,11 +560,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._36" />
+        <item itemvalue="JUnit._673.test" />
+        <item itemvalue="JUnit._665.test" />
         <item itemvalue="JUnit._542.test" />
         <item itemvalue="JUnit._459" />
-        <item itemvalue="JUnit._409.test" />
-        <item itemvalue="JUnit._954" />
-        <item itemvalue="JUnit._954.test" />
       </list>
     </recent_temporary>
   </component>
@@ -869,7 +869,9 @@
       <workItem from="1569476669814" duration="5384000" />
       <workItem from="1569546562289" duration="1603000" />
       <workItem from="1569550210408" duration="5184000" />
-      <workItem from="1569634659445" duration="248000" />
+      <workItem from="1569634659445" duration="586000" />
+      <workItem from="1569718637539" duration="7299000" />
+      <workItem from="1569734719420" duration="5079000" />
     </task>
     <servers />
   </component>

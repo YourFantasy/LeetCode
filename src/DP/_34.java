@@ -13,8 +13,9 @@ public class _34 {
     }
 
     public int[] searchRange(int[] nums, int target) {
-        if (nums.length < 1 || (nums.length == 1 && nums[0] != target))
+        if (nums.length < 1 || (nums.length == 1 && nums[0] != target)) {
             return new int[]{-1, -1};
+        }
         int begin = find_left(nums, target);
         int end = find_right(nums, target);
         return new int[]{begin, end};
