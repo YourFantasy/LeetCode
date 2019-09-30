@@ -39,11 +39,7 @@ class _748 {
                 if (ch <= 'Z') {
                     ch += 32;
                 }
-                if (!map.containsKey(ch)) {
-                    map.put(ch, 1);
-                } else {
-                    map.put(ch, map.get(ch) + 1);
-                }
+               map.put(ch,map.getOrDefault(ch,0)+1);
             }
         }
         return map;

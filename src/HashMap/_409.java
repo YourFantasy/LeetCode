@@ -23,11 +23,7 @@ public class _409 {
         Map<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
             char ch = s.charAt(i);
-            if (!map.containsKey(ch)) {
-                map.put(ch, 1);
-            } else {
-                map.put(ch, map.get(ch) + 1);
-            }
+            map.put(ch, map.getOrDefault(ch, 0) + 1);
         }
         int cnt = 0;
         for (Character key : map.keySet()) {

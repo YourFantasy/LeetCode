@@ -21,11 +21,7 @@ public class _954 {
     private boolean canReorderDoubled(int[] A) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int value : A) {
-            if (!map.containsKey(value)) {
-                map.put(value, 1);
-            } else {
-                map.put(value, map.get(value) + 1);
-            }
+           map.put(value,map.getOrDefault(value,0)+1);
         }
         Arrays.sort(A);
         for (int value : A) {
