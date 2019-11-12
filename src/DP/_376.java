@@ -7,10 +7,13 @@ public class _376 {
         }
         int len = nums.length;
         int[] dp = new int[len];
+
         dp[0] = -1;
         int max1 = getMax(nums, len, dp);
+
         dp[0] = 1;
         int max2 = getMax(nums, len, dp);
+
         return Math.max(max1, max2);
     }
 
