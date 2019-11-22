@@ -14,4 +14,3 @@ public class _701 {
         return new TreeNode(val);
     }
 }
-
