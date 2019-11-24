@@ -17,6 +17,15 @@ public class _378 {
         return min;
     }
 
+    /**
+     * 在matrxi找到比target小的元素个数
+     *
+     * @param matrix
+     * @param target
+     * @param row
+     * @param column
+     * @return
+     */
     public int getCnt(int[][] matrix, int target, int row, int column) {
         int i = 0, j = column - 1;
         int res = 0;
