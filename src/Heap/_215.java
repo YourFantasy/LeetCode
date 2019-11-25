@@ -1,5 +1,8 @@
 package Heap;
 
+import java.util.PriorityQueue;
+import java.util.Queue;
+
 public class _215 {
     /**
      * 暴力法，速度慢
@@ -32,7 +35,7 @@ public class _215 {
      * @param k
      * @return
      */
-    public int findKthLargest2(int[] nums, int k) {
+    public int findKthLargest1(int[] nums, int k) {
         return QuickSort(nums, k, 0, nums.length - 1);
     }
 
@@ -73,7 +76,7 @@ public class _215 {
      * @param k
      * @return
      */
-    public int findKthLargest1(int[] nums, int k) {
+    public int findKthLargest2(int[] nums, int k) {
         sort(nums, nums.length, k);
         return nums[nums.length - k];
     }
@@ -111,5 +114,14 @@ public class _215 {
         }
     }
 
-
+    public int findKthLargest3(int[] nums, int k) {
+        Queue<Integer> queue = new PriorityQueue<>();
+        for (int a : nums) {
+            queue.offer(a);
+            if (queue.size() > k) {
+                queue.poll();
+            }
+        }
+        return queue.peek();
+    }
 }
