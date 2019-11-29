@@ -1,5 +1,8 @@
 package Sort;
 
+import java.util.PriorityQueue;
+import java.util.Queue;
+
 public class _378 {
     public int kthSmallest(int[][] matrix, int k) {
         int n = matrix.length;
@@ -38,5 +41,27 @@ public class _378 {
             }
         }
         return res;
+    }
+
+    /**
+     * 使用优先队列来做
+     *
+     * @param matrix
+     * @param k
+     * @return
+     */
+    public int kthSmallest2(int[][] matrix, int k) {
+        int n = matrix.length;
+        int m = n * n - k + 1;
+        Queue<Integer> queue = new PriorityQueue<>();
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                queue.add(matrix[i][j]);
+                if (queue.size() > m) {
+                    queue.poll();
+                }
+            }
+        }
+        return queue.peek();
     }
 }

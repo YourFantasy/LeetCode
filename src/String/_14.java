@@ -36,4 +36,38 @@ public class _14 {
         }
         return s.toString();
     }
+
+    public String longestCommonPrefix1(String[] strs) {
+        if (strs == null || strs.length == 0) {
+            return "";
+        }
+        int minLen = strs[0].length();
+        int index = 0;
+        for (int i = 1; i < strs.length; i++) {
+            if (strs[i].length() < minLen) {
+                minLen = strs[i].length();
+                index = i;
+            }
+        }
+
+        int len = 1;
+        int res = 0;
+
+        while (len <= minLen) {
+            boolean flag = true;
+            for (int i = 1; i < strs.length; i++) {
+                if (strs[i].charAt(len - 1) != strs[i - 1].charAt(len - 1)) {
+                    flag = false;
+                    break;
+                }
+            }
+            if (flag) {
+                res = len;
+                len++;
+            } else {
+                break;
+            }
+        }
+        return strs[index].substring(0, res);
+    }
 }
