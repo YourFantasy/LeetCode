@@ -20,29 +20,31 @@ public class _17 {
         String[] s = new String[n];
         for (int i = 0; i < n; i++) {
             int index = digits.charAt(i) - '2';
-            if (index == 0) {
-                s[i] = "abc";
-            }
-            if (index == 1) {
-                s[i] = "def";
-            }
-            if (index == 2) {
-                s[i] = "ghi";
-            }
-            if (index == 3) {
-                s[i] = "jkl";
-            }
-            if (index == 4) {
-                s[i] = "mno";
-            }
-            if (index == 5) {
-                s[i] = "pqrs";
-            }
-            if (index == 6) {
-                s[i] = "tuv";
-            }
-            if (index == 7) {
-                s[i] = "wxyz";
+            switch (index) {
+                case 0:
+                    s[i] = "abc";
+                    break;
+                case 1:
+                    s[i] = "def";
+                    break;
+                case 2:
+                    s[i] = "ghi";
+                    break;
+                case 3:
+                    s[i] = "jkl";
+                    break;
+                case 4:
+                    s[i] = "mno";
+                    break;
+                case 5:
+                    s[i] = "pqrs";
+                    break;
+                case 6:
+                    s[i] = "tuv";
+                    break;
+                case 7:
+                    s[i] = "wxyz";
+                    break;
             }
         }
         dfs(s, n, 0, list, "");
