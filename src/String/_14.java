@@ -54,20 +54,14 @@ public class _14 {
         int res = 0;
 
         while (len <= minLen) {
-            boolean flag = true;
             for (int i = 1; i < strs.length; i++) {
                 if (strs[i].charAt(len - 1) != strs[i - 1].charAt(len - 1)) {
-                    flag = false;
-                    break;
+                    return strs[index].substring(0, res);
                 }
             }
-            if (flag) {
-                res = len;
-                len++;
-            } else {
-                break;
-            }
+            res = len;
+            len++;
         }
-        return strs[index].substring(0, res);
+        return "";
     }
 }

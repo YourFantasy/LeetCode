@@ -19,33 +19,47 @@ public class _15 {
         System.out.println(res);
     }
 
-    private static List<List<Integer>> threeSum(int[] nums) {
+    public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         Arrays.sort(nums);
-        //int target=nums[0]+nums[1]+nums[2];
         for (int i = 0; i < nums.length - 2; i++) {
-            int low = i + 1, high = nums.length - 1;
-            if ((nums[i] > 0)||(nums[i]+nums[low])>0) {
+            if (nums[i] > 0)
                 return res;
-            }
-            while (low < high) {
-                List<Integer> temp = new ArrayList<>();
-                int target = nums[i] + nums[low] + nums[high];
-                if (target == 0) {
-                    temp.add(nums[i]);
-                    temp.add(nums[low]);
-                    temp.add(nums[high]);
-                    if (!res.contains(temp)) {
-                        res.add(temp);
+            if (i == 0 || nums[i] != nums[i - 1]) {
+                int begin = i + 1, end = nums.length - 1;
+                while (begin < end) {
+                    if (nums[i] + nums[begin] > 0) {
+                        return res;
                     }
-                    low++;
-                    high--;
-                } else if (target < 0) {
-                    low++;
-                } else {
-                    high--;
-                }
+                    if (nums[begin] + nums[end] == -nums[i]) {
+                        List<Integer> temp = new ArrayList<>();
+                        temp.add(nums[i]);
+                        temp.add(nums[begin]);
+                        temp.add(nums[end]);
+                        res.add(temp);
+                        begin++;
+                        end--;
+                        while (begin < end && nums[begin] == nums[begin - 1]) {
+                            begin++;
+                        }
+                        while (begin < end && nums[end] == nums[end + 1]) {
+                            end--;
+                        }
 
+                    } else if (nums[begin] + nums[end] < -nums[i]) {
+                        begin++;
+                        while (begin < end && nums[begin] == nums[begin - 1]) {
+                            begin++;
+                        }
+
+                    } else {
+                        end--;
+                        while (begin < end && nums[end] == nums[end + 1]) {
+                            end--;
+                        }
+
+                    }
+                }
             }
         }
         return res;
