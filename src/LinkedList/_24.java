@@ -16,4 +16,22 @@ public class _24 {
         }
         return phead.next;
     }
+
+
+    public ListNode swapPairs1(ListNode head) {
+
+        ListNode pre = new ListNode(0);
+        pre.next = head;
+        ListNode p = pre;
+        ListNode q = p.next;
+        while (q != null && q.next != null) {
+            ListNode temp = q.next;
+            q.next = temp.next;
+            temp.next = q;
+            p.next = temp;
+            p = q;
+            q = p.next;
+        }
+        return pre.next;
+    }
 }
