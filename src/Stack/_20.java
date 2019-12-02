@@ -11,30 +11,30 @@ public class _20 {
         System.out.println(isValid(s));
     }
 
-    private boolean isValid(String s) {
-            boolean flag = true;
-            Stack<Character> stack = new Stack<>();
-            for (int i = 0; i < s.length(); i++) {
-                char ch = s.charAt(i);
-                if (ch == '(' || ch == '{' || ch == '[') {
-                    stack.push(s.charAt(i));
+    public boolean isValid(String s) {
+        Stack<Character> stack = new Stack<>();
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            if (stack.isEmpty() && !isLeft(ch)) {
+                return false;
+            } else if (isLeft(ch)) {
+                stack.push(ch);
+            } else {
+                if (!is_Pair(stack.peek(), ch)) {
+                    return false;
                 } else {
-                    if ((!stack.empty()) && is_Pair(stack.peek(), ch)) {
-                        stack.pop();
-                    } else {
-                        flag = false;
-                        return flag;
-                    }
-
+                    stack.pop();
                 }
             }
-            if (!stack.empty()) {
-                flag = false;
-            }
-            return flag;
+        }
+        return stack.isEmpty();
     }
 
-    private boolean is_Pair(char ch1, char ch2) {
+    public boolean is_Pair(char ch1, char ch2) {
         return ch1 == '(' && ch2 == ')' || ch1 == '{' && ch2 == '}' || ch1 == '[' && ch2 == ']';
+    }
+
+    public boolean isLeft(char ch) {
+        return ch == '(' || ch == '{' || ch == '[';
     }
 }
