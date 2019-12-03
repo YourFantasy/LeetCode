@@ -11,4 +11,22 @@ public class _27 {
         }
         return index;
     }
+
+    public int removeElement1(int[] nums, int val) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        int begin = 0, end = nums.length - 1;
+        while (begin <= end) {
+            if (nums[begin] == val) {
+                int temp = nums[begin];
+                nums[begin] = nums[end];
+                nums[end] = temp;
+                end--;
+            } else {
+                begin++;
+            }
+        }
+        return begin;
+    }
 }

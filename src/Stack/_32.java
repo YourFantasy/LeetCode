@@ -26,4 +26,22 @@ class _32 {
         }
         return cnt;
     }
+
+    public int longestValidParentheses1(String s) {
+        int[] dp = new int[s.length()];
+        int res = 0;
+        for (int i = 1; i < s.length(); i++) {
+            if (s.charAt(i) == ')') {
+                int pre = i - 1 - dp[i - 1];
+                if (pre >= 0 && s.charAt(pre) == '(') {
+                    dp[i] = dp[i - 1] + 2;
+                    if (pre > 0) {
+                        dp[i] += dp[pre - 1];
+                    }
+                }
+            }
+            res = Math.max(res, dp[i]);
+        }
+        return res;
+    }
 }
