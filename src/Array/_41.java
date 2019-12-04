@@ -14,6 +14,7 @@ public class _41 {
         System.out.println();
         System.out.println(firstMissingPositive(nums));
     }
+
     /**
      * 核心思想，对于长度为n的数组来说，缺失的最小正数一定在1----n之间
      * 将每个符合值在1---n之间的数组元素放到对应的位置上去 (3放到索引为2，5放到索引为4..)
@@ -31,7 +32,7 @@ public class _41 {
             if (nums[i] == i + 1) {
                 i++;
             }
-            if (i < len && nums[i] >= 1 && nums[i] <= len && nums[i] != nums[nums[i] - 1]) {
+            if (i < len && nums[i] != i + 1 && nums[i] - 1 >= 0 && nums[i] - 1 < len && nums[nums[i] - 1] != nums[i]) {
                 int temp = nums[i];
                 nums[i] = nums[nums[i] - 1];
                 nums[temp - 1] = temp;

@@ -22,7 +22,7 @@ public class _40 {
         return res;
     }
 
-    private void dfs(int[] condidates, List<List<Integer>> res, ArrayList<Integer> temp, int start, int target) {
+    private void dfs(int[] candidates, List<List<Integer>> res, ArrayList<Integer> temp, int start, int target) {
         if (target < 0) {
             return;
         }
@@ -30,13 +30,13 @@ public class _40 {
             res.add(new ArrayList<>(temp));
             return;
         }
-        for (int i = start; i < condidates.length; i++) {
-            if (i > start && condidates[i] == condidates[i - 1]) {
+        for (int i = start; i < candidates.length && target >= candidates[i]; i++) {
+            if (i > start && candidates[i] == candidates[i - 1]) {
                 continue;
             }
-            temp.add(condidates[i]);
-            dfs(condidates, res, temp, i + 1, target - condidates[i]);
-                temp.remove(temp.size() - 1);
+            temp.add(candidates[i]);
+            dfs(candidates, res, temp, i + 1, target - candidates[i]);
+            temp.remove(temp.size() - 1);
         }
     }
 }

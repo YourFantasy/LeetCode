@@ -3,6 +3,7 @@ package DFS;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class _39 {
@@ -50,6 +51,29 @@ public class _39 {
             if (temp.size() > 0) {
                 temp.remove(temp.size() - 1);
             }
+        }
+    }
+
+
+    public List<List<Integer>> combinationSum1(int[] candidates, int target) {
+        Arrays.sort(candidates);
+        List<List<Integer>> res = new ArrayList<>();
+        dfs1(candidates, res, new ArrayList<>(), 0, target);
+        return res;
+    }
+
+    public void dfs1(int[] candidates, List<List<Integer>> res, List<Integer> temp, int begin, int target) {
+        if (target < 0) {
+            return;
+        }
+        if (target == 0) {
+            res.add(new ArrayList<>(temp));
+            return;
+        }
+        for (int i = begin; i < candidates.length&&target>=candidates[i]; i++) {
+            temp.add(candidates[i]);
+            dfs1(candidates, res, temp, i, target - candidates[i]);
+            temp.remove(temp.size() - 1);
         }
     }
 }
