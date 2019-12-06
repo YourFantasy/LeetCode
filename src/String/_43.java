@@ -63,4 +63,36 @@ class _43 {
         }
         return res.toString();
     }
+
+
+    public String multiply1(String s1, String s2) {
+        if (s1 == null || s2 == null || s1.length() == 0 || s2.length() == 0) {
+            return "";
+        }
+        if ("0".equals(s1) || "0".equals(s2)) {
+            return "0";
+        }
+        int len1 = s1.length();
+        int len2 = s2.length();
+        int[] mut = new int[len1 + len2];
+        for (int i = len1 - 1; i >= 0; i--) {
+            for (int j = len2 - 1; j >= 0; j--) {
+                int bit = (s1.charAt(i) - '0') * (s2.charAt(j) - '0');
+                bit += mut[i + j + 1];
+                mut[i + j + 1] = bit % 10;
+                mut[i + j] += bit / 10;
+            }
+        }
+        int i = 0;
+        for (; i < mut.length - 1; i++) {
+            if (mut[i] != 0) {
+                break;
+            }
+        }
+        StringBuilder sb = new StringBuilder();
+        for (; i < mut.length; i++) {
+            sb.append(mut[i]);
+        }
+        return sb.toString();
+    }
 }

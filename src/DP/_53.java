@@ -14,4 +14,19 @@ public class _53 {
 
         return max;
     }
+
+    public int maxSubArray1(int[] nums) {
+        int pre = nums[0];
+        int max = pre;
+        for (int i = 1; i < nums.length; i++) {
+            if (pre > 0) {
+                pre += nums[i];
+            } else {
+                pre = nums[i];
+            }
+
+            max = Math.max(max, pre);
+        }
+        return max;
+    }
 }
