@@ -22,4 +22,42 @@ class _74 {
         }
         return false;
     }
+
+    public boolean searchMatrix1(int[][] matrix, int target) {
+        if (matrix == null || matrix.length == 0) {
+            return false;
+        }
+        int m = matrix.length, n = matrix[0].length;
+        int i = 0, j = n - 1;
+        while (i < m && j >= 0) {
+            if (matrix[i][j] == target) {
+                return true;
+            } else if (matrix[i][j] > target) {
+                j--;
+            } else {
+                i++;
+            }
+        }
+        return false;
+    }
+
+    public boolean searchMatrix2(int[][] matrix, int target) {
+        if (matrix == null || matrix.length == 0) {
+            return false;
+        }
+        int m = matrix.length, n = matrix[0].length;
+        int i = 0, j = m * n - 1;
+        while (i <= j) {
+            int mid = i + (j - i) / 2;
+            if (matrix[mid / n][mid % n] == target) {
+                return true;
+            } else if (matrix[mid / n][mid % n] > target) {
+                j = mid - 1;
+            } else {
+                i = mid + 1;
+            }
+        }
+        return false;
+    }
 }
+
