@@ -1,5 +1,7 @@
 package Sort;
 
+import java.util.Arrays;
+
 public class HeapSort {
     public static void adjust(int[] arr, int len, int index) {
         int left = 2 * index + 1;
