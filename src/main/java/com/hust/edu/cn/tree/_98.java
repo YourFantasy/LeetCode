@@ -1,0 +1,25 @@
+package com.hust.edu.cn.tree;
+
+import java.util.ArrayList;
+import java.util.List;
+
+class _98 {
+    public boolean isValidBST(TreeNode root) {
+        List<Integer> temp = new ArrayList<>();
+        inorder(root, temp);
+        for (int i = 1; i < temp.size(); i++) {
+            if (temp.get(i) <= temp.get(i - 1)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private void inorder(TreeNode root, List<Integer> temp) {
+        if (root != null) {
+            inorder(root.left, temp);
+            temp.add(root.val);
+            inorder(root.right, temp);
+        }
+    }
+}
