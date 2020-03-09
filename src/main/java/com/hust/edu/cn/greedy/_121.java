@@ -20,4 +20,16 @@ public class _121 {
         }
         return maxPrices;
     }
+
+    public int maxProfit1(int[] prices) {
+        if (prices == null || prices.length < 2) {
+            return 0;
+        }
+        int res = 0;
+        for (int i = 1; i < prices.length; i++) {
+            res = Math.max(res, prices[i] - prices[i - 1]);
+            prices[i] = Math.min(prices[i], prices[i - 1]);
+        }
+        return res;
+    }
 }
