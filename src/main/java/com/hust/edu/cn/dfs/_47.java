@@ -1,8 +1,6 @@
 package com.hust.edu.cn.dfs;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 class _47 {
     public List<List<Integer>> permuteUnique(int[] nums) {
@@ -109,6 +107,34 @@ class _47 {
                 pre[i] = false;
                 temp.remove(temp.size() - 1);
             }
+        }
+    }
+
+    public List<List<Integer>> permuteUnique3(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>();
+        Arrays.sort(nums);
+        Deque<Integer> temp = new ArrayDeque<>();
+        dfs3(nums, 0, new boolean[nums.length], res, temp);
+        return res;
+    }
+
+    public void dfs3(int[] nums, int depth, boolean[] pre, List<List<Integer>> res, Deque<Integer> temp) {
+        if (depth == nums.length) {
+            res.add(new ArrayList<>(temp));
+            return;
+        }
+        for (int i = 0; i < nums.length; i++) {
+            if (pre[i]) {
+                continue;
+            }
+            if (i > 0 && nums[i] == nums[i - 1] && !pre[i - 1]) {
+                continue;
+            }
+            temp.addLast(nums[i]);
+            pre[i] = true;
+            dfs3(nums, depth + 1, pre, res, temp);
+            temp.removeLast();
+            pre[i] = false;
         }
     }
 }
