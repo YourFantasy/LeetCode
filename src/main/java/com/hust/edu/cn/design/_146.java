@@ -1,48 +1,79 @@
 package com.hust.edu.cn.design;
 
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.Map;
 
 class _146 {
-    static class LRUCache {
-        private final Map<Integer, Integer> map;
-        private final int cap;
-        private final LinkedList<Integer> list;
+    class LRUCache {
+        class Node {
+            private int key;
+            private int val;
+            private Node next;
+            private Node pre;
+
+            public Node(int key, int val) {
+                this.key = key;
+                this.val = val;
+            }
+        }
+
+        private int size;
+        private Map<Integer, Node> map;
+        private Node head;
+        private Node tail;
 
         public LRUCache(int capacity) {
-            cap = capacity;
-            map = new HashMap<>();
-            list = new LinkedList<>();
+            this.size = capacity;
+            tail = new Node(-1, -1);
+            head = new Node(-1, -1);
+            tail.pre = head;
+            head.next = tail;
+            map = new HashMap<>(capacity, 1);
         }
 
         public int get(int key) {
-            Integer temp = map.get(key);
-            if (temp == null) {
+            if (!map.containsKey(key)) {
                 return -1;
             }
-            list.remove( key);
-            list.add(key);
-            return temp;
+            Node node = map.get(key);
+            unlink(node);
+            addHead(node);
+            return node.val;
         }
 
         public void put(int key, int value) {
-            if (map.get(key) != null) {
-                map.put(key, value);
-                list.remove((Integer) key);
-                list.add(key);
-            } else {
-                if (cap != map.size()) {
-                    list.add(key);
-                    map.put(key, value);
-                } else {
-                    Integer x = list.get(0);
-                    map.remove(x);
-                    map.put(key, value);
-                    list.add(key);
-                }
+            Node node = new Node(key, value);
+            if (map.containsKey(key)) {
+                unlink(map.get(key));
+                map.remove(key);
             }
+            if (map.size() >= size) {
+                Node last = removeLast();
+                map.remove(last.key);
+            }
+            addHead(node);
+            map.put(key, node);
+        }
+
+        private void addHead(Node node) {
+            node.next = head.next;
+            head.next.pre = node;
+            node.pre = head;
+            head.next = node;
+        }
+
+        private void unlink(Node node) {
+            node.pre.next = node.next;
+            node.next.pre = node.pre;
+        }
+
+        private Node removeLast() {
+            Node last = tail.pre;
+            last.pre.next = last.next;
+            last.next.pre = last.pre;
+            return last;
         }
     }
+
 
 }
