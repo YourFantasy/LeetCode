@@ -2,6 +2,9 @@ package com.hust.edu.cn.twoPointers;
 
 import org.junit.Test;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class _76 {
     @Test
     public void test() {
@@ -59,5 +62,44 @@ public class _76 {
             j++;
         }
         return len == s.length() + 1 ? "" : s.substring(left, right + 1);
+    }
+
+
+    public String minWindow2(String s, String t) {
+        if (s.length() < t.length()) {
+            return "";
+        }
+        Map<Character, Integer> map1 = new HashMap<>();
+        for (int i = 0; i < t.length(); i++) {
+            map1.put(t.charAt(i), map1.getOrDefault(t.charAt(i), 0) + 1);
+        }
+        int size = map1.size();
+        int i = 0;
+        Map<Character, Integer> map2 = new HashMap<>();
+        int cnt = 0, minLen = s.length() + 1, left = 0, right = 0;
+        for (int j = 0; j < s.length(); j++) {
+            char ch = s.charAt(j);
+            map2.put(ch, map2.getOrDefault(ch, 0) + 1);
+            if (map1.containsKey(ch)) {
+                int cnt1 = map1.get(ch);
+                int cnt2 = map2.get(ch);
+                if (cnt1 == cnt2) {
+                    cnt++;
+                }
+            }
+            while (cnt == size && i <= j) {
+                if (j - i + 1 < minLen) {
+                    minLen = j - i + 1;
+                    left = i;
+                    right = j;
+                }
+                map2.put(s.charAt(i), map2.get(s.charAt(i)) - 1);
+                if (map1.containsKey(s.charAt(i)) && map2.get(s.charAt(i)) < map1.get(s.charAt(i))) {
+                    cnt--;
+                }
+                i++;
+            }
+        }
+        return minLen == s.length() + 1 ? "" : s.substring(left, right + 1);
     }
 }
