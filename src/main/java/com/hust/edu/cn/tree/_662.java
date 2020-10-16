@@ -21,8 +21,7 @@ public class _662 {
             int left = 0, right = 0;
             int len = queue.size();
             for (int i = 0; i < len; i++) {
-                p = queue.peek();
-                queue.poll();
+                p = queue.poll();
                 if (i == 0) {
                     left = map.get(p);
                 }
@@ -41,5 +40,38 @@ public class _662 {
             res = Math.max(res, right - left + 1);
         }
         return res;
+    }
+
+    public int widthOfBinaryTree1(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        Queue<TreeNode> q1 = new LinkedList<>();
+        Queue<Integer> q2 = new LinkedList<>();
+        TreeNode p;
+        int index;
+        q1.offer(root);
+        q2.offer(1);
+        int maxW = 1;
+        while (!q1.isEmpty()) {
+            int len = q1.size();
+            int begin = q2.peek();
+            for (int i = 0; i < len; i++) {
+                p = q1.poll();
+                index = q2.poll();
+                if (i == len - 1) {
+                    maxW = Math.max(maxW, index - begin + 1);
+                }
+                if (p.left != null) {
+                    q1.offer(p.left);
+                    q2.offer(index * 2);
+                }
+                if (p.right != null) {
+                    q1.offer(p.right);
+                    q2.offer(index * 2 + 1);
+                }
+            }
+        }
+        return maxW;
     }
 }
