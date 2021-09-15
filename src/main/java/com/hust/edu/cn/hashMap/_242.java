@@ -5,7 +5,7 @@ import java.util.Arrays;
 class _242 {
     public boolean isAnagram(String s, String t) {
         int len1 = s.length();
-        int len2 = s.length();
+        int len2 = t.length();
         if (len2 > len1) {
             return false;
         }
